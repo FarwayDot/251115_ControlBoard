@@ -1,0 +1,244 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "af529cf8-e3d6-4568-89be-bc7010f8b835")
+	(paper "A4")
+	(lib_symbols)
+	(text_box "Requerimientos:\n\nPlaca de control como remplazo de la tarjeta utilizada en el tablero de La Merced.\n\n- Salidas de relé: 8u Coil: 24VDC/ 12A 250VAC / 12A 24VDC/ 5mm\n  Relé Recomendado: RT214024\n- Medición de galgas: 8u\n"
+		(exclude_from_sim no)
+		(at 208.28 15.24 0)
+		(size 73.66 55.88)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "0f8caa80-f947-4439-a532-108f8bd836fd")
+	)
+	(sheet
+		(at 16.51 58.42)
+		(size 17.78 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5edc1b7c-5ba0-4910-ac7d-074c490da2f0")
+		(property "Sheetname" "Digital Inputs"
+			(at 16.51 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Digital Inputs.kicad_sch"
+			(at 16.51 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Placa_Control_M2ES"
+				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 16.51 127)
+		(size 17.78 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "87bdd207-3dc8-4ffc-b984-f259b85798e3")
+		(property "Sheetname" "Ethernet"
+			(at 16.51 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ethernet.kicad_sch"
+			(at 16.51 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Placa_Control_M2ES"
+				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 16.51 161.29)
+		(size 17.78 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8f20afda-85ef-431d-9116-2d00966321c2")
+		(property "Sheetname" "Fuente"
+			(at 16.51 160.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Fuente.kicad_sch"
+			(at 16.51 186.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Placa_Control_M2ES"
+				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 16.51 22.86)
+		(size 17.78 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d960b122-b141-458c-9a10-d36b05afe5fe")
+		(property "Sheetname" "Digital Outputs"
+			(at 16.51 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Digital Outputs.kicad_sch"
+			(at 16.51 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Placa_Control_M2ES"
+				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 16.51 91.44)
+		(size 17.78 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e50c1eea-f7ff-4608-9e2f-492ba2063b9c")
+		(property "Sheetname" "Analog Inputs"
+			(at 16.51 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Analog Inputs.kicad_sch"
+			(at 16.51 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Placa_Control_M2ES"
+				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

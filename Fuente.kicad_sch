@@ -1,0 +1,48 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "7bb82ef2-d285-444d-b628-944dc3d7c866")
+	(paper "A4")
+	(lib_symbols)
+	(text "Sensor Namur (in digital): +8vdc"
+		(exclude_from_sim no)
+		(at 33.782 23.876 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "16e03872-a8a3-4b26-b5b1-e84f280c2610")
+	)
+	(text "Reles salidas: +24vdc"
+		(exclude_from_sim no)
+		(at 28.448 27.432 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "327c451d-0809-429b-a4fe-76edd6ab210b")
+	)
+	(text "Celdas de carga(in analog): +10vdc"
+		(exclude_from_sim no)
+		(at 35.306 20.066 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "aa0ee4fc-c468-41fe-9675-50065ea10737")
+	)
+	(text "Sensor LVDT(in analog): +10vdc"
+		(exclude_from_sim no)
+		(at 33.274 30.988 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fe53836f-9c38-4438-8706-ec93a19c0b7a")
+	)
+)

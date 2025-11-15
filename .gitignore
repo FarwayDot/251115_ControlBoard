@@ -1,0 +1,54 @@
+# Ignore files Autor: Jean Requejo
+
+# Folder
+
+# De Los archivos de JLCPCB solo se debe mantener los zips y  .db
+**/jlcpcb/gerber/*
+#jlcpcb/production_files/*.csv #Aunque no son totalmente necesarios, es mejor que estar generandolos nuevamente
+#jlcpcb/production_files/*.xlsx 
+
+# Los archivos backups no son necesarios si se realiza un correcto seguimiento mediante commits.
+*-backups/*
+
+# Gerber y bom se crea cuando se crea el geber manualmente desde Kicad
+**/production/
+**/*-Gerber/*
+bom/*
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.lck
+
+# Archivos backup obsolotes
+*.kicad_pcb-bak
+*.kicad_sch-bak
+_autosave-*
+*auto_saved_files#
+
+# Archivo que contiene configuración de Kicad en la computadora
+*.kicad_prl
+
+# Archivo kicad
+**/fp-info-cache
+**/build
+
+# Exported BOM files
+*.xml
+*.tsv
+#.csv se queda para el tema de dejar los archivos de jlcpcb
+
+# Misc
+*.log
+*.raw
+*.svg2shenzhen-cache
+#*.step se deja para mantener los archivos step
+#*.wrl se deja para mantener los archivos step
+*.jpg
+#*.pdf se deja para mantener la documentación activa
+*.png
+
+##Prueba para carpetas con varios proyectos
+**/*-backups/
+**/jlcpcb/gerber/*
