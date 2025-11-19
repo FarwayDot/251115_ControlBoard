@@ -503,26 +503,24 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Connector:Screw_Terminal_01x06"
 			(pin_names
-				(offset 0)
+				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
+			(property "Reference" "J"
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
+			(property "Value" "Screw_Terminal_01x06"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -530,7 +528,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -1.778 0 90)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -547,7 +545,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "Description" "Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -556,7 +554,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R res resistor"
+			(property "ki_keywords" "screw terminal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -565,7 +563,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "R_*"
+			(property "ki_fp_filters" "TerminalBlock*:*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -574,24 +572,232 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0_1"
+			(symbol "Screw_Terminal_01x06_1_1"
 				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
 					(stroke
 						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 5.4102) (xy 0.3302 4.572)
+					)
+					(stroke
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "R_1_1"
+				(polyline
+					(pts
+						(xy -0.5334 2.8702) (xy 0.3302 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -4.7498) (xy 0.3302 -5.588)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -7.2898) (xy 0.3302 -8.128)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 5.588) (xy 0.508 4.7498)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 3.048) (xy 0.508 2.2098)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -4.572) (xy 0.508 -5.4102)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -7.112) (xy 0.508 -7.9502)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 5.08)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.08)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -7.62)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -607,9 +813,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -624,148 +830,17 @@
 						)
 					)
 				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Diode:1N4148W"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4148W"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-123"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SOD?123*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N4148W_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4148W_1_1"
 				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -774,16 +849,52 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -794,7 +905,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LIB_SCH_CONTR:RT214024_TE-Connectivity"
+		(symbol "LIB_SCH_CONTR:HF46F-G_Hongfa"
 			(pin_names
 				(hide yes)
 			)
@@ -809,7 +920,7 @@
 					)
 				)
 			)
-			(property "Value" "RT214024"
+			(property "Value" "HF46F-G"
 				(at 0 -0.762 0)
 				(effects
 					(font
@@ -818,7 +929,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "LIB_PCB_CONT:RT214024_TE-Connectivity"
+			(property "Footprint" "LIB_PCB_CONT:Relay_HF46F-G_Hongfa"
 				(at 0 0 0)
 				(effects
 					(font
@@ -827,7 +938,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.tme.com/pe/es/details/hf46f-g_024-hs1t/reles-electromagn-miniaturizados/hongfa-relay"
 				(at 0 0 0)
 				(effects
 					(font
@@ -853,7 +964,16 @@
 					)
 				)
 			)
-			(symbol "RT214024_TE-Connectivity_1_1"
+			(property "ki_keywords" "HF46F-G/024-HS1T"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HF46F-G_Hongfa_1_1"
 				(rectangle
 					(start -3.81 1.27)
 					(end 3.81 -2.54)
@@ -914,7 +1034,7 @@
 					)
 				)
 			)
-			(symbol "RT214024_TE-Connectivity_2_1"
+			(symbol "HF46F-G_Hongfa_2_1"
 				(rectangle
 					(start -5.08 2.54)
 					(end 5.08 -3.81)
@@ -924,30 +1044,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -2.54 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -3.81) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(polyline
@@ -976,7 +1072,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.54) (xy 2.54 -1.27) (xy 1.27 -1.27)
+						(xy 0 -2.54) (xy 0 -1.27) (xy 0 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -988,7 +1084,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -3.81) (xy 2.54 -2.54)
+						(xy 0 -3.81) (xy 0 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -996,24 +1092,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(pin input line
-					(at -2.54 -6.35 90)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 				(pin input line
@@ -1035,7 +1113,7 @@
 					)
 				)
 				(pin input line
-					(at 2.54 -6.35 90)
+					(at 0 -6.35 90)
 					(length 2.54)
 					(name "NO"
 						(effects
@@ -1045,336 +1123,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Transistor_BJT:2N3904"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "2N3904"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "NPN Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?92*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "2N3904_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "2N3904_1_1"
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+24V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+24V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+24V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+24V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+24V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1487,6 +1235,11 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "RELAY"
+		(members "Relay_1" "Relay_2" "Relay_3" "Relay_4" "Relay_5" "Relay_6" "Relay_7"
+			"Relay_8" "Relay_9" "Relay_10" "Relay_11" "Relay_12"
+		)
+	)
 	(text "RELAY OUTPUT"
 		(exclude_from_sim no)
 		(at 209.296 33.528 0)
@@ -1500,10 +1253,10 @@
 		)
 		(uuid "c6c63eef-eb63-4e8e-a24d-ec853f0dd6e6")
 	)
-	(text_box "Relay RT214024:\n\nCoild Data: 24VDC / 1440 ohm -> Current: 16mA"
+	(text_box "Relay RT214024:\n\nCoild Data: 24VDC / 1440 ohm -> Current: 16mA\n\nRelay HF46F-G/024-HS1T:\n\nCoil Data: 24VDC / 2880 ohm -> Current: 8.3mA"
 		(exclude_from_sim no)
-		(at 290.83 69.85 0)
-		(size 58.42 12.7)
+		(at 290.83 63.5 0)
+		(size 58.42 17.78)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1521,106 +1274,294 @@
 		(uuid "f8269d32-70fa-40f1-8b50-cf856e972563")
 	)
 	(junction
-		(at 210.82 100.33)
+		(at 130.81 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c88880e-3990-4f29-999c-606a26c2cbd8")
+	)
+	(junction
+		(at 201.93 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c9d716e-8fa4-4b06-bc52-d27dc2df6c5e")
 	)
 	(junction
-		(at 132.08 193.04)
+		(at 148.59 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "33ede835-b65e-48bd-a66d-13b4e7418485")
+		(uuid "2dfb0175-8d1f-467a-9753-84a5857d3600")
 	)
 	(junction
-		(at 101.6 171.45)
+		(at 201.93 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "528d316b-40d3-4ef5-9986-d501022fb2e9")
+		(uuid "344e6393-e8bc-4b70-9060-11628c9c66bd")
 	)
 	(junction
-		(at 172.72 100.33)
+		(at 165.1 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7541286e-5331-4f9c-91cf-c1967d958560")
 	)
 	(junction
-		(at 156.21 100.33)
+		(at 148.59 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "956639c9-8b49-47ff-9254-e7419fd32482")
 	)
 	(junction
-		(at 191.77 100.33)
+		(at 184.15 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98312a80-3859-45a9-af26-2e1339c73d90")
 	)
 	(junction
-		(at 132.08 147.32)
+		(at 114.3 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a5a085ce-e6f3-4722-bc76-539c9d96b1f2")
+		(uuid "ad0c734e-9592-410f-b3d5-d7e07244aed7")
 	)
 	(junction
-		(at 114.3 193.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a94c11c9-66aa-40c3-8b66-3675ac261a87")
-	)
-	(junction
-		(at 132.08 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b65db228-b88d-4a15-b298-c4da10ca342a")
-	)
-	(junction
-		(at 229.87 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c4081498-737d-41c6-a156-27e54c14a502")
-	)
-	(junction
-		(at 138.43 100.33)
+		(at 130.81 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2530dc9-f384-4f78-bc6d-fc6359b5cd30")
 	)
 	(junction
-		(at 121.92 100.33)
+		(at 165.1 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "daefd900-d54b-454e-a6cb-9c8b748762d2")
+	)
+	(junction
+		(at 114.3 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd07019a-73fe-4cf2-8258-c6cc827e14d6")
 	)
 	(junction
-		(at 114.3 179.07)
+		(at 184.15 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e0c6cfd8-a733-43c4-987b-3faed91b64ab")
+		(uuid "ec93a65f-d17e-425a-958e-aa2ea6d0e4e0")
+	)
+	(no_connect
+		(at 110.49 191.77)
+		(uuid "31a8048c-9f5e-475f-9be7-cfa7874834b3")
+	)
+	(no_connect
+		(at 90.17 191.77)
+		(uuid "a22ad567-e5d7-4599-8095-f161d1b94721")
+	)
+	(no_connect
+		(at 90.17 143.51)
+		(uuid "e519b87d-2cf9-42ac-b9f9-858b6a080e31")
+	)
+	(no_connect
+		(at 110.49 143.51)
+		(uuid "f2f7872d-b86c-4c56-9577-19463ee7e8ad")
+	)
+	(bus_entry
+		(at 35.56 149.86)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "049c4bef-cdbc-4417-8659-a465a6705bb6")
+	)
+	(bus_entry
+		(at 35.56 162.56)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bda9c8c-7fd9-4980-970c-2deda0b6247f")
+	)
+	(bus_entry
+		(at 35.56 137.16)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "486a9c6c-9a82-46fd-a4b2-6299912f01b2")
+	)
+	(bus_entry
+		(at 35.56 147.32)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a965290-75a7-48cb-b2de-d88299a27d35")
+	)
+	(bus_entry
+		(at 35.56 139.7)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c8e1246-0983-4d01-af1c-16835d6a7683")
+	)
+	(bus_entry
+		(at 35.56 142.24)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81904ced-79ba-47e8-865f-1565c32319c6")
+	)
+	(bus_entry
+		(at 35.56 160.02)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7ccbc3c-04ca-4d84-9da1-ea56277e2eba")
+	)
+	(bus_entry
+		(at 35.56 144.78)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba59edad-2d6a-4861-bea2-c0533364429a")
+	)
+	(bus_entry
+		(at 35.56 165.1)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df30f1ef-bb43-4eda-8906-014779097927")
+	)
+	(bus_entry
+		(at 35.56 157.48)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6240b8f-e870-4a5b-889e-f308859a9dbd")
+	)
+	(bus_entry
+		(at 35.56 154.94)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9158636-5ec1-4a9b-babd-277ddef4e4c9")
+	)
+	(bus_entry
+		(at 35.56 152.4)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f95d7fc0-d347-49ed-9feb-97805fe0363f")
 	)
 	(wire
 		(pts
-			(xy 114.3 179.07) (xy 114.3 182.88)
+			(xy 330.2 162.56) (xy 330.2 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0173ad9d-5a72-46a0-bb98-3c25c00fc6f2")
+		(uuid "00daccea-f551-4cd6-b257-06620398d288")
 	)
 	(wire
 		(pts
-			(xy 114.3 176.53) (xy 114.3 179.07)
+			(xy 269.24 165.1) (xy 254 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0205073d-6fa7-4900-8784-85e9427fc5f7")
+		(uuid "02447647-2711-4346-93e6-1786ba1a5512")
 	)
 	(wire
 		(pts
-			(xy 210.82 125.73) (xy 210.82 113.03)
+			(xy 337.82 181.61) (xy 317.5 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05a2ae83-a92b-49d2-8f20-387f565b1655")
+	)
+	(wire
+		(pts
+			(xy 271.78 104.14) (xy 293.37 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05d0d3ed-2e85-462c-abc8-c331f15eefa7")
+	)
+	(wire
+		(pts
+			(xy 340.36 161.29) (xy 356.87 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0938746a-bd03-44df-b228-2f43dea1447c")
+	)
+	(wire
+		(pts
+			(xy 38.1 157.48) (xy 46.99 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09db87f1-d3eb-4942-ac00-8b01aa89af2a")
+	)
+	(wire
+		(pts
+			(xy 220.98 161.29) (xy 201.93 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d7acaec-8517-43b5-bbd2-dd0b577b9fb1")
+	)
+	(wire
+		(pts
+			(xy 148.59 161.29) (xy 130.81 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0df8df79-87cf-4a1c-8406-1e240e31efa8")
+	)
+	(wire
+		(pts
+			(xy 220.98 165.1) (xy 220.98 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e537efa-9825-4cbe-a5b7-260dc7568646")
+	)
+	(wire
+		(pts
+			(xy 201.93 138.43) (xy 201.93 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1630,7 +1571,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 113.03) (xy 138.43 115.57)
+			(xy 130.81 125.73) (xy 130.81 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1640,27 +1581,67 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 162.56) (xy 114.3 166.37)
+			(xy 317.5 195.58) (xy 340.36 195.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f89cc4b-af6a-4960-a0eb-f3b67a08bac3")
+		(uuid "106682e1-2c71-49f7-91d4-9bb40dfa6972")
 	)
 	(wire
 		(pts
-			(xy 132.08 184.15) (xy 132.08 193.04)
+			(xy 38.1 154.94) (xy 46.99 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "18e048d2-914e-4360-b242-e924f2b3133a")
+		(uuid "108cc798-07fb-4fc0-9b2c-2e6fb1d1ee8a")
 	)
 	(wire
 		(pts
-			(xy 191.77 100.33) (xy 210.82 100.33)
+			(xy 81.28 181.61) (xy 90.17 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10ca0d6e-4a65-41e0-95c1-c99de0eec1ab")
+	)
+	(wire
+		(pts
+			(xy 335.28 179.07) (xy 335.28 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "112481f7-4927-422f-8e80-1784195e350c")
+	)
+	(wire
+		(pts
+			(xy 269.24 113.03) (xy 254 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15078c24-3d30-4793-907b-ecd955ce5f02")
+	)
+	(wire
+		(pts
+			(xy 332.74 101.6) (xy 332.74 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15184924-9161-4767-b30f-36bbe54a8edb")
+	)
+	(wire
+		(pts
+			(xy 184.15 113.03) (xy 201.93 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1670,7 +1651,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 123.19) (xy 97.79 123.19)
+			(xy 81.28 135.89) (xy 90.17 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1678,19 +1659,29 @@
 		)
 		(uuid "1fa77e88-c7a5-494d-a1c3-3d33ec72bcbf")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 101.6 171.45) (xy 101.6 177.8)
+			(xy 35.56 139.7) (xy 35.56 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1fd5f54b-96f4-4921-855f-b07889b39331")
+		(uuid "222ba638-e95a-44dc-b7ff-0cb220808e28")
 	)
 	(wire
 		(pts
-			(xy 118.11 120.65) (xy 172.72 120.65)
+			(xy 254 109.22) (xy 254 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2288c42b-1103-4c43-9728-76adf98962b8")
+	)
+	(wire
+		(pts
+			(xy 110.49 133.35) (xy 165.1 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1700,17 +1691,27 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 104.14) (xy 246.38 100.33)
+			(xy 330.2 151.13) (xy 356.87 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "24e82b28-1ef3-4d93-8e9b-52b98bb2c537")
+		(uuid "24ac7688-e069-48f1-9822-3195022392a5")
 	)
 	(wire
 		(pts
-			(xy 172.72 113.03) (xy 172.72 120.65)
+			(xy 130.81 176.53) (xy 110.49 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "272b2920-8e18-423c-a797-c500ad9703e5")
+	)
+	(wire
+		(pts
+			(xy 165.1 125.73) (xy 165.1 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1720,7 +1721,27 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 113.03) (xy 156.21 118.11)
+			(xy 254 97.79) (xy 254 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29e4c622-649f-4b40-a349-01e74e6bc40a")
+	)
+	(wire
+		(pts
+			(xy 274.32 158.75) (xy 274.32 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c841377-2336-4193-99fe-2498f1e0de66")
+	)
+	(wire
+		(pts
+			(xy 148.59 125.73) (xy 148.59 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1730,27 +1751,167 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 171.45) (xy 101.6 171.45)
+			(xy 317.5 148.59) (xy 356.87 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "384e28d4-32d5-47c2-aca5-3fbc36644c11")
+		(uuid "2eb5f685-276b-432d-8c1a-156f32d7cca2")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 132.08 173.99) (xy 132.08 162.56)
+			(xy 35.56 165.1) (xy 35.56 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "430247f2-216e-47da-adcc-ea992205d217")
+		(uuid "2efca70c-1ec9-4049-a81d-9b44e582bd36")
+	)
+	(bus
+		(pts
+			(xy 35.56 149.86) (xy 35.56 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "301e6584-0806-4a1e-ab7a-372041d61df0")
+	)
+	(bus
+		(pts
+			(xy 35.56 152.4) (xy 35.56 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32dca697-9b60-47fe-90a6-1112d458d977")
 	)
 	(wire
 		(pts
-			(xy 191.77 113.03) (xy 191.77 123.19)
+			(xy 317.5 181.61) (xy 317.5 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34dea7b7-cb0c-4363-9736-b9cb7310f197")
+	)
+	(wire
+		(pts
+			(xy 114.3 158.75) (xy 114.3 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "361b74a0-c067-456c-a8a0-c8c984403138")
+	)
+	(bus
+		(pts
+			(xy 35.56 160.02) (xy 35.56 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "373dfa03-2b41-46ff-b50a-9526c889a89c")
+	)
+	(bus
+		(pts
+			(xy 35.56 144.78) (xy 35.56 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3809aefe-d621-4d38-bc34-5fb199856817")
+	)
+	(wire
+		(pts
+			(xy 254 110.49) (xy 266.7 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b591349-0acc-4bb9-a48c-9f022762989b")
+	)
+	(wire
+		(pts
+			(xy 165.1 165.1) (xy 165.1 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c6d77d5-326b-4686-a197-756f853fec45")
+	)
+	(wire
+		(pts
+			(xy 38.1 167.64) (xy 46.99 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d9c77df-af54-4a63-9219-916c187136a7")
+	)
+	(wire
+		(pts
+			(xy 165.1 161.29) (xy 148.59 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e1552cc-7719-433d-ab51-a298ef1bfceb")
+	)
+	(wire
+		(pts
+			(xy 317.5 149.86) (xy 317.5 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc96312-01af-4933-8f1a-947ea408f7c2")
+	)
+	(wire
+		(pts
+			(xy 148.59 179.07) (xy 110.49 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "402ace02-df25-4f86-bd66-2010da0832fc")
+	)
+	(wire
+		(pts
+			(xy 317.5 129.54) (xy 317.5 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "404c148c-d6ec-4750-9983-986e2413dad5")
+	)
+	(wire
+		(pts
+			(xy 271.78 127) (xy 271.78 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44626d76-737c-4201-aaab-95b281bf18fd")
+	)
+	(wire
+		(pts
+			(xy 184.15 125.73) (xy 184.15 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1760,17 +1921,67 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 100.33) (xy 229.87 100.33)
+			(xy 201.93 165.1) (xy 201.93 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4770e3d7-afe9-4395-8a6f-3ab94dbb2e11")
+		(uuid "471cfa1d-5fa8-4bf6-b2a9-bb143e7e623f")
 	)
 	(wire
 		(pts
-			(xy 172.72 100.33) (xy 191.77 100.33)
+			(xy 38.1 139.7) (xy 46.99 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48cdfc7f-ad2e-497f-b9f4-017aa86bccf9")
+	)
+	(wire
+		(pts
+			(xy 254 127) (xy 271.78 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cab9045-a60c-4e7a-bf75-a90392991fb2")
+	)
+	(wire
+		(pts
+			(xy 165.1 173.99) (xy 165.1 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e1d117e-5197-4e75-b5f5-200cc9ca1f45")
+	)
+	(wire
+		(pts
+			(xy 254 179.07) (xy 271.78 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ec6e979-582e-4496-9a55-11a45855e8a9")
+	)
+	(wire
+		(pts
+			(xy 317.5 113.03) (xy 317.5 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f0b4718-5e5a-4821-8676-6ebf169fdc2a")
+	)
+	(wire
+		(pts
+			(xy 165.1 113.03) (xy 184.15 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1780,7 +1991,47 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 128.27) (xy 118.11 128.27)
+			(xy 317.5 161.29) (xy 317.5 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f6db6d7-0736-417b-8f0e-ca5acc57e464")
+	)
+	(wire
+		(pts
+			(xy 271.78 179.07) (xy 271.78 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5077c4f9-1740-4979-a16b-827a97114541")
+	)
+	(wire
+		(pts
+			(xy 38.1 142.24) (xy 46.99 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5246cdb9-1d30-440b-9f79-a5ad08805dd0")
+	)
+	(wire
+		(pts
+			(xy 293.37 158.75) (xy 274.32 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52d92e1f-7a2f-45b8-a1fc-8de4b3baa534")
+	)
+	(wire
+		(pts
+			(xy 220.98 140.97) (xy 110.49 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1790,47 +2041,97 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 147.32) (xy 132.08 147.32)
+			(xy 340.36 195.58) (xy 340.36 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5746aa08-3d49-4c8b-884a-56f6ce10e5fb")
+		(uuid "566c64fa-2684-4fe4-a8fc-ffbdd8f37d2c")
 	)
 	(wire
 		(pts
-			(xy 246.38 113.03) (xy 246.38 130.81)
+			(xy 276.86 109.22) (xy 293.37 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5a001814-ea6c-4eda-b9a0-e27fd8e81840")
+		(uuid "5678a289-df8e-499b-8d45-db3c984745ee")
 	)
 	(wire
 		(pts
-			(xy 88.9 130.81) (xy 97.79 130.81)
+			(xy 274.32 106.68) (xy 274.32 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "602540d8-a367-4856-b5d8-0d96976753b0")
+		(uuid "5b19df09-610f-4094-a7fd-9d1be6e46af7")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 101.6 193.04) (xy 114.3 193.04)
+			(xy 35.56 135.89) (xy 35.56 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "60773741-ce5c-4b9e-98ef-08a6c0a92d1d")
+		(uuid "5d4d39a1-c68e-44f0-bc26-d804b554fefd")
 	)
 	(wire
 		(pts
-			(xy 88.9 128.27) (xy 97.79 128.27)
+			(xy 266.7 151.13) (xy 293.37 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eb5dba5-026e-489f-ab35-4b8383774aa0")
+	)
+	(wire
+		(pts
+			(xy 81.28 184.15) (xy 90.17 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eeddc89-901e-459c-82b1-d0588ccbbc51")
+	)
+	(wire
+		(pts
+			(xy 220.98 189.23) (xy 110.49 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f9b8708-fefb-4e09-9925-b7925f968ebc")
+	)
+	(wire
+		(pts
+			(xy 184.15 165.1) (xy 184.15 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63712d74-2d4e-4497-ba66-7a0ed0749cdc")
+	)
+	(wire
+		(pts
+			(xy 81.28 179.07) (xy 90.17 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6453f30f-c70f-45e6-b146-040d3b5fd301")
+	)
+	(wire
+		(pts
+			(xy 81.28 140.97) (xy 90.17 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1840,7 +2141,27 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 123.19) (xy 118.11 123.19)
+			(xy 274.32 181.61) (xy 254 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64dd9b81-82b6-4fa3-a033-0c23d1732ef0")
+	)
+	(bus
+		(pts
+			(xy 35.56 168.91) (xy 36.83 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65292a78-9f48-43b1-9e50-e5c2c5a82e03")
+	)
+	(wire
+		(pts
+			(xy 184.15 135.89) (xy 110.49 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1850,17 +2171,57 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 193.04) (xy 132.08 195.58)
+			(xy 254 142.24) (xy 254 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6add9260-5391-4cdd-a4a2-8b96b8f8812c")
+		(uuid "69504289-0cfd-4345-9ef8-d13ab73f5518")
 	)
 	(wire
 		(pts
-			(xy 156.21 104.14) (xy 156.21 100.33)
+			(xy 81.28 176.53) (xy 90.17 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "698dbd57-d677-433f-945e-c0b60f0f446d")
+	)
+	(wire
+		(pts
+			(xy 220.98 173.99) (xy 220.98 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b3737f1-e542-4834-b8a2-d7b79b97d4f5")
+	)
+	(wire
+		(pts
+			(xy 330.2 110.49) (xy 330.2 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cfd14c6-86b6-4a23-a079-c838e711390f")
+	)
+	(bus
+		(pts
+			(xy 35.56 162.56) (xy 35.56 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d7e4923-aeed-4b7b-bfef-1b939e95ce73")
+	)
+	(wire
+		(pts
+			(xy 148.59 116.84) (xy 148.59 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1870,27 +2231,27 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 149.86) (xy 153.67 147.32)
+			(xy 184.15 184.15) (xy 110.49 184.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6e913350-443a-4526-983a-9ea85c33a8e8")
+		(uuid "6e6142d1-acca-49fe-9e1b-47b8acb9da8b")
 	)
 	(wire
 		(pts
-			(xy 101.6 185.42) (xy 101.6 193.04)
+			(xy 254 113.03) (xy 254 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6e91e77b-1497-499a-be0f-601d880cff31")
+		(uuid "6eec2456-ea44-41de-8aa7-d34f2ab84b80")
 	)
 	(wire
 		(pts
-			(xy 88.9 120.65) (xy 97.79 120.65)
+			(xy 81.28 133.35) (xy 90.17 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1900,27 +2261,87 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 190.5) (xy 114.3 193.04)
+			(xy 317.5 110.49) (xy 330.2 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7a967852-6f04-43b9-8953-9c73a4632a2b")
+		(uuid "72ad80dd-aee2-4392-bb82-62277edc3fa6")
 	)
 	(wire
 		(pts
-			(xy 87.63 171.45) (xy 101.6 171.45)
+			(xy 337.82 129.54) (xy 317.5 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7d141e86-fcd5-4f39-a3f2-72c4f773d98e")
+		(uuid "73cb3fb8-e7bb-4e89-9a8c-b210dd72cc34")
+	)
+	(bus
+		(pts
+			(xy 33.02 133.35) (xy 35.56 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73e3eb8e-42c1-412b-9726-50166dd5dfab")
 	)
 	(wire
 		(pts
-			(xy 172.72 104.14) (xy 172.72 100.33)
+			(xy 317.5 109.22) (xy 317.5 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75bcaa68-fe46-4a8b-ac3d-d17201c37ad7")
+	)
+	(wire
+		(pts
+			(xy 317.5 177.8) (xy 317.5 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75f8f6de-a367-4fdf-a110-95f4b2c00608")
+	)
+	(wire
+		(pts
+			(xy 266.7 110.49) (xy 266.7 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7882a3cd-3735-41ba-a1d0-a49719825627")
+	)
+	(wire
+		(pts
+			(xy 266.7 162.56) (xy 266.7 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a478beb-32ca-43f2-86c5-df69f48efcdf")
+	)
+	(wire
+		(pts
+			(xy 184.15 173.99) (xy 184.15 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bbc019b-ea97-4aee-813e-67609c72b8a9")
+	)
+	(wire
+		(pts
+			(xy 165.1 116.84) (xy 165.1 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1930,17 +2351,117 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 162.56) (xy 114.3 162.56)
+			(xy 356.87 101.6) (xy 332.74 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ec13b7f-17bd-42a1-9553-479981d59f4b")
+		(uuid "8276db55-d077-47b2-b473-e54208dfe047")
 	)
 	(wire
 		(pts
-			(xy 210.82 104.14) (xy 210.82 100.33)
+			(xy 81.28 189.23) (xy 90.17 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83406a97-504c-4883-9252-444fadd9c824")
+	)
+	(wire
+		(pts
+			(xy 317.5 162.56) (xy 330.2 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87754a7c-e5ab-45c1-88ec-31bd86e26cef")
+	)
+	(bus
+		(pts
+			(xy 35.56 157.48) (xy 35.56 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87c7d9c6-9b43-49f5-8190-34122f4d8545")
+	)
+	(wire
+		(pts
+			(xy 254 161.29) (xy 254 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a7e8e39-1bd1-45f5-a38c-b05e8e79a9d6")
+	)
+	(wire
+		(pts
+			(xy 165.1 161.29) (xy 184.15 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c0959eb-2920-4f84-bda6-389202673134")
+	)
+	(wire
+		(pts
+			(xy 317.5 194.31) (xy 317.5 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cad8968-4c17-454d-b224-f38b0f3191f8")
+	)
+	(wire
+		(pts
+			(xy 317.5 127) (xy 335.28 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8feb6036-42d9-4b68-8718-338a12fda575")
+	)
+	(wire
+		(pts
+			(xy 254 148.59) (xy 293.37 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90fcb9cf-1a2c-4a5f-93b1-13d41f3e8abc")
+	)
+	(bus
+		(pts
+			(xy 35.56 142.24) (xy 35.56 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "944c0658-f319-4d48-a84a-b427e41936af")
+	)
+	(wire
+		(pts
+			(xy 38.1 162.56) (xy 46.99 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94e72d74-5255-4f2b-a5bd-a60e4786985a")
+	)
+	(wire
+		(pts
+			(xy 201.93 116.84) (xy 201.93 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1950,7 +2471,37 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 104.14) (xy 229.87 100.33)
+			(xy 38.1 149.86) (xy 46.99 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "967ff722-e47d-4d19-b3b4-f6e585343ec7")
+	)
+	(wire
+		(pts
+			(xy 184.15 161.29) (xy 201.93 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "977afa38-8d0e-4f8e-aabe-c132abd49b5c")
+	)
+	(wire
+		(pts
+			(xy 114.3 171.45) (xy 110.49 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "998e1f07-063d-46b2-8685-a2ab1c1751e3")
+	)
+	(wire
+		(pts
+			(xy 220.98 116.84) (xy 220.98 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1960,7 +2511,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 100.33) (xy 138.43 100.33)
+			(xy 148.59 113.03) (xy 130.81 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1970,7 +2521,27 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 118.11) (xy 118.11 118.11)
+			(xy 110.49 181.61) (xy 165.1 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bb10b32-4038-414d-8b35-0123a18851e3")
+	)
+	(bus
+		(pts
+			(xy 35.56 137.16) (xy 35.56 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cecced5-2851-485c-83c3-a99b75fe08f9")
+	)
+	(wire
+		(pts
+			(xy 148.59 130.81) (xy 110.49 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1980,7 +2551,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 113.03) (xy 229.87 128.27)
+			(xy 220.98 125.73) (xy 220.98 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1990,27 +2561,47 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 179.07) (xy 124.46 179.07)
+			(xy 130.81 165.1) (xy 130.81 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1fd4d2f-5c00-47bd-8010-8e8990b46348")
+		(uuid "a21662d1-4f5d-4535-861a-30525be37f7b")
 	)
 	(wire
 		(pts
-			(xy 132.08 158.75) (xy 132.08 162.56)
+			(xy 130.81 173.99) (xy 130.81 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a4eb456e-6491-4dde-b760-d8473800bdb8")
+		(uuid "a28df216-6a54-4eaf-b2aa-52688946fd11")
 	)
 	(wire
 		(pts
-			(xy 138.43 100.33) (xy 121.92 100.33)
+			(xy 317.5 142.24) (xy 317.5 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a328029b-c809-4d26-a624-401ed5eb1692")
+	)
+	(wire
+		(pts
+			(xy 148.59 173.99) (xy 148.59 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a59561a7-87c6-44c7-a4ea-decae26e065a")
+	)
+	(wire
+		(pts
+			(xy 130.81 113.03) (xy 114.3 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2020,7 +2611,97 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 104.14) (xy 138.43 100.33)
+			(xy 254 162.56) (xy 266.7 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a724ddc0-4a06-4c72-b3fb-d0bf3c6b1a8a")
+	)
+	(wire
+		(pts
+			(xy 340.36 109.22) (xy 356.87 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a86f6afb-964d-4c11-b245-2770ce5411a6")
+	)
+	(wire
+		(pts
+			(xy 201.93 186.69) (xy 201.93 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaeb67e5-1cf5-4e13-9f6d-9af07c9835b4")
+	)
+	(wire
+		(pts
+			(xy 100.33 196.85) (xy 100.33 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad64c1ec-45c1-4eba-b1c1-5edbcbaa70bc")
+	)
+	(wire
+		(pts
+			(xy 317.5 96.52) (xy 356.87 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad7d9b11-3ffc-41b1-bcb8-b6bb10b710be")
+	)
+	(wire
+		(pts
+			(xy 276.86 195.58) (xy 276.86 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0906b89-b936-4e3b-96a4-6edf6c6cda69")
+	)
+	(wire
+		(pts
+			(xy 254 125.73) (xy 254 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b28265cb-531c-4fc1-aef6-22137111e312")
+	)
+	(wire
+		(pts
+			(xy 293.37 106.68) (xy 274.32 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3076cce-d181-4b86-baaa-bc310e563d74")
+	)
+	(wire
+		(pts
+			(xy 38.1 165.1) (xy 46.99 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3e4e154-c6d9-4bdf-97a7-c19d16d4cb92")
+	)
+	(wire
+		(pts
+			(xy 130.81 116.84) (xy 130.81 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2030,7 +2711,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 104.14) (xy 191.77 100.33)
+			(xy 184.15 116.84) (xy 184.15 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2040,7 +2721,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 125.73) (xy 210.82 125.73)
+			(xy 110.49 138.43) (xy 201.93 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2050,7 +2731,27 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 118.11) (xy 97.79 118.11)
+			(xy 148.59 165.1) (xy 148.59 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8924eab-f618-4f2c-ab32-a4b7d2333ec0")
+	)
+	(wire
+		(pts
+			(xy 274.32 129.54) (xy 254 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b90dd31b-a13d-4a94-bb67-85f8d0304018")
+	)
+	(wire
+		(pts
+			(xy 81.28 130.81) (xy 90.17 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2060,7 +2761,37 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 115.57) (xy 97.79 115.57)
+			(xy 317.5 125.73) (xy 317.5 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba0c8ecd-10b9-4ae0-90de-dfec82d28e7d")
+	)
+	(wire
+		(pts
+			(xy 38.1 152.4) (xy 46.99 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbc8e755-3415-4c7f-8588-d600fa3d51ce")
+	)
+	(wire
+		(pts
+			(xy 317.5 179.07) (xy 335.28 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbf77a2d-3b74-4520-b089-a0bf6416cfc5")
+	)
+	(wire
+		(pts
+			(xy 81.28 128.27) (xy 90.17 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2068,9 +2799,39 @@
 		)
 		(uuid "bf6ed686-ed84-46a1-9ec0-cd4c37c54705")
 	)
+	(bus
+		(pts
+			(xy 35.56 154.94) (xy 35.56 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1a76d32-1892-4795-bfe0-fcd447be084f")
+	)
 	(wire
 		(pts
-			(xy 121.92 110.49) (xy 118.11 110.49)
+			(xy 356.87 158.75) (xy 337.82 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c20011a6-a075-45f1-929c-0afe9e29722f")
+	)
+	(wire
+		(pts
+			(xy 332.74 153.67) (xy 332.74 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2a98c76-f77d-4950-a225-957229071111")
+	)
+	(wire
+		(pts
+			(xy 114.3 123.19) (xy 110.49 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2080,7 +2841,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 100.33) (xy 121.92 110.49)
+			(xy 114.3 113.03) (xy 114.3 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2090,27 +2851,87 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 193.04) (xy 132.08 193.04)
+			(xy 269.24 153.67) (xy 269.24 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c8af9896-7ffe-45ad-8e7a-69806aa98ecf")
+		(uuid "c6353bf8-d044-4709-a4b0-9ae75ce03867")
 	)
 	(wire
 		(pts
-			(xy 132.08 142.24) (xy 132.08 147.32)
+			(xy 254 149.86) (xy 254 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cb826a9b-b20c-4ee5-b7b7-b74a4cf94fd7")
+		(uuid "c6bd0fb8-0d37-4a6c-9826-bda1993bac67")
 	)
 	(wire
 		(pts
-			(xy 88.9 125.73) (xy 97.79 125.73)
+			(xy 276.86 161.29) (xy 293.37 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c75fb7de-2b84-4456-b67b-b45bf5bc8165")
+	)
+	(wire
+		(pts
+			(xy 254 165.1) (xy 254 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9e74f17-9faa-4321-9145-89c315ec336c")
+	)
+	(wire
+		(pts
+			(xy 337.82 158.75) (xy 337.82 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9f9485f-a5dc-4daa-bacd-467a8776dbea")
+	)
+	(wire
+		(pts
+			(xy 317.5 97.79) (xy 317.5 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca18446c-8f83-41ad-87f3-9a6855f0fd33")
+	)
+	(wire
+		(pts
+			(xy 38.1 160.02) (xy 46.99 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb8e82a0-210d-42d8-a8d2-b279158e3d9b")
+	)
+	(wire
+		(pts
+			(xy 332.74 165.1) (xy 317.5 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbe6a82c-8a4c-45a1-ae12-d694ec0f9594")
+	)
+	(wire
+		(pts
+			(xy 81.28 138.43) (xy 90.17 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2120,17 +2941,27 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 158.75) (xy 153.67 162.56)
+			(xy 266.7 99.06) (xy 293.37 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd263c31-3290-4bfc-a87f-fd49ca382b3f")
+		(uuid "ccbf97c8-a558-46bb-9ab7-40f5d879ac84")
+	)
+	(bus
+		(pts
+			(xy 35.56 147.32) (xy 35.56 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd475982-fac2-4beb-b2eb-155c7c0ca9fd")
 	)
 	(wire
 		(pts
-			(xy 121.92 96.52) (xy 121.92 100.33)
+			(xy 114.3 110.49) (xy 114.3 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2140,7 +2971,37 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 100.33) (xy 156.21 100.33)
+			(xy 335.28 156.21) (xy 356.87 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf710b61-1948-41ca-a9f5-02604e4b876b")
+	)
+	(wire
+		(pts
+			(xy 254 96.52) (xy 293.37 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfd9a914-8b2a-4138-9406-945c3d9b7b9c")
+	)
+	(wire
+		(pts
+			(xy 38.1 147.32) (xy 46.99 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0944ff9-8289-4c51-8ee4-60f34895337c")
+	)
+	(wire
+		(pts
+			(xy 165.1 113.03) (xy 148.59 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2150,17 +3011,107 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 162.56) (xy 132.08 162.56)
+			(xy 110.49 186.69) (xy 201.93 186.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d5b16b14-733d-4f98-bf0c-7117f579f67c")
+		(uuid "d2298681-df7e-4a5c-ac70-25054fb6f3cb")
 	)
 	(wire
 		(pts
-			(xy 229.87 100.33) (xy 210.82 100.33)
+			(xy 254 195.58) (xy 276.86 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d275c6f7-20e1-417c-bf4b-67bccaa2f4d6")
+	)
+	(wire
+		(pts
+			(xy 254 181.61) (xy 254 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3cfc097-736c-455b-888e-ab418399a646")
+	)
+	(wire
+		(pts
+			(xy 340.36 143.51) (xy 340.36 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6733883-fef0-4182-9c11-6b7bc9923321")
+	)
+	(wire
+		(pts
+			(xy 254 143.51) (xy 276.86 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6edb668-4e0b-480f-b689-77b8c727330d")
+	)
+	(wire
+		(pts
+			(xy 317.5 143.51) (xy 340.36 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d938e7d4-f26a-40d6-8e46-383ee8a4d6b5")
+	)
+	(wire
+		(pts
+			(xy 254 177.8) (xy 254 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d998b6a7-f1b2-4f30-a0bf-699af4c871e4")
+	)
+	(wire
+		(pts
+			(xy 254 129.54) (xy 254 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da079f98-2b3c-47d3-8b7a-7dd7552c0a69")
+	)
+	(wire
+		(pts
+			(xy 271.78 156.21) (xy 293.37 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daae9ec8-1bfc-49d3-88e7-b9fb2add326b")
+	)
+	(wire
+		(pts
+			(xy 114.3 161.29) (xy 114.3 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de41f764-abb9-4a0d-b6ee-c67b8f06a82f")
+	)
+	(wire
+		(pts
+			(xy 220.98 113.03) (xy 201.93 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2170,17 +3121,107 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 130.81) (xy 118.11 130.81)
+			(xy 254 194.31) (xy 254 195.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e0513990-0820-4e9c-9e93-a37b5ab5cf91")
+		(uuid "dea50b25-b206-47f1-afc9-f31b38f157ac")
 	)
 	(wire
 		(pts
-			(xy 107.95 135.89) (xy 107.95 137.16)
+			(xy 81.28 186.69) (xy 90.17 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfcd0fa2-dab6-4d4e-beef-ecc3f23d1e9c")
+	)
+	(wire
+		(pts
+			(xy 356.87 153.67) (xy 332.74 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0c31a27-7fc1-4dab-b567-6ae043ea9ca9")
+	)
+	(wire
+		(pts
+			(xy 332.74 113.03) (xy 317.5 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0d80767-d3f0-4f23-8e41-f5f8610e5f11")
+	)
+	(bus
+		(pts
+			(xy 24.13 133.35) (xy 33.02 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e374c2d9-217a-4651-8f3b-86772b1370d9")
+	)
+	(wire
+		(pts
+			(xy 269.24 101.6) (xy 269.24 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4f9797d-1659-430c-8e28-c3154cf11765")
+	)
+	(wire
+		(pts
+			(xy 335.28 127) (xy 335.28 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e51da757-ae6c-4bb2-8e34-c1d363734fad")
+	)
+	(wire
+		(pts
+			(xy 293.37 101.6) (xy 269.24 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5e5d496-fd83-4d13-9fd9-a8176dcb7a68")
+	)
+	(wire
+		(pts
+			(xy 130.81 161.29) (xy 114.3 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9336cfe-3202-4023-a3d9-e20b19f7d5f4")
+	)
+	(wire
+		(pts
+			(xy 335.28 104.14) (xy 356.87 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea3e7957-54a7-42c5-b3f8-ffd3b3f6f221")
+	)
+	(wire
+		(pts
+			(xy 100.33 148.59) (xy 100.33 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2190,17 +3231,77 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 147.32) (xy 132.08 151.13)
+			(xy 330.2 99.06) (xy 356.87 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f2d0cc86-20e4-4679-a026-9748163e1e66")
+		(uuid "ee00b667-80d7-452e-8ddc-60e18ede4f8a")
 	)
 	(wire
 		(pts
-			(xy 138.43 115.57) (xy 118.11 115.57)
+			(xy 293.37 153.67) (xy 269.24 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef2e64f5-bafc-4165-81e4-8b5c6f1587b0")
+	)
+	(wire
+		(pts
+			(xy 276.86 143.51) (xy 276.86 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef78553b-62bf-47af-b968-8af7aaa91283")
+	)
+	(wire
+		(pts
+			(xy 317.5 165.1) (xy 317.5 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f06b007a-7303-4a72-a47d-0354a4b4c85c")
+	)
+	(wire
+		(pts
+			(xy 356.87 106.68) (xy 337.82 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3f0f2a6-7ba3-4383-8165-d8e46eedacd5")
+	)
+	(wire
+		(pts
+			(xy 38.1 144.78) (xy 46.99 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9c7431f-b238-4d79-b25e-e87ab824d629")
+	)
+	(wire
+		(pts
+			(xy 337.82 106.68) (xy 337.82 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc09a038-f830-426a-9eb9-f2d3aee59911")
+	)
+	(wire
+		(pts
+			(xy 130.81 128.27) (xy 110.49 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2208,8 +3309,68 @@
 		)
 		(uuid "fd11a7e4-41f5-4075-b7ef-4a375573231b")
 	)
+	(label "Relay_8"
+		(at 81.28 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0354864f-b413-4bde-80ab-ba09584b9b40")
+	)
+	(label "Relay_5"
+		(at 46.99 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "048d9ae7-1879-4942-9464-496acaf3d65c")
+	)
+	(label "Relay_1"
+		(at 46.99 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0945df76-74a9-405f-9375-45894c1def70")
+	)
+	(label "{RELAY}"
+		(at 25.4 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "26d64a8a-7e15-4ead-9718-43f0ae1d1960")
+	)
+	(label "Relay_7"
+		(at 81.28 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2db7e373-ee69-4d5f-b704-d392a99c1736")
+	)
+	(label "Relay_11"
+		(at 46.99 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3fdc8f3a-4b78-4d54-b0ef-985457cab766")
+	)
 	(label "Relay_6"
-		(at 88.9 128.27 0)
+		(at 81.28 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2219,7 +3380,7 @@
 		(uuid "4483bccb-e8bc-422d-8dd6-057ee7a74cb5")
 	)
 	(label "Relay_4"
-		(at 88.9 123.19 0)
+		(at 81.28 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2228,8 +3389,38 @@
 		)
 		(uuid "585af9ad-c03e-49aa-8566-0d58c0c6b2c9")
 	)
+	(label "Relay_3"
+		(at 46.99 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5ca4db5b-c3fb-477f-8f1a-d1b5ef7f1c9c")
+	)
+	(label "Relay_11"
+		(at 81.28 186.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "623b71a8-8a94-411d-97ae-1197e41902f5")
+	)
+	(label "Relay_9"
+		(at 46.99 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "62f0b151-936b-45a9-ad83-77398e4e1394")
+	)
 	(label "Relay_1"
-		(at 88.9 115.57 0)
+		(at 81.28 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2239,7 +3430,7 @@
 		(uuid "72577806-3eeb-4f8a-95ee-d672eefb38ff")
 	)
 	(label "Relay_5"
-		(at 88.9 125.73 0)
+		(at 81.28 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2248,8 +3439,38 @@
 		)
 		(uuid "911be5f0-e4be-4039-b7ea-c73843cc0d2a")
 	)
+	(label "Relay_6"
+		(at 46.99 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "913ffe28-9c3d-4b26-a447-f2ba9fa637f7")
+	)
+	(label "Relay_10"
+		(at 81.28 184.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9748f78d-e745-4a26-95a6-7d9cbf086b34")
+	)
+	(label "Relay_2"
+		(at 46.99 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9e9e70d1-34ec-4bf4-9ae6-52f355887b5e")
+	)
 	(label "Relay_3"
-		(at 88.9 120.65 0)
+		(at 81.28 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2258,18 +3479,48 @@
 		)
 		(uuid "a336d940-9c48-47cc-bafb-93e0a676dd83")
 	)
-	(label "Relay_8"
-		(at 87.63 171.45 0)
+	(label "Relay_9"
+		(at 81.28 181.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "b3ef1caf-f424-4c4a-bd72-8fb4497f30b5")
+		(uuid "b8136b9e-22e7-4a6e-a3a3-252eaa911565")
+	)
+	(label "Relay_8"
+		(at 46.99 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b8d598cb-399a-47a1-8ae3-ec15d9fb2d9c")
+	)
+	(label "Relay_4"
+		(at 46.99 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "baba56d1-3915-4a1d-bc2e-c9cf949c54a4")
+	)
+	(label "Relay_10"
+		(at 46.99 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bb35da14-f0db-40e7-b95d-f70e88ec63ca")
 	)
 	(label "Relay_2"
-		(at 88.9 118.11 0)
+		(at 81.28 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2278,28 +3529,81 @@
 		)
 		(uuid "c9accc9c-a369-42bc-8037-34c7b66e7595")
 	)
-	(label "Relay_7"
-		(at 88.9 130.81 0)
+	(label "Relay_12"
+		(at 81.28 189.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "ff6648ff-5cee-4c43-b45a-b44ce064eb99")
+		(uuid "f04d8ccf-e62f-4206-9e42-b0523342d68e")
+	)
+	(label "Relay_12"
+		(at 46.99 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f4c25f32-ba8f-48a4-80fe-bab81fdf47b0")
+	)
+	(label "Relay_7"
+		(at 46.99 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fee0d0eb-3e10-40e4-a99e-a4a58764084f")
+	)
+	(hierarchical_label "VCC_Relay"
+		(shape input)
+		(at 114.3 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3bcc6a18-26dd-4381-ac79-134e0e8ef575")
+	)
+	(hierarchical_label "{RELAY}"
+		(shape input)
+		(at 24.13 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c88354b-acf5-4726-a24c-4ea3478699c7")
+	)
+	(hierarchical_label "VCC_Relay"
+		(shape input)
+		(at 114.3 158.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a301580-1e85-4db6-bc12-2cae18be21b4")
 	)
 	(symbol
-		(lib_id "LIB_SCH_CONTR:RT214024_TE-Connectivity")
-		(at 210.82 107.95 0)
+		(lib_id "LIB_SCH_CONTR:HF46F-G_Hongfa")
+		(at 148.59 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0723c762-0ce8-415b-80d4-e51369c2967a")
-		(property "Reference" "K5"
-			(at 215.9 108.5849 0)
+		(uuid "000065ea-b281-4241-999c-0eb233b7d028")
+		(property "Reference" "K8"
+			(at 153.67 169.5449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2307,8 +3611,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RT214024"
-			(at 210.82 108.712 0)
+		(property "Value" "HF46F-G"
+			(at 148.59 169.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2316,8 +3620,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LIB_PCB_CONT:RT214024_TE-Connectivity"
-			(at 210.82 107.95 0)
+		(property "Footprint" "LIB_PCB_CONT:Relay_HF46F-G_Hongfa"
+			(at 148.59 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2325,8 +3629,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 210.82 107.95 0)
+		(property "Datasheet" "https://www.tme.com/pe/es/details/hf46f-g_024-hs1t/reles-electromagn-miniaturizados/hongfa-relay"
+			(at 148.59 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2335,7 +3639,7 @@
 			)
 		)
 		(property "Description" "Relé 24VDC TE-Connectivity"
-			(at 210.82 108.712 0)
+			(at 148.59 169.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2343,42 +3647,115 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "c1ffefa6-682a-4727-83d8-5c4a369028b3")
+		(pin "2"
+			(uuid "ec53e4b3-9639-4a0e-ab38-240967605e0d")
 		)
 		(pin "5"
-			(uuid "57909415-337d-48ea-8054-3856b0510c3e")
-		)
-		(pin "3"
-			(uuid "5d97f95e-26df-4030-b042-bd13bc6c9ccc")
-		)
-		(pin "2"
-			(uuid "596bdaf2-2b7a-41d1-8b41-1fcd0c1a9274")
+			(uuid "7969c8f4-b26c-49b0-bc54-11b48d60595a")
 		)
 		(pin "1"
-			(uuid "a1492aff-dabc-42ee-81b8-87974c6894f7")
+			(uuid "030d0f4a-d350-48f8-892d-7a53a363919e")
+		)
+		(pin "4"
+			(uuid "0da99d85-6f25-4023-a119-e331d052af11")
 		)
 		(instances
 			(project "Placa_Control_M2ES"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
-					(reference "K5")
+					(reference "K8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 114.3 186.69 0)
+		(lib_id "LIB_SCH_CONTR:HF46F-G_Hongfa")
+		(at 254 171.45 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "001f6bda-2ceb-47d0-8dbc-973a02420fba")
+		(property "Reference" "K5"
+			(at 260.35 172.0849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HF46F-G"
+			(at 254 172.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LIB_PCB_CONT:Relay_HF46F-G_Hongfa"
+			(at 254 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.com/pe/es/details/hf46f-g_024-hs1t/reles-electromagn-miniaturizados/hongfa-relay"
+			(at 254 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Relé 24VDC TE-Connectivity"
+			(at 254 172.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "56412817-f9f4-438e-adfe-2add4fbd3819")
+		)
+		(pin "5"
+			(uuid "64d40516-8a3b-4906-b00f-f1aad61cebc4")
+		)
+		(pin "1"
+			(uuid "061d864e-7b1c-4bed-875a-971b1c2229e0")
+		)
+		(pin "4"
+			(uuid "1def54e7-8676-4c1c-a6b2-82154e8ee507")
+		)
+		(instances
+			(project "Placa_Control_M2ES"
+				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
+					(reference "K5")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LIB_SCH_CONTR:HF46F-G_Hongfa")
+		(at 165.1 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "12413ba5-1f7d-4d3b-8548-68812f16f389")
-		(property "Reference" "R54"
-			(at 116.84 185.4199 0)
+		(uuid "096d39b0-ba2b-4f21-9a94-b98e372fac5a")
+		(property "Reference" "K9"
+			(at 170.18 169.5449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2386,8 +3763,75 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 116.84 187.9599 0)
+		(property "Value" "HF46F-G"
+			(at 165.1 169.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LIB_PCB_CONT:Relay_HF46F-G_Hongfa"
+			(at 165.1 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.com/pe/es/details/hf46f-g_024-hs1t/reles-electromagn-miniaturizados/hongfa-relay"
+			(at 165.1 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Relé 24VDC TE-Connectivity"
+			(at 165.1 169.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6faf38f3-64e9-4492-989a-bd30496417a8")
+		)
+		(pin "5"
+			(uuid "7969c8f4-b26c-49b0-bc54-11b48d60595c")
+		)
+		(pin "1"
+			(uuid "0f5c924f-355c-4ecc-b5c9-0b866f7cfea8")
+		)
+		(pin "4"
+			(uuid "0da99d85-6f25-4023-a119-e331d052af13")
+		)
+		(instances
+			(project "Placa_Control_M2ES"
+				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
+					(reference "K9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LIB_SCH_CONTR:HF46F-G_Hongfa")
+		(at 130.81 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13b29935-d592-4b93-956d-0868465fcb8f")
+		(property "Reference" "K1"
+			(at 135.89 121.2849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2395,8 +3839,170 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 112.522 186.69 90)
+		(property "Value" "HF46F-G"
+			(at 130.81 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LIB_PCB_CONT:Relay_HF46F-G_Hongfa"
+			(at 130.81 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.com/pe/es/details/hf46f-g_024-hs1t/reles-electromagn-miniaturizados/hongfa-relay"
+			(at 130.81 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Relé 24VDC TE-Connectivity"
+			(at 130.81 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea68ed7f-a473-4060-93c2-5d6ff221953a")
+		)
+		(pin "4"
+			(uuid "42977610-e86b-4d96-a9cb-748be5fc34b3")
+		)
+		(pin "5"
+			(uuid "a1cd2ba4-ba39-4de6-bc28-37bc535e8a2d")
+		)
+		(pin "2"
+			(uuid "42c35cb3-da3b-49d4-afa4-382edcb49098")
+		)
+		(instances
+			(project ""
+				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LIB_SCH_CONTR:HF46F-G_Hongfa")
+		(at 317.5 187.96 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21542a31-c59b-4e45-aafd-8918b09a8f75")
+		(property "Reference" "K12"
+			(at 323.85 188.5949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HF46F-G"
+			(at 317.5 188.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LIB_PCB_CONT:Relay_HF46F-G_Hongfa"
+			(at 317.5 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.com/pe/es/details/hf46f-g_024-hs1t/reles-electromagn-miniaturizados/hongfa-relay"
+			(at 317.5 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Relé 24VDC TE-Connectivity"
+			(at 317.5 188.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea68ed7f-a473-4060-93c2-5d6ff221953b")
+		)
+		(pin "4"
+			(uuid "fb93126f-abee-489a-83cc-944fc0ec71f5")
+		)
+		(pin "5"
+			(uuid "c2546f26-3ea2-45da-a7d5-c56ccc9339a1")
+		)
+		(pin "2"
+			(uuid "42c35cb3-da3b-49d4-afa4-382edcb49099")
+		)
+		(instances
+			(project "Placa_Control_M2ES"
+				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
+					(reference "K12")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x06")
+		(at 361.95 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23635326-1566-4ee4-9461-8f28e84815f2")
+		(property "Reference" "J11"
+			(at 364.49 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x06"
+			(at 364.49 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LIB_PCB_CONT:15EDGRC_6P_3.81mm_Male-Rect_Degson"
+			(at 361.95 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2405,7 +4011,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 186.69 0)
+			(at 361.95 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2413,184 +4019,54 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 114.3 186.69 0)
+		(property "Description" "Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 361.95 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "653d3280-65ec-4101-a822-4de45d40eee6")
 		)
 		(pin "2"
-			(uuid "ddda73cf-0f8c-4740-aea5-ffe6959a4897")
-		)
-		(instances
-			(project ""
-				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
-					(reference "R54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 132.08 195.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22df5c6d-2e76-4217-beec-7e2565791b9a")
-		(property "Reference" "#PWR052"
-			(at 132.08 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 132.08 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7af081de-1059-43e9-80d2-9c4964db0eb9")
-		)
-		(instances
-			(project "Placa_Control_M2ES"
-				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
-					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 111.76 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25d312eb-6a6c-4717-ad10-4ee28ceaa2c7")
-		(property "Reference" "Q2"
-			(at 116.84 170.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3904"
-			(at 116.84 172.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 116.84 173.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 111.76 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 111.76 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(uuid "09da6176-3fdb-4c76-b87e-f1e05dcf174e")
 		)
 		(pin "3"
-			(uuid "81d5d3a6-2cbc-4143-a0e2-5cdcf70fced6")
+			(uuid "07aefcb3-81a7-4b9e-8a3a-7a604096d88d")
 		)
-		(pin "2"
-			(uuid "a9ec8d5d-0f98-404c-ac44-1e308fa136af")
+		(pin "6"
+			(uuid "fb17430f-f03a-4917-b452-5b971fd14723")
+		)
+		(pin "4"
+			(uuid "00bb98c9-d32b-41f7-9658-594fb0db313a")
 		)
 		(pin "1"
-			(uuid "0c3fcfbc-cb63-41d4-9d23-fe7f7a9a53c3")
+			(uuid "c4284395-474b-4fa2-8164-f862d32c373e")
+		)
+		(pin "5"
+			(uuid "8669b020-a909-41a4-9771-c97df5468c35")
 		)
 		(instances
 			(project "Placa_Control_M2ES"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
-					(reference "Q2")
+					(reference "J11")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LIB_SCH_CONTR:RT214024_TE-Connectivity")
-		(at 172.72 107.95 0)
-		(unit 1)
+		(lib_id "LIB_SCH_CONTR:HF46F-G_Hongfa")
+		(at 254 119.38 0)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2a7b7c73-dcc9-4de8-bedd-b45e13c8c03f")
-		(property "Reference" "K3"
-			(at 177.8 108.5849 0)
+		(uuid "365cf0a9-fa57-434a-9b12-cd05867a000a")
+		(property "Reference" "K2"
+			(at 260.35 120.0149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2598,8 +4074,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RT214024"
-			(at 172.72 108.712 0)
+		(property "Value" "HF46F-G"
+			(at 254 120.142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2607,8 +4083,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LIB_PCB_CONT:RT214024_TE-Connectivity"
-			(at 172.72 107.95 0)
+		(property "Footprint" "LIB_PCB_CONT:Relay_HF46F-G_Hongfa"
+			(at 254 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2616,8 +4092,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 172.72 107.95 0)
+		(property "Datasheet" "https://www.tme.com/pe/es/details/hf46f-g_024-hs1t/reles-electromagn-miniaturizados/hongfa-relay"
+			(at 254 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2626,7 +4102,7 @@
 			)
 		)
 		(property "Description" "Relé 24VDC TE-Connectivity"
-			(at 172.72 108.712 0)
+			(at 254 120.142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2634,20 +4110,93 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "c1ffefa6-682a-4727-83d8-5c4a369028b4")
+		(pin "2"
+			(uuid "56412817-f9f4-438e-adfe-2add4fbd3819")
 		)
 		(pin "5"
-			(uuid "57909415-337d-48ea-8054-3856b0510c3f")
-		)
-		(pin "3"
-			(uuid "5d97f95e-26df-4030-b042-bd13bc6c9ccd")
-		)
-		(pin "2"
-			(uuid "e86c8a88-6dd7-45e3-99da-ab81b6d57c37")
+			(uuid "7969c8f4-b26c-49b0-bc54-11b48d60595a")
 		)
 		(pin "1"
-			(uuid "4a72bdcf-52ad-4e26-9272-5c6ddc5c0975")
+			(uuid "061d864e-7b1c-4bed-875a-971b1c2229e0")
+		)
+		(pin "4"
+			(uuid "0da99d85-6f25-4023-a119-e331d052af11")
+		)
+		(instances
+			(project ""
+				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
+					(reference "K2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LIB_SCH_CONTR:HF46F-G_Hongfa")
+		(at 165.1 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a0e830a-8921-456e-b220-e5496d0dff2b")
+		(property "Reference" "K3"
+			(at 170.18 121.2849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HF46F-G"
+			(at 165.1 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LIB_PCB_CONT:Relay_HF46F-G_Hongfa"
+			(at 165.1 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.com/pe/es/details/hf46f-g_024-hs1t/reles-electromagn-miniaturizados/hongfa-relay"
+			(at 165.1 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Relé 24VDC TE-Connectivity"
+			(at 165.1 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f00a93d2-388c-438d-b91b-5e4049c85bd4")
+		)
+		(pin "5"
+			(uuid "7969c8f4-b26c-49b0-bc54-11b48d60595a")
+		)
+		(pin "1"
+			(uuid "a01fd422-7042-4eec-9a48-aee822d66060")
+		)
+		(pin "4"
+			(uuid "0da99d85-6f25-4023-a119-e331d052af11")
 		)
 		(instances
 			(project "Placa_Control_M2ES"
@@ -2659,17 +4208,93 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148W")
-		(at 132.08 154.94 270)
+		(lib_id "LIB_SCH_CONTR:HF46F-G_Hongfa")
+		(at 317.5 171.45 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46885dbf-d0fb-4b0c-b454-fd45ae206b15")
+		(property "Reference" "K11"
+			(at 323.85 172.0849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HF46F-G"
+			(at 317.5 172.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LIB_PCB_CONT:Relay_HF46F-G_Hongfa"
+			(at 317.5 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.com/pe/es/details/hf46f-g_024-hs1t/reles-electromagn-miniaturizados/hongfa-relay"
+			(at 317.5 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Relé 24VDC TE-Connectivity"
+			(at 317.5 172.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "56412817-f9f4-438e-adfe-2add4fbd3819")
+		)
+		(pin "5"
+			(uuid "1ea1b9bd-700c-4859-94b2-d8480340d86b")
+		)
+		(pin "1"
+			(uuid "061d864e-7b1c-4bed-875a-971b1c2229e0")
+		)
+		(pin "4"
+			(uuid "1dc6bd81-1082-46cd-beda-38f84c6cb25b")
+		)
+		(instances
+			(project "Placa_Control_M2ES"
+				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
+					(reference "K11")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LIB_SCH_CONTR:HF46F-G_Hongfa")
+		(at 184.15 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3334d0b7-f367-4c1d-9c78-bd1925282276")
-		(property "Reference" "D7"
-			(at 134.62 153.6699 90)
+		(uuid "490874a6-a18c-475e-8fd7-95c35cac74c6")
+		(property "Reference" "K10"
+			(at 189.23 169.5449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2677,17 +4302,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N4148W"
-			(at 134.62 156.2099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 127.635 154.94 0)
+		(property "Value" "HF46F-G"
+			(at 184.15 169.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2695,8 +4311,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 132.08 154.94 0)
+		(property "Footprint" "LIB_PCB_CONT:Relay_HF46F-G_Hongfa"
+			(at 184.15 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2704,8 +4320,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 132.08 154.94 0)
+		(property "Datasheet" "https://www.tme.com/pe/es/details/hf46f-g_024-hs1t/reles-electromagn-miniaturizados/hongfa-relay"
+			(at 184.15 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2713,51 +4329,48 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 132.08 154.94 0)
+		(property "Description" "Relé 24VDC TE-Connectivity"
+			(at 184.15 169.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 132.08 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef5adae4-3995-44cc-9a73-d77d7bbbc919")
 		)
 		(pin "2"
-			(uuid "2876b0be-1315-4e66-ac57-74082c153ac6")
+			(uuid "156c22e4-5f14-48a9-9a8c-537f4a20ff1a")
+		)
+		(pin "5"
+			(uuid "7969c8f4-b26c-49b0-bc54-11b48d60595d")
+		)
+		(pin "1"
+			(uuid "2022d39d-a623-40e2-8afd-e3440f06d0f2")
+		)
+		(pin "4"
+			(uuid "0da99d85-6f25-4023-a119-e331d052af14")
 		)
 		(instances
-			(project ""
+			(project "Placa_Control_M2ES"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
-					(reference "D7")
+					(reference "K10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LIB_SCH_CONTR:RT214024_TE-Connectivity")
-		(at 300.99 149.86 0)
+		(lib_id "LIB_SCH_CONTR:HF46F-G_Hongfa")
+		(at 254 187.96 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3c3d6432-c721-4434-83eb-88f50de06e99")
-		(property "Reference" "K4"
-			(at 307.34 150.4949 0)
+		(uuid "5e9e0e05-75b9-4712-92cb-aa0ab1932d47")
+		(property "Reference" "K6"
+			(at 260.35 188.5949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2765,8 +4378,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RT214024"
-			(at 300.99 150.622 0)
+		(property "Value" "HF46F-G"
+			(at 254 188.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2774,8 +4387,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LIB_PCB_CONT:RT214024_TE-Connectivity"
-			(at 300.99 149.86 0)
+		(property "Footprint" "LIB_PCB_CONT:Relay_HF46F-G_Hongfa"
+			(at 254 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2783,8 +4396,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 300.99 149.86 0)
+		(property "Datasheet" "https://www.tme.com/pe/es/details/hf46f-g_024-hs1t/reles-electromagn-miniaturizados/hongfa-relay"
+			(at 254 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2793,7 +4406,7 @@
 			)
 		)
 		(property "Description" "Relé 24VDC TE-Connectivity"
-			(at 300.99 150.622 0)
+			(at 254 188.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2801,121 +4414,267 @@
 				(hide yes)
 			)
 		)
+		(pin "1"
+			(uuid "ea68ed7f-a473-4060-93c2-5d6ff221953b")
+		)
 		(pin "4"
-			(uuid "5b11154b-b115-4470-acda-c8bb5a4fa7b1")
+			(uuid "b3873b5f-5e28-42ff-b624-15af7f28c631")
 		)
 		(pin "5"
-			(uuid "26aedcf8-41d4-4206-99cc-d1f49c391b86")
-		)
-		(pin "3"
-			(uuid "e56a52a0-922f-4fda-b330-519af4d3234b")
+			(uuid "6994e4f3-7e3a-4f77-ae1d-760dc2c2d48f")
 		)
 		(pin "2"
-			(uuid "fb3f12d9-42fc-47a8-974b-de2bccf8e1e7")
+			(uuid "42c35cb3-da3b-49d4-afa4-382edcb49099")
+		)
+		(instances
+			(project "Placa_Control_M2ES"
+				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
+					(reference "K6")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LIB_SCH_CONTR:HF46F-G_Hongfa")
+		(at 317.5 119.38 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f0a600f-e84c-48ca-8f44-d6be0258bad1")
+		(property "Reference" "K8"
+			(at 323.85 120.0149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HF46F-G"
+			(at 317.5 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LIB_PCB_CONT:Relay_HF46F-G_Hongfa"
+			(at 317.5 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.com/pe/es/details/hf46f-g_024-hs1t/reles-electromagn-miniaturizados/hongfa-relay"
+			(at 317.5 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Relé 24VDC TE-Connectivity"
+			(at 317.5 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "56412817-f9f4-438e-adfe-2add4fbd3819")
+		)
+		(pin "5"
+			(uuid "6d31adf2-3b0d-45a8-9dee-2151e60fd68d")
 		)
 		(pin "1"
-			(uuid "4a8bb51a-c677-4a66-94e4-c4c8350ed80e")
+			(uuid "061d864e-7b1c-4bed-875a-971b1c2229e0")
+		)
+		(pin "4"
+			(uuid "b4f3f881-7a18-42bf-8b82-26edf2eac34d")
+		)
+		(instances
+			(project "Placa_Control_M2ES"
+				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
+					(reference "K8")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LIB_SCH_CONTR:HF46F-G_Hongfa")
+		(at 254 135.89 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61f7a388-f28b-4235-9863-76be7238793e")
+		(property "Reference" "K3"
+			(at 260.35 136.5249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HF46F-G"
+			(at 254 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LIB_PCB_CONT:Relay_HF46F-G_Hongfa"
+			(at 254 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.com/pe/es/details/hf46f-g_024-hs1t/reles-electromagn-miniaturizados/hongfa-relay"
+			(at 254 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Relé 24VDC TE-Connectivity"
+			(at 254 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea68ed7f-a473-4060-93c2-5d6ff221953a")
+		)
+		(pin "4"
+			(uuid "e422fe35-f549-4184-8fd3-8732eb07caa3")
+		)
+		(pin "5"
+			(uuid "f7b52e6b-b5ac-4888-be9f-9ce515cd2540")
+		)
+		(pin "2"
+			(uuid "42c35cb3-da3b-49d4-afa4-382edcb49098")
+		)
+		(instances
+			(project "Placa_Control_M2ES"
+				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
+					(reference "K3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LIB_SCH_CONTR:HF46F-G_Hongfa")
+		(at 184.15 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63046ab4-ba43-4e09-a924-89cbe2d1cec3")
+		(property "Reference" "K4"
+			(at 189.23 121.2849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HF46F-G"
+			(at 184.15 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LIB_PCB_CONT:Relay_HF46F-G_Hongfa"
+			(at 184.15 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.com/pe/es/details/hf46f-g_024-hs1t/reles-electromagn-miniaturizados/hongfa-relay"
+			(at 184.15 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Relé 24VDC TE-Connectivity"
+			(at 184.15 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "699c80c2-996c-48d8-95b4-6a0e8b7f9ff5")
+		)
+		(pin "5"
+			(uuid "7969c8f4-b26c-49b0-bc54-11b48d60595a")
+		)
+		(pin "1"
+			(uuid "e56f1d0f-2e37-4857-a6f5-1e506d5ffe73")
+		)
+		(pin "4"
+			(uuid "0da99d85-6f25-4023-a119-e331d052af11")
 		)
 		(instances
 			(project "Placa_Control_M2ES"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
 					(reference "K4")
-					(unit 2)
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LIB_SCH_CONTR:RT214024_TE-Connectivity")
-		(at 300.99 189.23 0)
+		(lib_id "LIB_SCH_CONTR:HF46F-G_Hongfa")
+		(at 254 102.87 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "45a688f9-ca7e-4bf4-90b5-b61de1625eb6")
-		(property "Reference" "K7"
-			(at 307.34 189.8649 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RT214024"
-			(at 300.99 189.992 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LIB_PCB_CONT:RT214024_TE-Connectivity"
-			(at 300.99 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 300.99 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Relé 24VDC TE-Connectivity"
-			(at 300.99 189.992 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "1402a3d3-270a-4fe2-a688-ce43c471aac8")
-		)
-		(pin "5"
-			(uuid "5a37bee7-95a4-42bc-ac17-26a2cfb41aeb")
-		)
-		(pin "3"
-			(uuid "c52a6d0b-4327-4e68-8b18-3f2c7db98f64")
-		)
-		(pin "2"
-			(uuid "fb3f12d9-42fc-47a8-974b-de2bccf8e1e8")
-		)
-		(pin "1"
-			(uuid "4a8bb51a-c677-4a66-94e4-c4c8350ed80f")
-		)
-		(instances
-			(project "Placa_Control_M2ES"
-				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
-					(reference "K7")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LIB_SCH_CONTR:RT214024_TE-Connectivity")
-		(at 300.99 107.95 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7502c8ce-fd52-44cf-abc1-13b41d5fb7c4")
+		(uuid "692a4c8c-5e99-4c1c-8b93-51d1611022d5")
 		(property "Reference" "K1"
-			(at 307.34 108.5849 0)
+			(at 260.35 103.5049 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2923,8 +4682,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RT214024"
-			(at 300.99 108.712 0)
+		(property "Value" "HF46F-G"
+			(at 254 103.632 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2932,8 +4691,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LIB_PCB_CONT:RT214024_TE-Connectivity"
-			(at 300.99 107.95 0)
+		(property "Footprint" "LIB_PCB_CONT:Relay_HF46F-G_Hongfa"
+			(at 254 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2941,8 +4700,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 300.99 107.95 0)
+		(property "Datasheet" "https://www.tme.com/pe/es/details/hf46f-g_024-hs1t/reles-electromagn-miniaturizados/hongfa-relay"
+			(at 254 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2951,7 +4710,7 @@
 			)
 		)
 		(property "Description" "Relé 24VDC TE-Connectivity"
-			(at 300.99 108.712 0)
+			(at 254 103.632 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2959,20 +4718,17 @@
 				(hide yes)
 			)
 		)
+		(pin "1"
+			(uuid "ea68ed7f-a473-4060-93c2-5d6ff221953a")
+		)
 		(pin "4"
-			(uuid "c1ffefa6-682a-4727-83d8-5c4a369028b5")
+			(uuid "42977610-e86b-4d96-a9cb-748be5fc34b3")
 		)
 		(pin "5"
-			(uuid "57909415-337d-48ea-8054-3856b0510c40")
-		)
-		(pin "3"
-			(uuid "5d97f95e-26df-4030-b042-bd13bc6c9cce")
+			(uuid "a1cd2ba4-ba39-4de6-bc28-37bc535e8a2d")
 		)
 		(pin "2"
-			(uuid "fb3f12d9-42fc-47a8-974b-de2bccf8e1e6")
-		)
-		(pin "1"
-			(uuid "4a8bb51a-c677-4a66-94e4-c4c8350ed80d")
+			(uuid "42c35cb3-da3b-49d4-afa4-382edcb49098")
 		)
 		(instances
 			(project ""
@@ -2984,17 +4740,26 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 121.92 96.52 0)
+		(lib_id "LIB_SCH_CONTR:HF46F-G_Hongfa")
+		(at 220.98 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "77655818-0d23-4d87-91b3-f170e4ccedca")
-		(property "Reference" "#PWR033"
-			(at 121.92 100.33 0)
+		(uuid "705e47b9-394a-47a2-a569-62855f27ba62")
+		(property "Reference" "K12"
+			(at 226.06 169.5449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HF46F-G"
+			(at 220.98 169.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3002,16 +4767,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V"
-			(at 121.92 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 96.52 0)
+		(property "Footprint" "LIB_PCB_CONT:Relay_HF46F-G_Hongfa"
+			(at 220.98 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3019,8 +4776,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 121.92 96.52 0)
+		(property "Datasheet" "https://www.tme.com/pe/es/details/hf46f-g_024-hs1t/reles-electromagn-miniaturizados/hongfa-relay"
+			(at 220.98 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3028,88 +4785,31 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 121.92 96.52 0)
+		(property "Description" "Relé 24VDC TE-Connectivity"
+			(at 220.98 169.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "2"
+			(uuid "4bf0e542-67f9-44ee-bb0f-d67c2049538c")
+		)
+		(pin "5"
+			(uuid "7969c8f4-b26c-49b0-bc54-11b48d60595e")
 		)
 		(pin "1"
-			(uuid "8e5540d6-ed68-43f8-88ba-38e8d90f7963")
+			(uuid "1b2ac838-388f-4d79-9139-076b2aa309b7")
+		)
+		(pin "4"
+			(uuid "0da99d85-6f25-4023-a119-e331d052af15")
 		)
 		(instances
 			(project "Placa_Control_M2ES"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 132.08 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a5b27e0-5c09-4c56-b0e5-999c0b352c32")
-		(property "Reference" "#PWR032"
-			(at 132.08 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 132.08 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 132.08 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "45d2619e-3eb2-4077-b707-a275a63ff522")
-		)
-		(instances
-			(project ""
-				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
-					(reference "#PWR032")
+					(reference "K12")
 					(unit 1)
 				)
 			)
@@ -3117,7 +4817,7 @@
 	)
 	(symbol
 		(lib_id "1-IC-General:ULN2003")
-		(at 107.95 120.65 0)
+		(at 100.33 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3126,7 +4826,7 @@
 		(fields_autoplaced yes)
 		(uuid "812b0c5a-07b2-4ad7-8bb4-26e07210ae9b")
 		(property "Reference" "U1"
-			(at 107.95 102.87 0)
+			(at 100.33 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3134,7 +4834,7 @@
 			)
 		)
 		(property "Value" "ULN2003"
-			(at 107.95 105.41 0)
+			(at 100.33 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3142,7 +4842,7 @@
 			)
 		)
 		(property "Footprint" "1-Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
-			(at 109.22 134.62 0)
+			(at 101.6 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3152,7 +4852,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/uln2003a.pdf"
-			(at 110.49 125.73 0)
+			(at 102.87 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3161,7 +4861,7 @@
 			)
 		)
 		(property "Description" "High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16"
-			(at 107.95 120.65 0)
+			(at 100.33 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3227,96 +4927,17 @@
 		)
 	)
 	(symbol
-		(lib_id "LIB_SCH_CONTR:RT214024_TE-Connectivity")
-		(at 300.99 138.43 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8651b6ec-a4f2-4aa0-8459-af5ddfaa6fea")
-		(property "Reference" "K3"
-			(at 307.34 139.0649 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RT214024"
-			(at 300.99 139.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LIB_PCB_CONT:RT214024_TE-Connectivity"
-			(at 300.99 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 300.99 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Relé 24VDC TE-Connectivity"
-			(at 300.99 139.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "de2cf174-b265-4e85-a1c2-07aff47eaf89")
-		)
-		(pin "5"
-			(uuid "bb471ab0-69c7-4623-a2b1-654e7b3ea895")
-		)
-		(pin "3"
-			(uuid "7f862f8f-bc60-42e8-92da-911e56b5e3dd")
-		)
-		(pin "2"
-			(uuid "fb3f12d9-42fc-47a8-974b-de2bccf8e1e9")
-		)
-		(pin "1"
-			(uuid "4a8bb51a-c677-4a66-94e4-c4c8350ed810")
-		)
-		(instances
-			(project "Placa_Control_M2ES"
-				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
-					(reference "K3")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LIB_SCH_CONTR:RT214024_TE-Connectivity")
-		(at 229.87 107.95 0)
+		(lib_id "Connector:Screw_Terminal_01x06")
+		(at 298.45 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8dba86ff-f3f0-4be5-bd94-246467558810")
-		(property "Reference" "K6"
-			(at 234.95 108.5849 0)
+		(uuid "8aa6cede-d0fd-4631-ad23-6a57daa448fa")
+		(property "Reference" "J9"
+			(at 300.99 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3324,186 +4945,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RT214024"
-			(at 229.87 108.712 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LIB_PCB_CONT:RT214024_TE-Connectivity"
-			(at 229.87 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Relé 24VDC TE-Connectivity"
-			(at 229.87 108.712 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "c1ffefa6-682a-4727-83d8-5c4a369028b6")
-		)
-		(pin "5"
-			(uuid "57909415-337d-48ea-8054-3856b0510c41")
-		)
-		(pin "3"
-			(uuid "5d97f95e-26df-4030-b042-bd13bc6c9ccf")
-		)
-		(pin "2"
-			(uuid "519ed3f6-9063-4930-9a2b-07616588ad3b")
-		)
-		(pin "1"
-			(uuid "397f7655-faa7-49ca-8189-1e61a4e42af0")
-		)
-		(instances
-			(project "Placa_Control_M2ES"
-				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
-					(reference "K6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LIB_SCH_CONTR:RT214024_TE-Connectivity")
-		(at 138.43 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95daa58c-70c0-4454-aea6-79bd74ab309d")
-		(property "Reference" "K1"
-			(at 143.51 108.5849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RT214024"
-			(at 138.43 108.712 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LIB_PCB_CONT:RT214024_TE-Connectivity"
-			(at 138.43 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Relé 24VDC TE-Connectivity"
-			(at 138.43 108.712 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "c1ffefa6-682a-4727-83d8-5c4a369028b7")
-		)
-		(pin "5"
-			(uuid "57909415-337d-48ea-8054-3856b0510c42")
-		)
-		(pin "3"
-			(uuid "5d97f95e-26df-4030-b042-bd13bc6c9cd0")
-		)
-		(pin "2"
-			(uuid "fb3f12d9-42fc-47a8-974b-de2bccf8e1ea")
-		)
-		(pin "1"
-			(uuid "4a8bb51a-c677-4a66-94e4-c4c8350ed811")
-		)
-		(instances
-			(project ""
-				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
-					(reference "K1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 129.54 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99d9bda8-54c2-4cc9-85d8-7c8bb6ac9535")
-		(property "Reference" "Q1"
-			(at 134.62 177.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3904"
-			(at 134.62 180.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 134.62 180.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 129.54 179.07 0)
+		(property "Value" "Screw_Terminal_01x06"
+			(at 300.99 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3512,300 +4955,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 129.54 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "d7ad4587-d917-4469-b172-5751f85844cf")
-		)
-		(pin "2"
-			(uuid "ba3a3527-bcfb-4257-bdba-896df5477518")
-		)
-		(pin "1"
-			(uuid "a1555914-52b8-4c09-8664-ac9eae407374")
-		)
-		(instances
-			(project ""
-				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LIB_SCH_CONTR:RT214024_TE-Connectivity")
-		(at 156.21 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ca59934-1940-4480-9921-e69b437b70b7")
-		(property "Reference" "K2"
-			(at 161.29 108.5849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RT214024"
-			(at 156.21 108.712 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LIB_PCB_CONT:RT214024_TE-Connectivity"
-			(at 156.21 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Relé 24VDC TE-Connectivity"
-			(at 156.21 108.712 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "c1ffefa6-682a-4727-83d8-5c4a369028b8")
-		)
-		(pin "5"
-			(uuid "57909415-337d-48ea-8054-3856b0510c43")
-		)
-		(pin "3"
-			(uuid "5d97f95e-26df-4030-b042-bd13bc6c9cd1")
-		)
-		(pin "2"
-			(uuid "2b141298-1df1-401f-8345-c8473bd8125e")
-		)
-		(pin "1"
-			(uuid "1776e463-f7a0-4f94-92a0-5aac40638884")
-		)
-		(instances
-			(project "Placa_Control_M2ES"
-				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
-					(reference "K2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LIB_SCH_CONTR:RT214024_TE-Connectivity")
-		(at 300.99 176.53 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1d6f6f0-80ae-4d07-b3c1-a6d3cfbd005c")
-		(property "Reference" "K6"
-			(at 307.34 177.1649 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RT214024"
-			(at 300.99 177.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LIB_PCB_CONT:RT214024_TE-Connectivity"
-			(at 300.99 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 300.99 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Relé 24VDC TE-Connectivity"
-			(at 300.99 177.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "38f37906-d412-4a09-9d83-037a1479ceb6")
-		)
-		(pin "5"
-			(uuid "6f696863-8e66-444d-ae9d-9490d384c9c8")
-		)
-		(pin "3"
-			(uuid "9c560fd8-460e-4877-8fc3-2c5c3d990c6f")
-		)
-		(pin "2"
-			(uuid "fb3f12d9-42fc-47a8-974b-de2bccf8e1eb")
-		)
-		(pin "1"
-			(uuid "4a8bb51a-c677-4a66-94e4-c4c8350ed812")
-		)
-		(instances
-			(project "Placa_Control_M2ES"
-				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
-					(reference "K6")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LIB_SCH_CONTR:RT214024_TE-Connectivity")
-		(at 300.99 124.46 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a91ab65e-3d0d-4580-b732-79261e254b76")
-		(property "Reference" "K2"
-			(at 307.34 125.0949 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RT214024"
-			(at 300.99 125.222 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LIB_PCB_CONT:RT214024_TE-Connectivity"
-			(at 300.99 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 300.99 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Relé 24VDC TE-Connectivity"
-			(at 300.99 125.222 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "c8984890-6050-434a-ba44-8922bbe12890")
-		)
-		(pin "5"
-			(uuid "3a5e6ea3-fcb1-4bac-b110-552514fc05a2")
-		)
-		(pin "3"
-			(uuid "7b03ebe4-cc4b-4afb-8917-82db219e01f3")
-		)
-		(pin "2"
-			(uuid "fb3f12d9-42fc-47a8-974b-de2bccf8e1ec")
-		)
-		(pin "1"
-			(uuid "4a8bb51a-c677-4a66-94e4-c4c8350ed813")
-		)
-		(instances
-			(project "Placa_Control_M2ES"
-				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
-					(reference "K2")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 101.6 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a925d367-d86e-44c8-ab0b-c075b3fc71b6")
-		(property "Reference" "R55"
-			(at 104.14 180.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 104.14 182.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.822 181.61 90)
+		(property "Footprint" "LIB_PCB_CONT:15EDGRC_6P_3.81mm_Male-Rect_Degson"
+			(at 298.45 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3814,7 +4965,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 181.61 0)
+			(at 298.45 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3822,51 +4973,54 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 101.6 181.61 0)
+		(property "Description" "Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 298.45 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "9466f891-e714-4448-b567-d834f00e5409")
 		)
 		(pin "2"
-			(uuid "b45e96c0-0aa6-41c8-937e-a10ea806c059")
+			(uuid "d7931edc-932b-494c-8c76-beba0dd5b0ff")
+		)
+		(pin "3"
+			(uuid "b010c4a2-053b-40e3-92e4-c12bd6673756")
+		)
+		(pin "6"
+			(uuid "5d6c3a65-70c6-4574-81bd-96160f149874")
+		)
+		(pin "4"
+			(uuid "d74b37fc-f21c-4bb8-9760-677c22ff8ce7")
+		)
+		(pin "1"
+			(uuid "66e268e1-2f9e-41de-aae9-71e137b2f19b")
+		)
+		(pin "5"
+			(uuid "79dd342b-f7fa-41a0-a0df-cb79e12739bd")
 		)
 		(instances
-			(project "Placa_Control_M2ES"
+			(project ""
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
-					(reference "R55")
+					(reference "J9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LIB_SCH_CONTR:RT214024_TE-Connectivity")
-		(at 153.67 153.67 0)
+		(lib_id "power:GND")
+		(at 100.33 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ac877714-611c-472a-bc07-6ea7f2055b74")
-		(property "Reference" "K8"
-			(at 158.75 154.3049 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RT214024"
-			(at 153.67 154.432 0)
+		(uuid "998e078a-4fd2-48e8-92f7-90fc92e0e63b")
+		(property "Reference" "#PWR052"
+			(at 100.33 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3874,8 +5028,16 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LIB_PCB_CONT:RT214024_TE-Connectivity"
-			(at 153.67 153.67 0)
+		(property "Value" "GND"
+			(at 100.33 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3884,7 +5046,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 153.67 0)
+			(at 100.33 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3892,51 +5054,39 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Relé 24VDC TE-Connectivity"
-			(at 153.67 154.432 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "4"
-			(uuid "c1ffefa6-682a-4727-83d8-5c4a369028b9")
-		)
-		(pin "5"
-			(uuid "57909415-337d-48ea-8054-3856b0510c44")
-		)
-		(pin "3"
-			(uuid "5d97f95e-26df-4030-b042-bd13bc6c9cd2")
-		)
-		(pin "2"
-			(uuid "03b3cded-d59a-4a10-9d87-654f0c456686")
 		)
 		(pin "1"
-			(uuid "c0fd2a51-757b-4eb4-907c-aa26bbd3b7d9")
+			(uuid "185d5466-e8e7-4c09-8741-8ca4ce137e4a")
 		)
 		(instances
 			(project "Placa_Control_M2ES"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
-					(reference "K8")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LIB_SCH_CONTR:RT214024_TE-Connectivity")
-		(at 191.77 107.95 0)
+		(lib_id "LIB_SCH_CONTR:HF46F-G_Hongfa")
+		(at 201.93 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "af2539af-735a-4062-b87f-d09538f3593f")
-		(property "Reference" "K4"
-			(at 196.85 108.5849 0)
+		(uuid "a68c4600-7375-4d5d-8c31-cd8b90ed41bc")
+		(property "Reference" "K11"
+			(at 207.01 169.5449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3944,8 +5094,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RT214024"
-			(at 191.77 108.712 0)
+		(property "Value" "HF46F-G"
+			(at 201.93 169.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3953,8 +5103,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LIB_PCB_CONT:RT214024_TE-Connectivity"
-			(at 191.77 107.95 0)
+		(property "Footprint" "LIB_PCB_CONT:Relay_HF46F-G_Hongfa"
+			(at 201.93 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3962,8 +5112,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 191.77 107.95 0)
+		(property "Datasheet" "https://www.tme.com/pe/es/details/hf46f-g_024-hs1t/reles-electromagn-miniaturizados/hongfa-relay"
+			(at 201.93 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3972,7 +5122,7 @@
 			)
 		)
 		(property "Description" "Relé 24VDC TE-Connectivity"
-			(at 191.77 108.712 0)
+			(at 201.93 169.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3980,42 +5130,233 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "c1ffefa6-682a-4727-83d8-5c4a369028ba")
+		(pin "2"
+			(uuid "fcd4b27d-0e5a-4eaa-a1cb-b4205c909fbd")
 		)
 		(pin "5"
-			(uuid "57909415-337d-48ea-8054-3856b0510c45")
-		)
-		(pin "3"
-			(uuid "5d97f95e-26df-4030-b042-bd13bc6c9cd3")
-		)
-		(pin "2"
-			(uuid "e8057186-a683-4312-8680-c05b2098f9ee")
+			(uuid "7969c8f4-b26c-49b0-bc54-11b48d60595b")
 		)
 		(pin "1"
-			(uuid "632d0354-ce76-4ba3-9178-a1b86736a783")
+			(uuid "06776b7f-c5c7-4159-b21a-3ed74e141aff")
+		)
+		(pin "4"
+			(uuid "0da99d85-6f25-4023-a119-e331d052af12")
 		)
 		(instances
 			(project "Placa_Control_M2ES"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
-					(reference "K4")
+					(reference "K11")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LIB_SCH_CONTR:RT214024_TE-Connectivity")
-		(at 300.99 162.56 0)
+		(lib_id "Connector:Screw_Terminal_01x06")
+		(at 298.45 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7ebd9a0-09e0-475e-a291-0e2ffb0110dd")
+		(property "Reference" "J10"
+			(at 300.99 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x06"
+			(at 300.99 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LIB_PCB_CONT:15EDGRC_6P_3.81mm_Male-Rect_Degson"
+			(at 298.45 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 298.45 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 298.45 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e87784ac-24b0-467c-b21d-a1de3467f458")
+		)
+		(pin "3"
+			(uuid "babbf3cd-94d7-4448-b5e2-f2fb472fadd5")
+		)
+		(pin "6"
+			(uuid "7913aee2-ad43-4ef9-97e4-7b62b7412067")
+		)
+		(pin "4"
+			(uuid "af37bd6d-a93d-43dd-9ec4-c18e3e2be264")
+		)
+		(pin "1"
+			(uuid "de011381-0a70-4e81-98cb-9a4b0ca752b3")
+		)
+		(pin "5"
+			(uuid "58bbe050-82ee-4f98-a55c-90a15284d147")
+		)
+		(instances
+			(project "Placa_Control_M2ES"
+				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1-IC-General:ULN2003")
+		(at 100.33 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab417fad-61b7-401e-b98d-f5a572f50299")
+		(property "Reference" "U12"
+			(at 100.33 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ULN2003"
+			(at 100.33 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "1-Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+			(at 101.6 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/uln2003a.pdf"
+			(at 102.87 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16"
+			(at 100.33 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "106c8957-abb4-4d98-994f-4dc3af0203a8")
+		)
+		(pin "13"
+			(uuid "4c412119-c902-49a6-9ca9-abfe9c8c1907")
+		)
+		(pin "11"
+			(uuid "60d8b5a0-0697-46a7-bd6e-fdd6479b047c")
+		)
+		(pin "5"
+			(uuid "f73698fa-c0d3-4fb8-bc63-0dcc893e692f")
+		)
+		(pin "14"
+			(uuid "181c2ade-69ce-4d34-b9a4-84274bbdd7f3")
+		)
+		(pin "4"
+			(uuid "db3a75bc-d979-4e0a-827a-1e50716339ef")
+		)
+		(pin "8"
+			(uuid "3da8d40c-5b09-4f47-bfa8-3725cd23c27e")
+		)
+		(pin "2"
+			(uuid "7fbd6718-7521-49d9-8a2e-216f1fa5d846")
+		)
+		(pin "3"
+			(uuid "be7f8c6c-ed33-4ccf-8f1b-bf078cdc212c")
+		)
+		(pin "6"
+			(uuid "0b092fc7-5ee1-436c-8cd8-8e00cb4d53c6")
+		)
+		(pin "7"
+			(uuid "2400dcb1-1cd8-4956-ac40-b080a69971c1")
+		)
+		(pin "9"
+			(uuid "c73f32d6-61c4-4dce-8871-aa3e2917786b")
+		)
+		(pin "16"
+			(uuid "68a99fc8-5043-4f76-957d-c207e0cdf208")
+		)
+		(pin "15"
+			(uuid "1d3dc7b9-f129-403f-b0b7-589133c77235")
+		)
+		(pin "12"
+			(uuid "6040d5bb-2931-4b1c-a2ff-c21650ad2ead")
+		)
+		(pin "10"
+			(uuid "411742b2-6081-4be1-b159-53d389ad686e")
+		)
+		(instances
+			(project "Placa_Control_M2ES"
+				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LIB_SCH_CONTR:HF46F-G_Hongfa")
+		(at 317.5 102.87 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b6f1008f-8683-48fb-af9e-282a073e614a")
-		(property "Reference" "K5"
-			(at 307.34 163.1949 0)
+		(uuid "afbea6ac-ff40-4ddd-aa19-449b5d9647a0")
+		(property "Reference" "K7"
+			(at 323.85 103.5049 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4023,8 +5364,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RT214024"
-			(at 300.99 163.322 0)
+		(property "Value" "HF46F-G"
+			(at 317.5 103.632 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4032,8 +5373,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LIB_PCB_CONT:RT214024_TE-Connectivity"
-			(at 300.99 162.56 0)
+		(property "Footprint" "LIB_PCB_CONT:Relay_HF46F-G_Hongfa"
+			(at 317.5 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4041,8 +5382,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 300.99 162.56 0)
+		(property "Datasheet" "https://www.tme.com/pe/es/details/hf46f-g_024-hs1t/reles-electromagn-miniaturizados/hongfa-relay"
+			(at 317.5 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4051,7 +5392,7 @@
 			)
 		)
 		(property "Description" "Relé 24VDC TE-Connectivity"
-			(at 300.99 163.322 0)
+			(at 317.5 103.632 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4059,42 +5400,39 @@
 				(hide yes)
 			)
 		)
+		(pin "1"
+			(uuid "ea68ed7f-a473-4060-93c2-5d6ff221953a")
+		)
 		(pin "4"
-			(uuid "d43f0b70-1301-4886-b0f0-57a721664b0d")
+			(uuid "2cb495be-b565-4e09-a615-29e97b7cfe4a")
 		)
 		(pin "5"
-			(uuid "655ff235-8a16-4483-808d-63627055c25b")
-		)
-		(pin "3"
-			(uuid "14c1d9b0-22d1-4b6d-9206-e98c6f4fb9f4")
+			(uuid "7847ce66-83dc-4568-84d8-1998f1924759")
 		)
 		(pin "2"
-			(uuid "fb3f12d9-42fc-47a8-974b-de2bccf8e1ed")
-		)
-		(pin "1"
-			(uuid "4a8bb51a-c677-4a66-94e4-c4c8350ed814")
+			(uuid "42c35cb3-da3b-49d4-afa4-382edcb49098")
 		)
 		(instances
 			(project "Placa_Control_M2ES"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
-					(reference "K5")
+					(reference "K7")
 					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LIB_SCH_CONTR:RT214024_TE-Connectivity")
-		(at 246.38 107.95 0)
+		(lib_id "LIB_SCH_CONTR:HF46F-G_Hongfa")
+		(at 130.81 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d1513113-65a4-4cee-b46f-a6928d97d4b5")
+		(uuid "b009db1f-4194-40e7-aa47-3f159e7b38ba")
 		(property "Reference" "K7"
-			(at 251.46 108.5849 0)
+			(at 135.89 169.5449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4102,8 +5440,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RT214024"
-			(at 246.38 108.712 0)
+		(property "Value" "HF46F-G"
+			(at 130.81 169.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4111,8 +5449,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LIB_PCB_CONT:RT214024_TE-Connectivity"
-			(at 246.38 107.95 0)
+		(property "Footprint" "LIB_PCB_CONT:Relay_HF46F-G_Hongfa"
+			(at 130.81 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4120,8 +5458,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 246.38 107.95 0)
+		(property "Datasheet" "https://www.tme.com/pe/es/details/hf46f-g_024-hs1t/reles-electromagn-miniaturizados/hongfa-relay"
+			(at 130.81 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4130,7 +5468,7 @@
 			)
 		)
 		(property "Description" "Relé 24VDC TE-Connectivity"
-			(at 246.38 108.712 0)
+			(at 130.81 169.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4138,20 +5476,17 @@
 				(hide yes)
 			)
 		)
+		(pin "1"
+			(uuid "b2a61106-b2c3-41da-90a7-c700f4629c17")
+		)
 		(pin "4"
-			(uuid "c1ffefa6-682a-4727-83d8-5c4a369028bb")
+			(uuid "42977610-e86b-4d96-a9cb-748be5fc34b3")
 		)
 		(pin "5"
-			(uuid "57909415-337d-48ea-8054-3856b0510c46")
-		)
-		(pin "3"
-			(uuid "5d97f95e-26df-4030-b042-bd13bc6c9cd4")
+			(uuid "a1cd2ba4-ba39-4de6-bc28-37bc535e8a2d")
 		)
 		(pin "2"
-			(uuid "4c4b772a-3d21-492b-83d9-d9969e3ed80b")
-		)
-		(pin "1"
-			(uuid "59892b22-10d1-4609-b1ff-2f1d00578657")
+			(uuid "f349d8a9-408d-4ecf-a368-4045f33a1221")
 		)
 		(instances
 			(project "Placa_Control_M2ES"
@@ -4163,17 +5498,17 @@
 		)
 	)
 	(symbol
-		(lib_id "LIB_SCH_CONTR:RT214024_TE-Connectivity")
-		(at 300.99 201.93 0)
-		(unit 2)
+		(lib_id "Connector:Screw_Terminal_01x06")
+		(at 361.95 153.67 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e7d67634-cf21-4a2c-8e6a-f81d1adbd78f")
-		(property "Reference" "K8"
-			(at 307.34 202.5649 0)
+		(uuid "b949af7f-b80d-4d8d-9444-e174b56ab632")
+		(property "Reference" "J12"
+			(at 364.49 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4181,8 +5516,18 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RT214024"
-			(at 300.99 202.692 0)
+		(property "Value" "Screw_Terminal_01x06"
+			(at 364.49 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LIB_PCB_CONT:15EDGRC_6P_3.81mm_Male-Rect_Degson"
+			(at 361.95 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4190,8 +5535,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LIB_PCB_CONT:RT214024_TE-Connectivity"
-			(at 300.99 201.93 0)
+		(property "Datasheet" "~"
+			(at 361.95 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4199,8 +5544,81 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 300.99 201.93 0)
+		(property "Description" "Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 361.95 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f6a8e89f-527f-4520-b4d3-c57f7ec8bbc2")
+		)
+		(pin "3"
+			(uuid "8462eea9-944c-4951-854d-0687628807c0")
+		)
+		(pin "6"
+			(uuid "cdddf672-9a41-49cd-a0ab-8fe8f335bc5c")
+		)
+		(pin "4"
+			(uuid "630c6ffc-84b5-47d0-8a65-4cc863af1c97")
+		)
+		(pin "1"
+			(uuid "4d50fccf-09f5-48f7-8ea1-6a59117d04b2")
+		)
+		(pin "5"
+			(uuid "510c1536-3b8c-4f40-b94c-7358e742939d")
+		)
+		(instances
+			(project "Placa_Control_M2ES"
+				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LIB_SCH_CONTR:HF46F-G_Hongfa")
+		(at 254 154.94 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfa6edd1-4532-4bb3-9258-20f73c8408f2")
+		(property "Reference" "K4"
+			(at 260.35 155.5749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HF46F-G"
+			(at 254 155.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LIB_PCB_CONT:Relay_HF46F-G_Hongfa"
+			(at 254 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.com/pe/es/details/hf46f-g_024-hs1t/reles-electromagn-miniaturizados/hongfa-relay"
+			(at 254 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4209,7 +5627,7 @@
 			)
 		)
 		(property "Description" "Relé 24VDC TE-Connectivity"
-			(at 300.99 202.692 0)
+			(at 254 155.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4217,25 +5635,326 @@
 				(hide yes)
 			)
 		)
+		(pin "1"
+			(uuid "ea68ed7f-a473-4060-93c2-5d6ff221953a")
+		)
 		(pin "4"
-			(uuid "ea1e3185-4e84-488d-a26f-d16f7db7f054")
+			(uuid "0fa2f617-6834-4259-8303-4f23049196e3")
 		)
 		(pin "5"
-			(uuid "7afa92f0-2836-4c27-9164-3a3dd281a5e1")
-		)
-		(pin "3"
-			(uuid "db5affdb-206b-4e7a-84b8-71e3b9cc2ebf")
+			(uuid "9de0e3bf-7fb1-45b6-86d5-7fb9dafc3576")
 		)
 		(pin "2"
-			(uuid "fb3f12d9-42fc-47a8-974b-de2bccf8e1ee")
-		)
-		(pin "1"
-			(uuid "4a8bb51a-c677-4a66-94e4-c4c8350ed815")
+			(uuid "42c35cb3-da3b-49d4-afa4-382edcb49098")
 		)
 		(instances
 			(project "Placa_Control_M2ES"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
-					(reference "K8")
+					(reference "K4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LIB_SCH_CONTR:HF46F-G_Hongfa")
+		(at 317.5 154.94 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da60b550-3a43-45c6-a6ea-4617b6a106d6")
+		(property "Reference" "K10"
+			(at 323.85 155.5749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HF46F-G"
+			(at 317.5 155.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LIB_PCB_CONT:Relay_HF46F-G_Hongfa"
+			(at 317.5 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.com/pe/es/details/hf46f-g_024-hs1t/reles-electromagn-miniaturizados/hongfa-relay"
+			(at 317.5 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Relé 24VDC TE-Connectivity"
+			(at 317.5 155.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea68ed7f-a473-4060-93c2-5d6ff221953a")
+		)
+		(pin "4"
+			(uuid "ebec02fb-d92d-4198-a353-add066bf7378")
+		)
+		(pin "5"
+			(uuid "b34ae5e6-2b06-41e6-9fea-916abc3abfeb")
+		)
+		(pin "2"
+			(uuid "42c35cb3-da3b-49d4-afa4-382edcb49098")
+		)
+		(instances
+			(project "Placa_Control_M2ES"
+				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
+					(reference "K10")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LIB_SCH_CONTR:HF46F-G_Hongfa")
+		(at 148.59 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9cb1c86-8a22-4908-9f37-9b18fbdeee07")
+		(property "Reference" "K2"
+			(at 153.67 121.2849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HF46F-G"
+			(at 148.59 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LIB_PCB_CONT:Relay_HF46F-G_Hongfa"
+			(at 148.59 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.com/pe/es/details/hf46f-g_024-hs1t/reles-electromagn-miniaturizados/hongfa-relay"
+			(at 148.59 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Relé 24VDC TE-Connectivity"
+			(at 148.59 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "56412817-f9f4-438e-adfe-2add4fbd3819")
+		)
+		(pin "5"
+			(uuid "7969c8f4-b26c-49b0-bc54-11b48d60595a")
+		)
+		(pin "1"
+			(uuid "061d864e-7b1c-4bed-875a-971b1c2229e0")
+		)
+		(pin "4"
+			(uuid "0da99d85-6f25-4023-a119-e331d052af11")
+		)
+		(instances
+			(project ""
+				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
+					(reference "K2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LIB_SCH_CONTR:HF46F-G_Hongfa")
+		(at 220.98 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec72bdf5-93a2-4122-9825-52b424744d02")
+		(property "Reference" "K6"
+			(at 226.06 121.2849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HF46F-G"
+			(at 220.98 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LIB_PCB_CONT:Relay_HF46F-G_Hongfa"
+			(at 220.98 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.com/pe/es/details/hf46f-g_024-hs1t/reles-electromagn-miniaturizados/hongfa-relay"
+			(at 220.98 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Relé 24VDC TE-Connectivity"
+			(at 220.98 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eb6b1944-51b4-4de6-9ffa-aa73c547e340")
+		)
+		(pin "5"
+			(uuid "7969c8f4-b26c-49b0-bc54-11b48d60595a")
+		)
+		(pin "1"
+			(uuid "0c6639ef-7ead-4ad6-8013-01a897c7410a")
+		)
+		(pin "4"
+			(uuid "0da99d85-6f25-4023-a119-e331d052af11")
+		)
+		(instances
+			(project "Placa_Control_M2ES"
+				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
+					(reference "K6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LIB_SCH_CONTR:HF46F-G_Hongfa")
+		(at 317.5 135.89 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed15df46-9f7f-4b14-8224-dbad53898644")
+		(property "Reference" "K9"
+			(at 323.85 136.5249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HF46F-G"
+			(at 317.5 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LIB_PCB_CONT:Relay_HF46F-G_Hongfa"
+			(at 317.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.com/pe/es/details/hf46f-g_024-hs1t/reles-electromagn-miniaturizados/hongfa-relay"
+			(at 317.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Relé 24VDC TE-Connectivity"
+			(at 317.5 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea68ed7f-a473-4060-93c2-5d6ff221953b")
+		)
+		(pin "4"
+			(uuid "eed5babb-227d-47fe-bdf4-30c8ce043e58")
+		)
+		(pin "5"
+			(uuid "a64faa8f-695a-4ae7-9c63-e21029e98336")
+		)
+		(pin "2"
+			(uuid "42c35cb3-da3b-49d4-afa4-382edcb49099")
+		)
+		(instances
+			(project "Placa_Control_M2ES"
+				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
+					(reference "K9")
 					(unit 2)
 				)
 			)
@@ -4243,7 +5962,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 137.16 0)
+		(at 100.33 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4252,7 +5971,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7e80687-8839-497e-8346-caffa2a725a6")
 		(property "Reference" "#PWR034"
-			(at 107.95 143.51 0)
+			(at 100.33 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4261,7 +5980,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 142.24 0)
+			(at 100.33 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4269,7 +5988,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 137.16 0)
+			(at 100.33 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4278,7 +5997,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 137.16 0)
+			(at 100.33 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4287,7 +6006,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 137.16 0)
+			(at 100.33 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4302,6 +6021,82 @@
 			(project ""
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LIB_SCH_CONTR:HF46F-G_Hongfa")
+		(at 201.93 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe428761-477c-4ed7-8ce2-5772311efbbf")
+		(property "Reference" "K5"
+			(at 207.01 121.2849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HF46F-G"
+			(at 201.93 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LIB_PCB_CONT:Relay_HF46F-G_Hongfa"
+			(at 201.93 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.com/pe/es/details/hf46f-g_024-hs1t/reles-electromagn-miniaturizados/hongfa-relay"
+			(at 201.93 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Relé 24VDC TE-Connectivity"
+			(at 201.93 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f4f2f8b1-cc8f-4d8c-8cf2-c2966bd096c9")
+		)
+		(pin "5"
+			(uuid "7969c8f4-b26c-49b0-bc54-11b48d60595a")
+		)
+		(pin "1"
+			(uuid "def85ecd-efb4-4f46-a0e7-4392d781f92f")
+		)
+		(pin "4"
+			(uuid "0da99d85-6f25-4023-a119-e331d052af11")
+		)
+		(instances
+			(project "Placa_Control_M2ES"
+				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/d960b122-b141-458c-9a10-d36b05afe5fe"
+					(reference "K5")
 					(unit 1)
 				)
 			)

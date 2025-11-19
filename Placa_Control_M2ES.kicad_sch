@@ -5,7 +5,7 @@
 	(uuid "af529cf8-e3d6-4568-89be-bc7010f8b835")
 	(paper "A4")
 	(lib_symbols)
-	(text_box "Requerimientos:\n\nPlaca de control como remplazo de la tarjeta utilizada en el tablero de La Merced.\n\n- Salidas de relé: 8u Coil: 24VDC/ 12A 250VAC / 12A 24VDC/ 5mm\n  Relé Recomendado: RT214024\n- Medición de galgas: 8u\n"
+	(text_box "Requerimientos:\n\nPlaca de control como remplazo de la tarjeta utilizada en el tablero de La Merced.\n\n- Salidas de relé: 8u Coil: 24VDC/ 12A 250VAC / 12A 24VDC/ 5mm\n  Relé Recomendado: RT214024\n- Medición de galgas: 8u\n\n\n\n\n\nComponentes útiles:\n- Bornera 15EDGVC (Vert) / 15EDGRC (Rect) 3.81 Male\n- Bornera 15EDGK 3.81 Female\n- Relay HF46F-G/024-HS1T"
 		(exclude_from_sim no)
 		(at 208.28 15.24 0)
 		(size 73.66 55.88)
@@ -68,8 +68,8 @@
 		)
 	)
 	(sheet
-		(at 16.51 127)
-		(size 17.78 25.4)
+		(at 15.24 125.73)
+		(size 19.05 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -82,9 +82,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "87bdd207-3dc8-4ffc-b984-f259b85798e3")
+		(uuid "8e0b582f-0020-4bc2-aca5-707ed1850aed")
 		(property "Sheetname" "Ethernet"
-			(at 16.51 126.2884 0)
+			(at 15.24 125.0184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -93,7 +93,7 @@
 			)
 		)
 		(property "Sheetfile" "Ethernet.kicad_sch"
-			(at 16.51 152.9846 0)
+			(at 15.24 142.8246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -101,10 +101,30 @@
 				(justify left top)
 			)
 		)
+		(pin "VDD_LAN_3V3" input
+			(at 34.29 129.54 0)
+			(uuid "0a90060f-e7ee-4e09-8b94-92081d79ed1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{ETH}" input
+			(at 34.29 134.62 0)
+			(uuid "02437fcb-eaf7-4a24-8e43-7a27a2235343")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Placa_Control_M2ES"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835"
-					(page "5")
+					(page "14")
 				)
 			)
 		)

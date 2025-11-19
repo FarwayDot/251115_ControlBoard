@@ -626,10 +626,6 @@
       "Analog Inputs"
     ],
     [
-      "87bdd207-3dc8-4ffc-b984-f259b85798e3",
-      "Ethernet"
-    ],
-    [
       "8f20afda-85ef-431d-9116-2d00966321c2",
       "Fuente"
     ],
@@ -638,16 +634,40 @@
       "RC_Filter"
     ],
     [
-      "ca8dd924-25fc-4e92-8909-9db1d9a3f35c",
-      "RC_Filter1"
-    ],
-    [
-      "e75ca533-3406-478c-9fa9-f07950b5d5c9",
+      "bfe90613-2f70-4a1a-a180-6492aed1369a",
       "RC_Filter2"
     ],
     [
-      "93d59648-280d-4a0d-80e9-1b4d54ea4add",
+      "49365162-9311-4042-aef9-c2d893a8d692",
+      "RC_Filter1"
+    ],
+    [
+      "6b9a11db-5e1f-4d4e-91ce-44cb2aa0bbcb",
       "RC_Filter3"
+    ],
+    [
+      "91f4f352-d335-4835-b5d0-e14f617e8436",
+      "RC_Filter4"
+    ],
+    [
+      "705d41cd-e84a-432e-a461-78f22ea41493",
+      "RC_Filter5"
+    ],
+    [
+      "e5fe315d-2286-4e70-8e9f-735a1cddd9af",
+      "RC_Filter6"
+    ],
+    [
+      "8e0b582f-0020-4bc2-aca5-707ed1850aed",
+      "Ethernet"
+    ],
+    [
+      "1b56bc71-dabc-43d8-b626-b8bf2f646665",
+      "RC_Filter7"
+    ],
+    [
+      "1ca2f7d4-32bd-4b32-8319-62f10d863277",
+      "Hysteresis"
     ]
   ],
   "text_variables": {}

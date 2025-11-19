@@ -1,0 +1,239 @@
+(footprint "15EDGRC_6P_3.81mm_Male-Rect_Degson"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "489218b8-1c36-41d0-838b-479f92b005cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "15EDGRC_6P_3.81mm_Male-Rect_Degson"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c64ba5ee-441f-42b9-9439-0d0c8b632245")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52b247cf-b6d7-4dd9-aa3d-d5a765b5647e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "408705da-d46d-4d3b-9fd6-b43208a7c0e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -11.95 4.85)
+		(end 11.95 -4.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "84f3e3a5-3037-4bcf-95c3-9355fa0b1f07")
+	)
+	(fp_rect
+		(start -12 -4.8)
+		(end 12 4.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "554726cb-d5e1-49a2-ada1-e638a3939c16")
+	)
+	(fp_rect
+		(start -11.825 4.6)
+		(end 11.825 -4.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3ac7142d-e5e9-4542-9368-0b901f9d039b")
+	)
+	(fp_rect
+		(start -9.8 -3.95)
+		(end -9.2 1.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "76c23350-132a-48df-a44a-f8bc0015b64a")
+	)
+	(fp_rect
+		(start -6 -3.95)
+		(end -5.4 1.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "33b4359b-7586-4ca3-a184-d361b8d31518")
+	)
+	(fp_rect
+		(start -2.2 -3.95)
+		(end -1.6 1.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6aabdb58-4842-414d-80f8-2255fc34d255")
+	)
+	(fp_rect
+		(start 1.6 -3.95)
+		(end 2.2 1.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4acfd791-83a2-4a97-8730-97bca6da5b9d")
+	)
+	(fp_rect
+		(start 5.4 -3.95)
+		(end 6 1.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7a484477-6546-407a-8025-c9a6543afda3")
+	)
+	(fp_rect
+		(start 9.2 -3.95)
+		(end 9.8 1.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f0966b2a-c278-42ce-9204-8ccaef0db967")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d4f37fd0-0460-4cc2-b52f-5f2c8b231349")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -9.525 3.4)
+		(size 2.5 2.5)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1b3de663-7b40-4544-8039-7facd8422af9")
+	)
+	(pad "2" thru_hole circle
+		(at -5.715 3.4)
+		(size 2.5 2.5)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8e2bf1ae-d012-4f4a-90f9-22389974c603")
+	)
+	(pad "3" thru_hole circle
+		(at -1.905 3.4)
+		(size 2.5 2.5)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6de55f51-f8b4-4f0a-9992-7ac3bfeaaa53")
+	)
+	(pad "4" thru_hole circle
+		(at 1.905 3.4)
+		(size 2.5 2.5)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5618cc2a-4e2d-4549-a5b0-342146b0a333")
+	)
+	(pad "5" thru_hole circle
+		(at 5.715 3.4)
+		(size 2.5 2.5)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d195d4de-ad5c-48d9-853a-3e469a709f25")
+	)
+	(pad "6" thru_hole circle
+		(at 9.525 3.4)
+		(size 2.5 2.5)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1d69dec9-571c-493c-9188-25bf8f5f75ac")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/LIB_CAD/15EDGRC-3.81-06P-1Y-00A&Z(H).stp"
+		(offset
+			(xyz -1.95 -4.55 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+	(model "${KIPRJMOD}/LIB_CAD/15EDGK-3.81-06P-14-00A&Z(H).stp"
+		(offset
+			(xyz 17 7.5 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 90 -90)
+		)
+	)
+)
