@@ -3610,7 +3610,7 @@
 	)
 	(text "Q22FA12800569"
 		(exclude_from_sim no)
-		(at 104.394 136.144 0)
+		(at 104.394 136.652 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4209,7 +4209,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 130.81) (xy 95.25 132.08)
+			(xy 95.25 121.92) (xy 95.25 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5236,16 +5236,6 @@
 			(type default)
 		)
 		(uuid "90da5f35-aeab-4dd8-8cb2-cabb13b8ac49")
-	)
-	(wire
-		(pts
-			(xy 95.25 121.92) (xy 95.25 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "914cd9f1-f422-4e6e-90d3-7432087304a5")
 	)
 	(wire
 		(pts
@@ -7748,81 +7738,6 @@
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
 					(reference "C34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 95.25 127 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "47c9c558-857b-4ff9-b502-761d9002e645")
-		(property "Reference" "R63"
-			(at 93.726 125.984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 93.218 128.016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.028 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 95.25 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "156b7580-53e0-484b-b941-370fb08352cd")
-		)
-		(pin "2"
-			(uuid "5250a7f9-4aaf-4b53-9601-98605870b823")
-		)
-		(instances
-			(project "Onyx_Client"
-				(path "/7cf65f8a-f9e1-4c97-ae3b-2bf5316c4d48/15cecee3-3ea4-4fda-9934-a7d023f81ee7"
-					(reference "R63")
-					(unit 1)
-				)
-			)
-			(project "Onyx_Client"
-				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "R63")
 					(unit 1)
 				)
 			)

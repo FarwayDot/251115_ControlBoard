@@ -626,6 +626,10 @@
       "Analog Inputs"
     ],
     [
+      "8e41cee2-45b4-4042-85d6-315603280368",
+      "Hysteresis1"
+    ],
+    [
       "8f20afda-85ef-431d-9116-2d00966321c2",
       "Fuente"
     ],
@@ -668,6 +672,38 @@
     [
       "1ca2f7d4-32bd-4b32-8319-62f10d863277",
       "Hysteresis"
+    ],
+    [
+      "cc3f9804-c06d-4f66-a44e-8eed8f9d946c",
+      "Hysteresis2"
+    ],
+    [
+      "100f9eec-b562-49f0-85ed-74e99a943464",
+      "Hysteresis3"
+    ],
+    [
+      "05cac8c9-5ade-4a43-98f1-74ed0ea88fb8",
+      "Hysteresis4"
+    ],
+    [
+      "7eae56e8-dd8c-4d91-9d1d-810801e05aad",
+      "Hysteresis5"
+    ],
+    [
+      "708e882a-17bc-4613-a2c2-387604a40c18",
+      "Hysteresis6"
+    ],
+    [
+      "e28d906e-1163-48fa-b1e2-0681ac580bc5",
+      "Hysteresis7"
+    ],
+    [
+      "6dfe33a8-bbf2-4cbf-bfd3-a2f2c47ea663",
+      "Hysteresis8"
+    ],
+    [
+      "b97e77ec-a392-4c66-a421-3998be06fbc5",
+      "MCU"
     ]
   ],
   "text_variables": {}

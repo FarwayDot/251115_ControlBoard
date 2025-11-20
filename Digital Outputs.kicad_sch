@@ -1253,10 +1253,10 @@
 		)
 		(uuid "c6c63eef-eb63-4e8e-a24d-ec853f0dd6e6")
 	)
-	(text_box "Relay RT214024:\n\nCoild Data: 24VDC / 1440 ohm -> Current: 16mA\n\nRelay HF46F-G/024-HS1T:\n\nCoil Data: 24VDC / 2880 ohm -> Current: 8.3mA"
+	(text_box "Relay RT214024:\n\nCoild Data: 24VDC / 1440 ohm -> Current: 16mA\n\nRelay HF46F-G/024-HS1T:\n\nCoil Data: 24VDC / 2880 ohm -> Current: 8.3mA\n\nRelay HF46F-G/012-HS1T:\n\nCoil Data: 12VDC / 720 ohm -> Current: 16.67mA"
 		(exclude_from_sim no)
-		(at 290.83 63.5 0)
-		(size 58.42 17.78)
+		(at 278.13 54.61 0)
+		(size 58.42 26.67)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -4111,16 +4111,16 @@
 			)
 		)
 		(pin "2"
-			(uuid "56412817-f9f4-438e-adfe-2add4fbd3819")
+			(uuid "56412817-f9f4-438e-adfe-2add4fbd381a")
 		)
 		(pin "5"
-			(uuid "7969c8f4-b26c-49b0-bc54-11b48d60595a")
+			(uuid "7969c8f4-b26c-49b0-bc54-11b48d60595b")
 		)
 		(pin "1"
-			(uuid "061d864e-7b1c-4bed-875a-971b1c2229e0")
+			(uuid "061d864e-7b1c-4bed-875a-971b1c2229e1")
 		)
 		(pin "4"
-			(uuid "0da99d85-6f25-4023-a119-e331d052af11")
+			(uuid "0da99d85-6f25-4023-a119-e331d052af12")
 		)
 		(instances
 			(project ""
@@ -4190,13 +4190,13 @@
 			(uuid "f00a93d2-388c-438d-b91b-5e4049c85bd4")
 		)
 		(pin "5"
-			(uuid "7969c8f4-b26c-49b0-bc54-11b48d60595a")
+			(uuid "7969c8f4-b26c-49b0-bc54-11b48d60595d")
 		)
 		(pin "1"
 			(uuid "a01fd422-7042-4eec-9a48-aee822d66060")
 		)
 		(pin "4"
-			(uuid "0da99d85-6f25-4023-a119-e331d052af11")
+			(uuid "0da99d85-6f25-4023-a119-e331d052af14")
 		)
 		(instances
 			(project "Placa_Control_M2ES"
@@ -4263,13 +4263,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "56412817-f9f4-438e-adfe-2add4fbd3819")
+			(uuid "56412817-f9f4-438e-adfe-2add4fbd381b")
 		)
 		(pin "5"
 			(uuid "1ea1b9bd-700c-4859-94b2-d8480340d86b")
 		)
 		(pin "1"
-			(uuid "061d864e-7b1c-4bed-875a-971b1c2229e0")
+			(uuid "061d864e-7b1c-4bed-875a-971b1c2229e2")
 		)
 		(pin "4"
 			(uuid "1dc6bd81-1082-46cd-beda-38f84c6cb25b")
@@ -4342,13 +4342,13 @@
 			(uuid "156c22e4-5f14-48a9-9a8c-537f4a20ff1a")
 		)
 		(pin "5"
-			(uuid "7969c8f4-b26c-49b0-bc54-11b48d60595d")
+			(uuid "7969c8f4-b26c-49b0-bc54-11b48d60595e")
 		)
 		(pin "1"
 			(uuid "2022d39d-a623-40e2-8afd-e3440f06d0f2")
 		)
 		(pin "4"
-			(uuid "0da99d85-6f25-4023-a119-e331d052af14")
+			(uuid "0da99d85-6f25-4023-a119-e331d052af15")
 		)
 		(instances
 			(project "Placa_Control_M2ES"
@@ -4415,7 +4415,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ea68ed7f-a473-4060-93c2-5d6ff221953b")
+			(uuid "ea68ed7f-a473-4060-93c2-5d6ff221953c")
 		)
 		(pin "4"
 			(uuid "b3873b5f-5e28-42ff-b624-15af7f28c631")
@@ -4424,7 +4424,7 @@
 			(uuid "6994e4f3-7e3a-4f77-ae1d-760dc2c2d48f")
 		)
 		(pin "2"
-			(uuid "42c35cb3-da3b-49d4-afa4-382edcb49099")
+			(uuid "42c35cb3-da3b-49d4-afa4-382edcb4909a")
 		)
 		(instances
 			(project "Placa_Control_M2ES"
@@ -4491,13 +4491,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "56412817-f9f4-438e-adfe-2add4fbd3819")
+			(uuid "56412817-f9f4-438e-adfe-2add4fbd381c")
 		)
 		(pin "5"
 			(uuid "6d31adf2-3b0d-45a8-9dee-2151e60fd68d")
 		)
 		(pin "1"
-			(uuid "061d864e-7b1c-4bed-875a-971b1c2229e0")
+			(uuid "061d864e-7b1c-4bed-875a-971b1c2229e3")
 		)
 		(pin "4"
 			(uuid "b4f3f881-7a18-42bf-8b82-26edf2eac34d")
@@ -4567,7 +4567,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ea68ed7f-a473-4060-93c2-5d6ff221953a")
+			(uuid "ea68ed7f-a473-4060-93c2-5d6ff221953d")
 		)
 		(pin "4"
 			(uuid "e422fe35-f549-4184-8fd3-8732eb07caa3")
@@ -4576,7 +4576,7 @@
 			(uuid "f7b52e6b-b5ac-4888-be9f-9ce515cd2540")
 		)
 		(pin "2"
-			(uuid "42c35cb3-da3b-49d4-afa4-382edcb49098")
+			(uuid "42c35cb3-da3b-49d4-afa4-382edcb4909b")
 		)
 		(instances
 			(project "Placa_Control_M2ES"
@@ -4646,13 +4646,13 @@
 			(uuid "699c80c2-996c-48d8-95b4-6a0e8b7f9ff5")
 		)
 		(pin "5"
-			(uuid "7969c8f4-b26c-49b0-bc54-11b48d60595a")
+			(uuid "7969c8f4-b26c-49b0-bc54-11b48d60595f")
 		)
 		(pin "1"
 			(uuid "e56f1d0f-2e37-4857-a6f5-1e506d5ffe73")
 		)
 		(pin "4"
-			(uuid "0da99d85-6f25-4023-a119-e331d052af11")
+			(uuid "0da99d85-6f25-4023-a119-e331d052af16")
 		)
 		(instances
 			(project "Placa_Control_M2ES"
@@ -4719,16 +4719,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "ea68ed7f-a473-4060-93c2-5d6ff221953a")
+			(uuid "ea68ed7f-a473-4060-93c2-5d6ff221953e")
 		)
 		(pin "4"
-			(uuid "42977610-e86b-4d96-a9cb-748be5fc34b3")
+			(uuid "42977610-e86b-4d96-a9cb-748be5fc34b4")
 		)
 		(pin "5"
-			(uuid "a1cd2ba4-ba39-4de6-bc28-37bc535e8a2d")
+			(uuid "a1cd2ba4-ba39-4de6-bc28-37bc535e8a2e")
 		)
 		(pin "2"
-			(uuid "42c35cb3-da3b-49d4-afa4-382edcb49098")
+			(uuid "42c35cb3-da3b-49d4-afa4-382edcb4909c")
 		)
 		(instances
 			(project ""
@@ -4798,13 +4798,13 @@
 			(uuid "4bf0e542-67f9-44ee-bb0f-d67c2049538c")
 		)
 		(pin "5"
-			(uuid "7969c8f4-b26c-49b0-bc54-11b48d60595e")
+			(uuid "7969c8f4-b26c-49b0-bc54-11b48d605960")
 		)
 		(pin "1"
 			(uuid "1b2ac838-388f-4d79-9139-076b2aa309b7")
 		)
 		(pin "4"
-			(uuid "0da99d85-6f25-4023-a119-e331d052af15")
+			(uuid "0da99d85-6f25-4023-a119-e331d052af17")
 		)
 		(instances
 			(project "Placa_Control_M2ES"
@@ -5134,13 +5134,13 @@
 			(uuid "fcd4b27d-0e5a-4eaa-a1cb-b4205c909fbd")
 		)
 		(pin "5"
-			(uuid "7969c8f4-b26c-49b0-bc54-11b48d60595b")
+			(uuid "7969c8f4-b26c-49b0-bc54-11b48d605961")
 		)
 		(pin "1"
 			(uuid "06776b7f-c5c7-4159-b21a-3ed74e141aff")
 		)
 		(pin "4"
-			(uuid "0da99d85-6f25-4023-a119-e331d052af12")
+			(uuid "0da99d85-6f25-4023-a119-e331d052af18")
 		)
 		(instances
 			(project "Placa_Control_M2ES"
@@ -5401,7 +5401,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ea68ed7f-a473-4060-93c2-5d6ff221953a")
+			(uuid "ea68ed7f-a473-4060-93c2-5d6ff221953f")
 		)
 		(pin "4"
 			(uuid "2cb495be-b565-4e09-a615-29e97b7cfe4a")
@@ -5410,7 +5410,7 @@
 			(uuid "7847ce66-83dc-4568-84d8-1998f1924759")
 		)
 		(pin "2"
-			(uuid "42c35cb3-da3b-49d4-afa4-382edcb49098")
+			(uuid "42c35cb3-da3b-49d4-afa4-382edcb4909d")
 		)
 		(instances
 			(project "Placa_Control_M2ES"
@@ -5480,10 +5480,10 @@
 			(uuid "b2a61106-b2c3-41da-90a7-c700f4629c17")
 		)
 		(pin "4"
-			(uuid "42977610-e86b-4d96-a9cb-748be5fc34b3")
+			(uuid "42977610-e86b-4d96-a9cb-748be5fc34b5")
 		)
 		(pin "5"
-			(uuid "a1cd2ba4-ba39-4de6-bc28-37bc535e8a2d")
+			(uuid "a1cd2ba4-ba39-4de6-bc28-37bc535e8a2f")
 		)
 		(pin "2"
 			(uuid "f349d8a9-408d-4ecf-a368-4045f33a1221")
@@ -5636,7 +5636,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ea68ed7f-a473-4060-93c2-5d6ff221953a")
+			(uuid "ea68ed7f-a473-4060-93c2-5d6ff2219540")
 		)
 		(pin "4"
 			(uuid "0fa2f617-6834-4259-8303-4f23049196e3")
@@ -5645,7 +5645,7 @@
 			(uuid "9de0e3bf-7fb1-45b6-86d5-7fb9dafc3576")
 		)
 		(pin "2"
-			(uuid "42c35cb3-da3b-49d4-afa4-382edcb49098")
+			(uuid "42c35cb3-da3b-49d4-afa4-382edcb4909e")
 		)
 		(instances
 			(project "Placa_Control_M2ES"
@@ -5712,7 +5712,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ea68ed7f-a473-4060-93c2-5d6ff221953a")
+			(uuid "ea68ed7f-a473-4060-93c2-5d6ff2219541")
 		)
 		(pin "4"
 			(uuid "ebec02fb-d92d-4198-a353-add066bf7378")
@@ -5721,7 +5721,7 @@
 			(uuid "b34ae5e6-2b06-41e6-9fea-916abc3abfeb")
 		)
 		(pin "2"
-			(uuid "42c35cb3-da3b-49d4-afa4-382edcb49098")
+			(uuid "42c35cb3-da3b-49d4-afa4-382edcb4909f")
 		)
 		(instances
 			(project "Placa_Control_M2ES"
@@ -5788,16 +5788,16 @@
 			)
 		)
 		(pin "2"
-			(uuid "56412817-f9f4-438e-adfe-2add4fbd3819")
+			(uuid "56412817-f9f4-438e-adfe-2add4fbd381d")
 		)
 		(pin "5"
-			(uuid "7969c8f4-b26c-49b0-bc54-11b48d60595a")
+			(uuid "7969c8f4-b26c-49b0-bc54-11b48d605962")
 		)
 		(pin "1"
-			(uuid "061d864e-7b1c-4bed-875a-971b1c2229e0")
+			(uuid "061d864e-7b1c-4bed-875a-971b1c2229e4")
 		)
 		(pin "4"
-			(uuid "0da99d85-6f25-4023-a119-e331d052af11")
+			(uuid "0da99d85-6f25-4023-a119-e331d052af19")
 		)
 		(instances
 			(project ""
@@ -5867,13 +5867,13 @@
 			(uuid "eb6b1944-51b4-4de6-9ffa-aa73c547e340")
 		)
 		(pin "5"
-			(uuid "7969c8f4-b26c-49b0-bc54-11b48d60595a")
+			(uuid "7969c8f4-b26c-49b0-bc54-11b48d605963")
 		)
 		(pin "1"
 			(uuid "0c6639ef-7ead-4ad6-8013-01a897c7410a")
 		)
 		(pin "4"
-			(uuid "0da99d85-6f25-4023-a119-e331d052af11")
+			(uuid "0da99d85-6f25-4023-a119-e331d052af1a")
 		)
 		(instances
 			(project "Placa_Control_M2ES"
@@ -5940,7 +5940,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ea68ed7f-a473-4060-93c2-5d6ff221953b")
+			(uuid "ea68ed7f-a473-4060-93c2-5d6ff2219542")
 		)
 		(pin "4"
 			(uuid "eed5babb-227d-47fe-bdf4-30c8ce043e58")
@@ -5949,7 +5949,7 @@
 			(uuid "a64faa8f-695a-4ae7-9c63-e21029e98336")
 		)
 		(pin "2"
-			(uuid "42c35cb3-da3b-49d4-afa4-382edcb49099")
+			(uuid "42c35cb3-da3b-49d4-afa4-382edcb490a0")
 		)
 		(instances
 			(project "Placa_Control_M2ES"
@@ -6085,13 +6085,13 @@
 			(uuid "f4f2f8b1-cc8f-4d8c-8cf2-c2966bd096c9")
 		)
 		(pin "5"
-			(uuid "7969c8f4-b26c-49b0-bc54-11b48d60595a")
+			(uuid "7969c8f4-b26c-49b0-bc54-11b48d605964")
 		)
 		(pin "1"
 			(uuid "def85ecd-efb4-4f46-a0e7-4392d781f92f")
 		)
 		(pin "4"
-			(uuid "0da99d85-6f25-4023-a119-e331d052af11")
+			(uuid "0da99d85-6f25-4023-a119-e331d052af1b")
 		)
 		(instances
 			(project "Placa_Control_M2ES"

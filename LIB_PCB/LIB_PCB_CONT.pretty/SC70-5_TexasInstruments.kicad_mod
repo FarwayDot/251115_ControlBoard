@@ -1,0 +1,189 @@
+(footprint "SC70-5_TexasInstruments"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOT-353, SC-70-5")
+	(tags "SOT-353 SC-70-5")
+	(property "Reference" "REF**"
+		(at 0 -2.25 0)
+		(layer "F.SilkS")
+		(uuid "0150f6e4-51f5-44a7-bec2-57814003e8f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SC70-5_TexasInstruments"
+		(at 0.13 -0.01 180)
+		(layer "F.Fab")
+		(uuid "b394d88f-42c1-47e3-8fa6-93320f1c4513")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "752e24f2-8e46-4457-9eca-d98f4e713e7d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e554ca89-5a18-41d1-ad03-475efb96aa6f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.7 1.16)
+		(end 0.7 1.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "908e07a5-4876-4d16-8e7b-6b09c16a60f9")
+	)
+	(fp_line
+		(start -0.22 -1.16)
+		(end -0.71 -1.16)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4de225cf-16fe-4c9c-84f9-6563e15016e7")
+	)
+	(fp_line
+		(start 0.21 -1.16)
+		(end 0.67 -1.16)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b409f261-85b0-4744-98d6-baa3d80d61ad")
+	)
+	(fp_arc
+		(start 0.21 -1.16)
+		(mid -0.005 -0.945)
+		(end -0.22 -1.16)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e32d07bf-b69d-49cb-8b59-a3a7e1158a7d")
+	)
+	(fp_rect
+		(start -1.73 1.31)
+		(end 1.73 -1.31)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "36901aa6-3e40-404a-855a-61e37912100d")
+	)
+	(fp_rect
+		(start -1.2 1.075)
+		(end 1.2 -1.075)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a3066030-91a4-44ed-bfbc-3b4fd92f7bbb")
+	)
+	(fp_rect
+		(start -0.7 1.075)
+		(end 0.7 -1.075)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c8875d4f-bb3a-4d85-9107-fcf8adc497e1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "020676f6-d03a-443d-aa9a-05c2023f56e4")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.1 -0.65)
+		(size 0.95 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "b30a9f14-2968-4f7c-b605-b0de76011b2b")
+	)
+	(pad "2" smd roundrect
+		(at -1.1 0)
+		(size 0.95 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "a58d8eb8-67bf-4c62-a9d8-0979a8af9d48")
+	)
+	(pad "3" smd roundrect
+		(at -1.1 0.65)
+		(size 0.95 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "91c2a456-1b1e-46b6-8785-086e97ba6ee4")
+	)
+	(pad "4" smd roundrect
+		(at 1.1 0.65)
+		(size 0.95 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "2c92cf9e-89f3-4c3f-a1ee-04164c903604")
+	)
+	(pad "5" smd roundrect
+		(at 1.1 -0.65)
+		(size 0.95 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "19c8df82-58bd-451a-b074-6a58ff7edb5e")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-353_SC-70-5.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

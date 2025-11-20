@@ -1429,7 +1429,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb9930a5-7518-44ba-8cb9-73c9513ca944")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0101"
 			(at 149.86 95.25 0)
 			(effects
 				(font
@@ -1483,7 +1483,7 @@
 					(unit 1)
 				)
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/e50c1eea-f7ff-4608-9e2f-492ba2063b9c/2053a736-85df-46f3-8a0e-fd881a851240"
-					(reference "#PWR?")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/e50c1eea-f7ff-4608-9e2f-492ba2063b9c/49365162-9311-4042-aef9-c2d893a8d692"

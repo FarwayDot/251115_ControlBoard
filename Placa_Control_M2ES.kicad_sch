@@ -172,6 +172,48 @@
 		)
 	)
 	(sheet
+		(at 85.09 71.12)
+		(size 16.51 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b97e77ec-a392-4c66-a421-3998be06fbc5")
+		(property "Sheetname" "MCU"
+			(at 85.09 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm32.kicad_sch"
+			(at 85.09 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Placa_Control_M2ES"
+				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835"
+					(page "24")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 16.51 22.86)
 		(size 17.78 25.4)
 		(exclude_from_sim no)
