@@ -1796,7 +1796,7 @@
 		(uuid "e9a46735-44cc-4763-96bc-da569303f164")
 	)
 	(hierarchical_label "{DIG}"
-		(shape input)
+		(shape output)
 		(at 203.2 52.07 0)
 		(effects
 			(font
@@ -1857,7 +1857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LIB_PCB_CONT:15EDGRC_6P_3.81mm_Male-Rect_Degson"
+		(property "Footprint" "LIB_PCB_CONT:15EDGVC_6P_3.81mm_Male-Vert_Degson"
 			(at 49.53 80.01 0)
 			(effects
 				(font
@@ -1940,7 +1940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LIB_PCB_CONT:15EDGRC_6P_3.81mm_Male-Rect_Degson"
+		(property "Footprint" "LIB_PCB_CONT:15EDGVC_6P_3.81mm_Male-Vert_Degson"
 			(at 49.53 63.5 0)
 			(effects
 				(font
@@ -2023,7 +2023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LIB_PCB_CONT:15EDGRC_6P_3.81mm_Male-Rect_Degson"
+		(property "Footprint" "LIB_PCB_CONT:15EDGVC_6P_3.81mm_Male-Vert_Degson"
 			(at 49.53 97.79 0)
 			(effects
 				(font

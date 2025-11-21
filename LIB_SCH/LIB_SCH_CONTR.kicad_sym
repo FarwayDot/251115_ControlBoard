@@ -673,7 +673,7 @@
 					(type none)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 0 3.81 270)
 				(length 2.54)
 				(name "1"
@@ -691,7 +691,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 0 -5.08 90)
 				(length 2.54)
 				(name "2"
@@ -770,7 +770,7 @@
 					(type none)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 0 5.08 270)
 				(length 2.54)
 				(name "COM"
@@ -780,7 +780,7 @@
 						)
 					)
 				)
-				(number "4"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -788,7 +788,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 0 -6.35 90)
 				(length 2.54)
 				(name "NO"
@@ -798,7 +798,7 @@
 						)
 					)
 				)
-				(number "5"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)

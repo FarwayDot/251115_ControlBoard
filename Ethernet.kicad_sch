@@ -3608,15 +3608,15 @@
 			"ETH_REF_CLK" "ETH_MDIO" "ETH_MDC" "ETH_nRST"
 		)
 	)
-	(text "Q22FA12800569"
+	(text "C112569"
 		(exclude_from_sim no)
-		(at 104.394 136.652 0)
+		(at 104.394 136.906 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "4371638a-a189-453e-a471-845522fbcabb")
+		(uuid "729c756f-90ab-4a6d-a02d-734438e289e3")
 	)
 	(text "7499010211A"
 		(exclude_from_sim no)
@@ -3628,16 +3628,15 @@
 		)
 		(uuid "7341d5a5-18df-4f49-b871-669a0f582b12")
 	)
-	(text "EBMS160808A601:\nC963853"
+	(text "C1002"
 		(exclude_from_sim no)
-		(at 192.532 37.592 0)
+		(at 215.646 35.814 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
 		)
-		(uuid "b6567530-b06f-47a3-a28e-895aa35ecb2f")
+		(uuid "a96bc23d-3edd-4eb2-97ed-d0469a335e44")
 	)
 	(text "LAN / ETHERNET"
 		(exclude_from_sim no)
@@ -3666,6 +3665,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0798268f-a534-4da5-a5f3-9060547f37aa")
+	)
+	(junction
+		(at 154.94 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ed012ea-bf6b-4bbe-9073-970fccc5fa32")
 	)
 	(junction
 		(at 67.31 96.52)
@@ -3704,12 +3709,6 @@
 		(uuid "3517dd1c-35f7-443a-8134-e8ce5b650a12")
 	)
 	(junction
-		(at 186.69 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a6a028a-bf55-406e-9b2e-8b22938285da")
-	)
-	(junction
 		(at 240.03 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3726,6 +3725,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "510b1c04-6cc9-4708-a1b5-1e385f6ef95c")
+	)
+	(junction
+		(at 186.69 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53891975-401f-4209-a593-4277fc110c6b")
 	)
 	(junction
 		(at 113.03 132.08)
@@ -3782,12 +3787,6 @@
 		(uuid "8733bd2d-5ce0-4b26-b7d2-b7fea0be3d0b")
 	)
 	(junction
-		(at 154.94 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4ebfb74-d102-42dc-a2eb-4012b159745d")
-	)
-	(junction
 		(at 97.79 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3822,6 +3821,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc00629a-b06b-4a3e-ba89-668e03a86c08")
+	)
+	(junction
+		(at 154.94 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccafdaec-3cba-46cd-9f05-55672fafebe6")
 	)
 	(junction
 		(at 173.99 74.93)
@@ -3864,12 +3869,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ead54a9f-1fec-4229-9f06-d94a341303fb")
-	)
-	(junction
-		(at 186.69 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1d18bad-39cb-4e53-951c-3edaefd33284")
 	)
 	(junction
 		(at 90.17 104.14)
@@ -4259,7 +4258,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 41.91) (xy 186.69 44.45)
+			(xy 154.94 43.18) (xy 154.94 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4289,7 +4288,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 44.45) (xy 186.69 46.99)
+			(xy 154.94 44.45) (xy 154.94 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4329,6 +4328,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 44.45) (xy 186.69 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ef4099f-1db4-47db-8665-9d1c9b12f8c1")
+	)
+	(wire
+		(pts
 			(xy 69.85 135.89) (xy 58.42 135.89)
 		)
 		(stroke
@@ -4356,6 +4365,16 @@
 			(type default)
 		)
 		(uuid "30678a29-5a1e-4115-b938-7dae47a0529c")
+	)
+	(wire
+		(pts
+			(xy 154.94 31.75) (xy 171.45 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31b3bc59-5a8d-4d00-b68e-5507ddef8a19")
 	)
 	(wire
 		(pts
@@ -4419,7 +4438,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 31.75) (xy 196.85 31.75)
+			(xy 222.25 31.75) (xy 218.44 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4669,7 +4688,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 31.75) (xy 186.69 34.29)
+			(xy 154.94 31.75) (xy 154.94 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4726,6 +4745,16 @@
 			(type default)
 		)
 		(uuid "5a180ce5-69c7-4459-a937-3e04d2fc9e3e")
+	)
+	(wire
+		(pts
+			(xy 186.69 31.75) (xy 213.36 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c7430f2-3ca9-4b04-b3ca-229b9e5dc029")
 	)
 	(bus
 		(pts
@@ -5077,16 +5106,6 @@
 		)
 		(uuid "8244f555-d575-479e-a44e-40eec12c09ef")
 	)
-	(wire
-		(pts
-			(xy 171.45 31.75) (xy 154.94 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8377457b-d5d6-49d7-893e-6a0da55c6d39")
-	)
 	(polyline
 		(pts
 			(xy 160.7547 90.2744) (xy 160.1561 90.873)
@@ -5189,7 +5208,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 41.91) (xy 154.94 44.45)
+			(xy 186.69 43.18) (xy 186.69 44.45)
 		)
 		(stroke
 			(width 0)
@@ -5389,16 +5408,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 44.45) (xy 171.45 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2aa661a-c4d4-4029-89b7-ccc1727d0900")
-	)
-	(wire
-		(pts
 			(xy 154.94 93.98) (xy 173.99 93.98)
 		)
 		(stroke
@@ -5479,16 +5488,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 31.75) (xy 191.77 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae3c2c5a-53b2-4682-a14c-2f04027df26e")
-	)
-	(wire
-		(pts
 			(xy 213.36 123.19) (xy 210.82 123.19)
 		)
 		(stroke
@@ -5516,6 +5515,16 @@
 			(type default)
 		)
 		(uuid "b22cf232-8a1e-46cd-ace5-5ec1d619106f")
+	)
+	(wire
+		(pts
+			(xy 154.94 44.45) (xy 171.45 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b597e37e-c093-4168-863b-91f6136093fc")
 	)
 	(wire
 		(pts
@@ -5769,7 +5778,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 34.29) (xy 154.94 31.75)
+			(xy 186.69 35.56) (xy 186.69 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5799,7 +5808,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 31.75) (xy 139.7 31.75)
+			(xy 139.7 31.75) (xy 154.94 31.75)
 		)
 		(stroke
 			(width 0)
@@ -6206,16 +6215,6 @@
 			(type default)
 		)
 		(uuid "f51eba20-00a0-44cc-b7d7-c4fe45c8d40c")
-	)
-	(wire
-		(pts
-			(xy 171.45 44.45) (xy 186.69 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f89bff85-3d52-47e4-ada2-045d0e1ed502")
 	)
 	(wire
 		(pts
@@ -6658,7 +6657,7 @@
 		(uuid "fcc81323-df2c-436b-adb4-621417f160d8")
 	)
 	(hierarchical_label "{ETH}"
-		(shape input)
+		(shape bidirectional)
 		(at 29.21 31.75 180)
 		(effects
 			(font
@@ -6670,7 +6669,7 @@
 	)
 	(hierarchical_label "VDD_LAN_3V3"
 		(shape input)
-		(at 200.66 31.75 0)
+		(at 222.25 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6710,7 +6709,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "008701a7-3ec6-4d12-87c4-9f05870af960")
-		(property "Reference" "R16"
+		(property "Reference" "R39"
 			(at 53.34 98.044 90)
 			(effects
 				(font
@@ -6728,7 +6727,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 57.15 100.838 90)
 			(effects
 				(font
@@ -6770,7 +6769,77 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "R16")
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1-Capacitor:C_0805")
+		(at 127 38.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01550ddc-a436-4cd9-bee0-4a4dd7b0cfed")
+		(property "Reference" "C55"
+			(at 124.206 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF/50V"
+			(at 124.206 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 126.0348 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 127 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e75ff9ff-f101-4a14-b108-a2d6465addba")
+		)
+		(pin "1"
+			(uuid "58512e92-3278-44bb-91f0-439cefd1d34e")
+		)
+		(instances
+			(project "Placa_Control_M2ES"
+				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -6785,7 +6854,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01b5acc9-6bea-4080-9cae-2a3d0ac528df")
-		(property "Reference" "R13"
+		(property "Reference" "R41"
 			(at 53.34 115.824 90)
 			(effects
 				(font
@@ -6803,7 +6872,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 57.15 118.618 90)
 			(effects
 				(font
@@ -6845,7 +6914,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "R13")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -6862,7 +6931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02d3dc4a-8dbb-49ae-b912-abee69d748d0")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR046"
 			(at 173.99 124.46 0)
 			(effects
 				(font
@@ -6918,7 +6987,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "#PWR019")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -6933,7 +7002,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "176e4da9-9622-4a88-a7a9-9e55549c11cd")
-		(property "Reference" "C32"
+		(property "Reference" "C54"
 			(at 115.824 141.986 0)
 			(effects
 				(font
@@ -6942,7 +7011,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10pF 50V"
+		(property "Value" "30pF/50V"
 			(at 115.824 144.272 0)
 			(effects
 				(font
@@ -6951,7 +7020,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 113.9952 146.05 0)
 			(effects
 				(font
@@ -6993,7 +7062,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "C32")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -7008,7 +7077,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20dcddcb-dd22-4814-ba72-175271d1b300")
-		(property "Reference" "C36"
+		(property "Reference" "C62"
 			(at 242.824 78.74 0)
 			(effects
 				(font
@@ -7017,7 +7086,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 50V"
+		(property "Value" "100nF/50V"
 			(at 242.824 81.28 0)
 			(effects
 				(font
@@ -7026,7 +7095,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 240.9952 83.82 0)
 			(effects
 				(font
@@ -7068,7 +7137,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "C36")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -7083,7 +7152,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "21c043e5-9674-4b1a-ae1c-27d0ca42bc6d")
-		(property "Reference" "R22"
+		(property "Reference" "R47"
 			(at 96.266 85.344 0)
 			(effects
 				(font
@@ -7101,7 +7170,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 99.568 86.36 90)
 			(effects
 				(font
@@ -7143,7 +7212,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "R22")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -7160,7 +7229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2322d05c-720a-4d6f-b3b7-a65612378221")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR041"
 			(at 69.85 156.21 0)
 			(effects
 				(font
@@ -7216,7 +7285,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "#PWR020")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -7231,7 +7300,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2bd0e4b2-c001-4952-a80b-5fba7844d20b")
-		(property "Reference" "R24"
+		(property "Reference" "R53"
 			(at 257.556 142.494 0)
 			(effects
 				(font
@@ -7249,7 +7318,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 260.858 143.51 90)
 			(effects
 				(font
@@ -7291,7 +7360,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "R24")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -7299,7 +7368,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 186.69 46.99 0)
+		(at 154.94 48.26 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7307,8 +7376,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d255a65-58d2-4f1a-8a5b-2a5c0cc235a5")
-		(property "Reference" "#PWR013"
-			(at 186.69 53.34 0)
+		(property "Reference" "#PWR047"
+			(at 154.94 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7317,7 +7386,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.436 51.308 0)
+			(at 154.686 52.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7325,7 +7394,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 46.99 0)
+			(at 154.94 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7334,7 +7403,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 46.99 0)
+			(at 154.94 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7343,7 +7412,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 46.99 0)
+			(at 154.94 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7363,7 +7432,7 @@
 			)
 			(project ""
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "#PWR013")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -7378,7 +7447,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d6a5763-23dc-4be2-a0fb-ae3403fcd144")
-		(property "Reference" "R12"
+		(property "Reference" "R52"
 			(at 193.802 82.804 0)
 			(effects
 				(font
@@ -7396,7 +7465,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 189.992 83.82 90)
 			(effects
 				(font
@@ -7438,7 +7507,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "R12")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -7446,7 +7515,7 @@
 	)
 	(symbol
 		(lib_id "1-Capacitor:C_0805")
-		(at 154.94 38.1 0)
+		(at 186.69 39.37 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7454,8 +7523,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "370d1127-dd1d-4a09-903f-8468ffa53518")
-		(property "Reference" "C28"
-			(at 152.146 36.83 0)
+		(property "Reference" "C57"
+			(at 183.896 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7463,8 +7532,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF 16V"
-			(at 152.146 39.37 0)
+		(property "Value" "10uF/50V"
+			(at 183.896 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7472,8 +7541,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 153.9748 41.91 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 185.7248 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7482,7 +7551,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 38.1 0)
+			(at 186.69 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7491,7 +7560,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 154.94 38.1 0)
+			(at 186.69 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7514,7 +7583,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "C28")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -7529,7 +7598,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "379acf8e-aa1e-4c16-9096-8bbbdc359ef3")
-		(property "Reference" "R15"
+		(property "Reference" "R50"
 			(at 172.466 110.744 0)
 			(effects
 				(font
@@ -7547,7 +7616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 175.768 111.76 90)
 			(effects
 				(font
@@ -7589,7 +7658,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "R15")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -7604,7 +7673,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3bf67f90-a64e-4a96-8ac6-b0a943f659c9")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR051"
 			(at 248.92 154.94 0)
 			(effects
 				(font
@@ -7661,7 +7730,7 @@
 			)
 			(project ""
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "#PWR031")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -7677,7 +7746,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4752ad51-dff4-4bce-beb7-2173c447acf2")
-		(property "Reference" "C34"
+		(property "Reference" "C59"
 			(at 176.276 139.7 0)
 			(effects
 				(font
@@ -7686,7 +7755,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 50V"
+		(property "Value" "100nF/50V"
 			(at 176.276 142.24 0)
 			(effects
 				(font
@@ -7695,7 +7764,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 178.1048 144.78 0)
 			(effects
 				(font
@@ -7737,7 +7806,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "C34")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -7752,7 +7821,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a825252-6a5a-4bea-9428-f21f7fcca11a")
-		(property "Reference" "C35"
+		(property "Reference" "C61"
 			(at 189.484 139.7 0)
 			(effects
 				(font
@@ -7761,7 +7830,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 50V"
+		(property "Value" "100nF/50V"
 			(at 189.484 142.24 0)
 			(effects
 				(font
@@ -7770,7 +7839,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 187.6552 144.78 0)
 			(effects
 				(font
@@ -7812,7 +7881,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "C35")
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -7827,7 +7896,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4fb6a23d-5d20-40cf-a99c-832afe8930d7")
-		(property "Reference" "J4"
+		(property "Reference" "J12"
 			(at 234.95 116.84 0)
 			(effects
 				(font
@@ -7919,7 +7988,7 @@
 			)
 			(project ""
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "J4")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -7936,7 +8005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52265b2d-12e1-404e-8b20-c3c251241535")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR053"
 			(at 271.78 156.21 0)
 			(effects
 				(font
@@ -7992,7 +8061,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "#PWR066")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -8008,7 +8077,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5255ce72-af67-4515-a226-ff8ff6fe4084")
-		(property "Reference" "C33"
+		(property "Reference" "C56"
 			(at 124.206 62.23 0)
 			(effects
 				(font
@@ -8017,7 +8086,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 50V"
+		(property "Value" "100nF/50V"
 			(at 124.206 64.77 0)
 			(effects
 				(font
@@ -8026,7 +8095,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 126.0348 67.31 0)
 			(effects
 				(font
@@ -8068,7 +8137,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "C33")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -8085,7 +8154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5816535e-7c52-40fe-99c7-64fd2705029a")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR052"
 			(at 259.08 156.21 0)
 			(effects
 				(font
@@ -8141,7 +8210,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "#PWR028")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -8156,7 +8225,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d9e0f7d-cc67-4385-af7f-e75afe98d485")
-		(property "Reference" "R18"
+		(property "Reference" "R38"
 			(at 53.34 95.504 90)
 			(effects
 				(font
@@ -8174,7 +8243,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 57.15 98.298 90)
 			(effects
 				(font
@@ -8216,81 +8285,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 194.31 31.75 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6c22cdee-8e18-4dd7-b458-9b5ca9f1d7eb")
-		(property "Reference" "FB2"
-			(at 193.802 26.416 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "600R"
-			(at 193.802 28.956 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
-			(at 194.31 33.528 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead, small symbol"
-			(at 194.31 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "813d56f9-ca56-447b-aa6c-ba2d9cda1fbf")
-		)
-		(pin "1"
-			(uuid "5c072908-b8d1-42e6-afea-f8fbef691628")
-		)
-		(instances
-			(project "Onyx_Client"
-				(path "/7cf65f8a-f9e1-4c97-ae3b-2bf5316c4d48/15cecee3-3ea4-4fda-9934-a7d023f81ee7"
-					(reference "FB2")
-					(unit 1)
-				)
-			)
-			(project "Onyx_Client"
-				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "FB2")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -8305,7 +8300,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77cdb730-50b4-461a-a981-0a025c98afd3")
-		(property "Reference" "R23"
+		(property "Reference" "R43"
 			(at 68.326 141.224 0)
 			(effects
 				(font
@@ -8323,7 +8318,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 71.628 142.24 90)
 			(effects
 				(font
@@ -8365,7 +8360,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "R23")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -8382,7 +8377,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "820d7654-d8d6-450e-a513-d37d52bf141f")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR049"
 			(at 228.6 113.03 0)
 			(effects
 				(font
@@ -8438,7 +8433,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "#PWR025")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -8454,7 +8449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "895413a9-16da-40cf-97b6-413ef381a773")
-		(property "Reference" "U3"
+		(property "Reference" "U13"
 			(at 234.95 93.9799 0)
 			(effects
 				(font
@@ -8529,7 +8524,7 @@
 			)
 			(project ""
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "U3")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -8546,7 +8541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90b848b1-2650-490d-9a79-ddcb26d3e02a")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR044"
 			(at 127 74.93 0)
 			(effects
 				(font
@@ -8602,7 +8597,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "#PWR023")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -8617,7 +8612,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9549e4fc-0869-448e-b2a3-52fbcacb6031")
-		(property "Reference" "R10"
+		(property "Reference" "R49"
 			(at 176.022 82.804 0)
 			(effects
 				(font
@@ -8635,7 +8630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 172.212 83.82 90)
 			(effects
 				(font
@@ -8677,7 +8672,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "R10")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -8692,7 +8687,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "972dce7c-c551-4604-bfb5-b53689ba2edf")
-		(property "Reference" "R19"
+		(property "Reference" "R44"
 			(at 73.406 85.344 0)
 			(effects
 				(font
@@ -8710,7 +8705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 76.708 86.36 90)
 			(effects
 				(font
@@ -8752,7 +8747,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "R19")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -8769,7 +8764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d0686b0-76f6-4c5c-86f0-bbb5567ec9d3")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR050"
 			(at 240.03 91.44 0)
 			(effects
 				(font
@@ -8825,7 +8820,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "#PWR027")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -8841,7 +8836,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e974917-1588-4b8d-9058-c3c07ca117be")
-		(property "Reference" "C29"
+		(property "Reference" "C53"
 			(at 107.696 36.83 0)
 			(effects
 				(font
@@ -8850,7 +8845,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF 16V"
+		(property "Value" "1uF/50V"
 			(at 107.696 39.37 0)
 			(effects
 				(font
@@ -8859,7 +8854,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 109.5248 41.91 0)
 			(effects
 				(font
@@ -8901,7 +8896,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "C29")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -8909,7 +8904,7 @@
 	)
 	(symbol
 		(lib_id "1-Capacitor:C_0805")
-		(at 186.69 38.1 0)
+		(at 154.94 39.37 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8917,8 +8912,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2bfeee8-2374-4a25-bcf2-ea1715d2e6f4")
-		(property "Reference" "C26"
-			(at 183.896 36.83 0)
+		(property "Reference" "C60"
+			(at 152.146 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8926,8 +8921,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF 50V"
-			(at 183.896 39.37 0)
+		(property "Value" "10nF/50V"
+			(at 152.146 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8935,8 +8930,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 185.7248 41.91 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 153.9748 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8945,7 +8940,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 38.1 0)
+			(at 154.94 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8954,7 +8949,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 186.69 38.1 0)
+			(at 154.94 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8977,7 +8972,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "C26")
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -8992,7 +8987,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a7aae4b0-7d0d-4b8e-9ee5-098284a4d185")
-		(property "Reference" "Y2"
+		(property "Reference" "Y3"
 			(at 104.14 125.476 0)
 			(effects
 				(font
@@ -9008,7 +9003,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm"
 			(at 104.14 132.08 0)
 			(effects
 				(font
@@ -9050,83 +9045,7 @@
 			)
 			(project ""
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "Y2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "1-Capacitor:C_0805")
-		(at 127 38.1 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a935fe9f-10c7-4e79-9e9e-6d3a5415d13d")
-		(property "Reference" "C30"
-			(at 124.206 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470pF 50V"
-			(at 124.206 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 126.0348 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 127 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0843575d-21f3-4ccf-ac80-91a1c454c973")
-		)
-		(pin "1"
-			(uuid "9f9f1048-d8dd-48fc-a77e-d6b929854ef7")
-		)
-		(instances
-			(project "Onyx_Client"
-				(path "/7cf65f8a-f9e1-4c97-ae3b-2bf5316c4d48/15cecee3-3ea4-4fda-9934-a7d023f81ee7"
-					(reference "C30")
-					(unit 1)
-				)
-			)
-			(project "Onyx_Client"
-				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "C30")
+					(reference "Y3")
 					(unit 1)
 				)
 			)
@@ -9143,7 +9062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa4e8171-68fb-412c-899d-54bcf6e947b5")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR043"
 			(at 110.49 53.34 0)
 			(effects
 				(font
@@ -9199,7 +9118,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "#PWR014")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -9216,7 +9135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0b3dbcf-67cf-4e43-92cf-abb17735dc1e")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR048"
 			(at 186.69 156.21 0)
 			(effects
 				(font
@@ -9272,7 +9191,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "#PWR024")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -9287,7 +9206,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0b45cc1-3d0e-4feb-bb07-488131f06107")
-		(property "Reference" "R11"
+		(property "Reference" "R51"
 			(at 184.912 82.804 0)
 			(effects
 				(font
@@ -9305,7 +9224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 181.102 83.82 90)
 			(effects
 				(font
@@ -9347,7 +9266,74 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "R11")
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 215.9 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b201aa37-67f9-4a37-b92f-60f0693f0e52")
+		(property "Reference" "FB1"
+			(at 214.122 28.956 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "600R"
+			(at 219.202 28.956 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 215.9 33.528 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead, small symbol"
+			(at 215.9 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9fc6e473-fc60-429f-8f5f-bf41b94a543f")
+		)
+		(pin "1"
+			(uuid "6adf008b-e5ea-4442-bbe2-bd613f181ad0")
+		)
+		(instances
+			(project "Placa_Control_M2ES"
+				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
+					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -9363,7 +9349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b364943c-688a-45fd-bea6-5583dd47206b")
-		(property "Reference" "U2"
+		(property "Reference" "U12"
 			(at 139.3541 132.08 0)
 			(effects
 				(font
@@ -9493,7 +9479,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "U2")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -9508,7 +9494,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bf4808db-975d-4c8f-b746-f523706af49c")
-		(property "Reference" "R21"
+		(property "Reference" "R46"
 			(at 88.646 85.344 0)
 			(effects
 				(font
@@ -9526,7 +9512,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 91.948 86.36 90)
 			(effects
 				(font
@@ -9568,7 +9554,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "R21")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -9583,7 +9569,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca993f12-024b-4415-8f4b-fc09e7808a80")
-		(property "Reference" "R9"
+		(property "Reference" "R48"
 			(at 167.132 82.804 0)
 			(effects
 				(font
@@ -9601,7 +9587,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 163.322 83.82 90)
 			(effects
 				(font
@@ -9643,7 +9629,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "R9")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -9659,8 +9645,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ccaa505e-8541-457a-87ff-6f5a41184a69")
-		(property "Reference" "C27"
-			(at 168.656 36.83 0)
+		(property "Reference" "C58"
+			(at 168.656 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9668,8 +9654,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 50V"
-			(at 168.656 39.37 0)
+		(property "Value" "100nF/50V"
+			(at 168.656 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9677,7 +9663,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 170.4848 41.91 0)
 			(effects
 				(font
@@ -9719,7 +9705,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "C27")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -9736,7 +9722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0742ff3-dfe3-4796-8f2f-abbab66ba3c4")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR042"
 			(at 105.41 156.21 0)
 			(effects
 				(font
@@ -9792,7 +9778,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "#PWR022")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -9807,7 +9793,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d948faca-f04a-4038-b2f2-355b82db670c")
-		(property "Reference" "R14"
+		(property "Reference" "R45"
 			(at 81.026 85.344 0)
 			(effects
 				(font
@@ -9825,7 +9811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 84.328 86.36 90)
 			(effects
 				(font
@@ -9867,7 +9853,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "R14")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -9884,7 +9870,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df598f9e-65bc-4199-a313-13a7356c949b")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR054"
 			(at 276.86 156.21 0)
 			(effects
 				(font
@@ -9940,7 +9926,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "#PWR029")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -9957,7 +9943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eee8eaf4-a33d-473d-bd36-6d83dc4aed84")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR045"
 			(at 137.16 156.21 0)
 			(effects
 				(font
@@ -10013,7 +9999,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "#PWR017")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -10029,7 +10015,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f2b447ff-72bb-444e-ac3a-8d2b14636c70")
-		(property "Reference" "R25"
+		(property "Reference" "R55"
 			(at 278.384 142.494 0)
 			(effects
 				(font
@@ -10047,7 +10033,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 275.082 143.51 90)
 			(effects
 				(font
@@ -10089,7 +10075,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "R25")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -10105,7 +10091,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f58f996a-bb9a-4af3-b8e3-1f359f682162")
-		(property "Reference" "C31"
+		(property "Reference" "C52"
 			(at 92.456 141.986 0)
 			(effects
 				(font
@@ -10114,7 +10100,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10pF 50V"
+		(property "Value" "30pF/50V"
 			(at 92.456 144.272 0)
 			(effects
 				(font
@@ -10123,7 +10109,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 94.2848 146.05 0)
 			(effects
 				(font
@@ -10165,7 +10151,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "C31")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -10180,7 +10166,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f77c56bd-6e07-4b9d-9eb9-115bf540aaf4")
-		(property "Reference" "R61"
+		(property "Reference" "R54"
 			(at 270.256 142.494 0)
 			(effects
 				(font
@@ -10198,7 +10184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 273.558 143.51 90)
 			(effects
 				(font
@@ -10240,7 +10226,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "R61")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -10255,7 +10241,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb4a7c28-6bd1-4eb3-b0c6-4f8d30b1e766")
-		(property "Reference" "R20"
+		(property "Reference" "R40"
 			(at 53.34 103.124 90)
 			(effects
 				(font
@@ -10273,7 +10259,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 57.15 105.918 90)
 			(effects
 				(font
@@ -10315,7 +10301,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "R20")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -10330,7 +10316,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fbfa626d-5139-4fe3-9781-75db281ae087")
-		(property "Reference" "R17"
+		(property "Reference" "R42"
 			(at 65.786 85.344 0)
 			(effects
 				(font
@@ -10348,7 +10334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 69.088 86.36 90)
 			(effects
 				(font
@@ -10390,7 +10376,7 @@
 			)
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/8e0b582f-0020-4bc2-aca5-707ed1850aed"
-					(reference "R17")
+					(reference "R42")
 					(unit 1)
 				)
 			)

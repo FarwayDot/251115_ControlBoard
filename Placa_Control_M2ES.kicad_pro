@@ -662,12 +662,12 @@
       "RC_Filter6"
     ],
     [
-      "8e0b582f-0020-4bc2-aca5-707ed1850aed",
-      "Ethernet"
-    ],
-    [
       "1b56bc71-dabc-43d8-b626-b8bf2f646665",
       "RC_Filter7"
+    ],
+    [
+      "8e0b582f-0020-4bc2-aca5-707ed1850aed",
+      "Ethernet"
     ],
     [
       "1ca2f7d4-32bd-4b32-8319-62f10d863277",
