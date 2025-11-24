@@ -340,4 +340,26 @@
 		(uuid "86500f42-ea56-4fcd-9e61-58fc773f4d3e")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/LIB_CAD/15EDGVC-3.81-06P-14-00AH.STEP"
+		(offset
+			(xyz -11.825 3.55 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+	(model "${KIPRJMOD}/LIB_CAD/15EDGK-3.81-06P-14-00AH.STEP"
+		(offset
+			(xyz -11.75 7 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
