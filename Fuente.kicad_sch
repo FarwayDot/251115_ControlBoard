@@ -2115,7 +2115,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 49.53) (xy 29.21 49.53)
+			(xy 24.13 49.53) (xy 43.18 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2405,6 +2405,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 64.77) (xy 43.18 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a028527c-7ed3-437a-8f6f-ff5eeaf94f22")
+	)
+	(wire
+		(pts
 			(xy 120.65 49.53) (xy 130.81 49.53)
 		)
 		(stroke
@@ -2425,7 +2435,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 64.77) (xy 43.18 64.77)
+			(xy 26.67 64.77) (xy 30.48 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2612,16 +2622,6 @@
 			(type default)
 		)
 		(uuid "ee626c4f-ec5e-4375-927c-388fad0db2be")
-	)
-	(wire
-		(pts
-			(xy 36.83 49.53) (xy 43.18 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0c0257b-df43-4619-8694-c0fdeeb4fced")
 	)
 	(wire
 		(pts
@@ -2840,16 +2840,16 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 33.02 49.53 90)
+		(at 34.29 64.77 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "04f18b99-6eda-47e6-8452-e591515099d6")
 		(property "Reference" "F1"
-			(at 33.02 44.45 90)
+			(at 34.29 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2857,7 +2857,7 @@
 			)
 		)
 		(property "Value" "250VAC 0.5AAC"
-			(at 33.02 46.99 90)
+			(at 34.29 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2865,7 +2865,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuseholder_TR5_Littelfuse_No560_No460"
-			(at 33.02 51.308 90)
+			(at 34.29 62.992 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2874,7 +2874,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 49.53 0)
+			(at 34.29 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,7 +2883,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 49.53 0)
+			(at 34.29 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
