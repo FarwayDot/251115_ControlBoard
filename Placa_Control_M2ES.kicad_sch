@@ -25,6 +25,26 @@
 		)
 		(uuid "0f8caa80-f947-4439-a532-108f8bd836fd")
 	)
+	(text_box "Revision:\n\nuC:\n\nEthernet: ok\nGPIO: DIG_x & Relay_x ok\nSPI: ok\n"
+		(exclude_from_sim no)
+		(at 208.28 80.01 0)
+		(size 73.66 22.86)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c6273310-7685-4605-a199-6ddafc3a5ecf")
+	)
 	(junction
 		(at 82.55 81.28)
 		(diameter 0)

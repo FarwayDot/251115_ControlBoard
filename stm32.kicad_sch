@@ -1292,12 +1292,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MCU_ST_STM32H7:STM32H743VITx"
+		(symbol "MCU_ST_STM32F4:STM32F407VGTx"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -17.78 69.85 0)
+				(at -20.32 69.85 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1305,8 +1305,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "STM32H743VITx"
-				(at 10.16 69.85 0)
+			(property "Value" "STM32F407VGTx"
+				(at 12.7 69.85 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1315,7 +1315,7 @@
 				)
 			)
 			(property "Footprint" "Package_QFP:LQFP-100_14x14mm_P0.5mm"
-				(at -17.78 -66.04 0)
+				(at -20.32 -66.04 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1324,7 +1324,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32h743vi.pdf"
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f407vg.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1333,7 +1333,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "STMicroelectronics Arm Cortex-M7 MCU, 2048KB flash, 1024KB RAM, 480 MHz, 1.71-3.6V, 82 GPIO, LQFP100"
+			(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 1024KB flash, 192KB RAM, 168 MHz, 1.8-3.6V, 82 GPIO, LQFP100"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1342,7 +1342,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Arm Cortex-M7 STM32H7 STM32H743/753"
+			(property "ki_keywords" "Arm Cortex-M4 STM32F4 STM32F407/417"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1360,10 +1360,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "STM32H743VITx_0_1"
+			(symbol "STM32F407VGTx_0_1"
 				(rectangle
-					(start -17.78 -66.04)
-					(end 17.78 68.58)
+					(start -20.32 -66.04)
+					(end 20.32 68.58)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1373,9 +1373,9 @@
 					)
 				)
 			)
-			(symbol "STM32H743VITx_1_1"
+			(symbol "STM32F407VGTx_1_1"
 				(pin input line
-					(at -22.86 63.5 0)
+					(at -25.4 63.5 0)
 					(length 5.08)
 					(name "NRST"
 						(effects
@@ -1393,7 +1393,7 @@
 					)
 				)
 				(pin input line
-					(at -22.86 58.42 0)
+					(at -25.4 58.42 0)
 					(length 5.08)
 					(name "BOOT0"
 						(effects
@@ -1411,7 +1411,7 @@
 					)
 				)
 				(pin input line
-					(at -22.86 53.34 0)
+					(at -25.4 53.34 0)
 					(length 5.08)
 					(name "VREF+"
 						(effects
@@ -1420,17 +1420,16 @@
 							)
 						)
 					)
-					(number "20"
+					(number "21"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(alternate "VREFBUF_OUT" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -22.86 48.26 0)
+					(at -25.4 48.26 0)
 					(length 5.08)
 					(name "PH0"
 						(effects
@@ -1449,7 +1448,7 @@
 					(alternate "RCC_OSC_IN" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -22.86 45.72 0)
+					(at -25.4 45.72 0)
 					(length 5.08)
 					(name "PH1"
 						(effects
@@ -1468,7 +1467,7 @@
 					(alternate "RCC_OSC_OUT" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -22.86 40.64 0)
+					(at -25.4 40.64 0)
 					(length 5.08)
 					(name "PE0"
 						(effects
@@ -1485,16 +1484,11 @@
 						)
 					)
 					(alternate "DCMI_D2" bidirectional line)
-					(alternate "FMC_NBL0" bidirectional line)
-					(alternate "HRTIM_SCIN" bidirectional line)
-					(alternate "LPTIM1_ETR" bidirectional line)
-					(alternate "LPTIM2_ETR" bidirectional line)
-					(alternate "SAI2_MCLK_A" bidirectional line)
+					(alternate "FSMC_NBL0" bidirectional line)
 					(alternate "TIM4_ETR" bidirectional line)
-					(alternate "UART8_RX" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -22.86 38.1 0)
+					(at -25.4 38.1 0)
 					(length 5.08)
 					(name "PE1"
 						(effects
@@ -1511,13 +1505,10 @@
 						)
 					)
 					(alternate "DCMI_D3" bidirectional line)
-					(alternate "FMC_NBL1" bidirectional line)
-					(alternate "HRTIM_SCOUT" bidirectional line)
-					(alternate "LPTIM1_IN2" bidirectional line)
-					(alternate "UART8_TX" bidirectional line)
+					(alternate "FSMC_NBL1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -22.86 35.56 0)
+					(at -25.4 35.56 0)
 					(length 5.08)
 					(name "PE2"
 						(effects
@@ -1533,18 +1524,12 @@
 							)
 						)
 					)
-					(alternate "DEBUG_TRACECLK" bidirectional line)
 					(alternate "ETH_TXD3" bidirectional line)
-					(alternate "FMC_A23" bidirectional line)
-					(alternate "QUADSPI_BK1_IO2" bidirectional line)
-					(alternate "SAI1_CK1" bidirectional line)
-					(alternate "SAI1_MCLK_A" bidirectional line)
-					(alternate "SAI4_CK1" bidirectional line)
-					(alternate "SAI4_MCLK_A" bidirectional line)
-					(alternate "SPI4_SCK" bidirectional line)
+					(alternate "FSMC_A23" bidirectional line)
+					(alternate "SYS_TRACECLK" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -22.86 33.02 0)
+					(at -25.4 33.02 0)
 					(length 5.08)
 					(name "PE3"
 						(effects
@@ -1560,14 +1545,11 @@
 							)
 						)
 					)
-					(alternate "DEBUG_TRACED0" bidirectional line)
-					(alternate "FMC_A19" bidirectional line)
-					(alternate "SAI1_SD_B" bidirectional line)
-					(alternate "SAI4_SD_B" bidirectional line)
-					(alternate "TIM15_BKIN" bidirectional line)
+					(alternate "FSMC_A19" bidirectional line)
+					(alternate "SYS_TRACED0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -22.86 30.48 0)
+					(at -25.4 30.48 0)
 					(length 5.08)
 					(name "PE4"
 						(effects
@@ -1584,19 +1566,11 @@
 						)
 					)
 					(alternate "DCMI_D4" bidirectional line)
-					(alternate "DEBUG_TRACED1" bidirectional line)
-					(alternate "DFSDM1_DATIN3" bidirectional line)
-					(alternate "FMC_A20" bidirectional line)
-					(alternate "LTDC_B0" bidirectional line)
-					(alternate "SAI1_D2" bidirectional line)
-					(alternate "SAI1_FS_A" bidirectional line)
-					(alternate "SAI4_D2" bidirectional line)
-					(alternate "SAI4_FS_A" bidirectional line)
-					(alternate "SPI4_NSS" bidirectional line)
-					(alternate "TIM15_CH1N" bidirectional line)
+					(alternate "FSMC_A20" bidirectional line)
+					(alternate "SYS_TRACED1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -22.86 27.94 0)
+					(at -25.4 27.94 0)
 					(length 5.08)
 					(name "PE5"
 						(effects
@@ -1613,19 +1587,12 @@
 						)
 					)
 					(alternate "DCMI_D6" bidirectional line)
-					(alternate "DEBUG_TRACED2" bidirectional line)
-					(alternate "DFSDM1_CKIN3" bidirectional line)
-					(alternate "FMC_A21" bidirectional line)
-					(alternate "LTDC_G0" bidirectional line)
-					(alternate "SAI1_CK2" bidirectional line)
-					(alternate "SAI1_SCK_A" bidirectional line)
-					(alternate "SAI4_CK2" bidirectional line)
-					(alternate "SAI4_SCK_A" bidirectional line)
-					(alternate "SPI4_MISO" bidirectional line)
-					(alternate "TIM15_CH1" bidirectional line)
+					(alternate "FSMC_A21" bidirectional line)
+					(alternate "SYS_TRACED2" bidirectional line)
+					(alternate "TIM9_CH1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -22.86 25.4 0)
+					(at -25.4 25.4 0)
 					(length 5.08)
 					(name "PE6"
 						(effects
@@ -1642,50 +1609,14 @@
 						)
 					)
 					(alternate "DCMI_D7" bidirectional line)
-					(alternate "DEBUG_TRACED3" bidirectional line)
-					(alternate "FMC_A22" bidirectional line)
-					(alternate "LTDC_G1" bidirectional line)
-					(alternate "SAI1_D1" bidirectional line)
-					(alternate "SAI1_SD_A" bidirectional line)
-					(alternate "SAI2_MCLK_B" bidirectional line)
-					(alternate "SAI4_D1" bidirectional line)
-					(alternate "SAI4_SD_A" bidirectional line)
-					(alternate "SPI4_MOSI" bidirectional line)
-					(alternate "TIM15_CH2" bidirectional line)
-					(alternate "TIM1_BKIN2" bidirectional line)
-					(alternate "TIM1_BKIN2_COMP1" bidirectional line)
-					(alternate "TIM1_BKIN2_COMP2" bidirectional line)
+					(alternate "FSMC_A22" bidirectional line)
+					(alternate "SYS_TRACED3" bidirectional line)
+					(alternate "TIM9_CH2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -22.86 22.86 0)
+					(at -25.4 22.86 0)
 					(length 5.08)
 					(name "PE7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "COMP2_INM" bidirectional line)
-					(alternate "DFSDM1_DATIN2" bidirectional line)
-					(alternate "FMC_D4" bidirectional line)
-					(alternate "FMC_DA4" bidirectional line)
-					(alternate "OPAMP2_VOUT" bidirectional line)
-					(alternate "QUADSPI_BK2_IO0" bidirectional line)
-					(alternate "TIM1_ETR" bidirectional line)
-					(alternate "UART7_RX" bidirectional line)
-				)
-				(pin bidirectional line
-					(at -22.86 20.32 0)
-					(length 5.08)
-					(name "PE8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1699,20 +1630,14 @@
 							)
 						)
 					)
-					(alternate "COMP2_OUT" bidirectional line)
-					(alternate "DFSDM1_CKIN2" bidirectional line)
-					(alternate "FMC_D5" bidirectional line)
-					(alternate "FMC_DA5" bidirectional line)
-					(alternate "OPAMP2_VINM" bidirectional line)
-					(alternate "OPAMP2_VINM0" bidirectional line)
-					(alternate "QUADSPI_BK2_IO1" bidirectional line)
-					(alternate "TIM1_CH1N" bidirectional line)
-					(alternate "UART7_TX" bidirectional line)
+					(alternate "FSMC_D4" bidirectional line)
+					(alternate "FSMC_DA4" bidirectional line)
+					(alternate "TIM1_ETR" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -22.86 17.78 0)
+					(at -25.4 20.32 0)
 					(length 5.08)
-					(name "PE9"
+					(name "PE8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1726,21 +1651,14 @@
 							)
 						)
 					)
-					(alternate "COMP2_INP" bidirectional line)
-					(alternate "DAC1_EXTI9" bidirectional line)
-					(alternate "DFSDM1_CKOUT" bidirectional line)
-					(alternate "FMC_D6" bidirectional line)
-					(alternate "FMC_DA6" bidirectional line)
-					(alternate "OPAMP2_VINP" bidirectional line)
-					(alternate "QUADSPI_BK2_IO2" bidirectional line)
-					(alternate "TIM1_CH1" bidirectional line)
-					(alternate "UART7_DE" bidirectional line)
-					(alternate "UART7_RTS" bidirectional line)
+					(alternate "FSMC_D5" bidirectional line)
+					(alternate "FSMC_DA5" bidirectional line)
+					(alternate "TIM1_CH1N" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -22.86 15.24 0)
+					(at -25.4 17.78 0)
 					(length 5.08)
-					(name "PE10"
+					(name "PE9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1754,18 +1672,15 @@
 							)
 						)
 					)
-					(alternate "COMP2_INM" bidirectional line)
-					(alternate "DFSDM1_DATIN4" bidirectional line)
-					(alternate "FMC_D7" bidirectional line)
-					(alternate "FMC_DA7" bidirectional line)
-					(alternate "QUADSPI_BK2_IO3" bidirectional line)
-					(alternate "TIM1_CH2N" bidirectional line)
-					(alternate "UART7_CTS" bidirectional line)
+					(alternate "DAC_EXTI9" bidirectional line)
+					(alternate "FSMC_D6" bidirectional line)
+					(alternate "FSMC_DA6" bidirectional line)
+					(alternate "TIM1_CH1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -22.86 12.7 0)
+					(at -25.4 15.24 0)
 					(length 5.08)
-					(name "PE11"
+					(name "PE10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1779,22 +1694,14 @@
 							)
 						)
 					)
-					(alternate "ADC1_EXTI11" bidirectional line)
-					(alternate "ADC2_EXTI11" bidirectional line)
-					(alternate "ADC3_EXTI11" bidirectional line)
-					(alternate "COMP2_INP" bidirectional line)
-					(alternate "DFSDM1_CKIN4" bidirectional line)
-					(alternate "FMC_D8" bidirectional line)
-					(alternate "FMC_DA8" bidirectional line)
-					(alternate "LTDC_G3" bidirectional line)
-					(alternate "SAI2_SD_B" bidirectional line)
-					(alternate "SPI4_NSS" bidirectional line)
-					(alternate "TIM1_CH2" bidirectional line)
+					(alternate "FSMC_D7" bidirectional line)
+					(alternate "FSMC_DA7" bidirectional line)
+					(alternate "TIM1_CH2N" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -22.86 10.16 0)
+					(at -25.4 12.7 0)
 					(length 5.08)
-					(name "PE12"
+					(name "PE11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1808,19 +1715,17 @@
 							)
 						)
 					)
-					(alternate "COMP1_OUT" bidirectional line)
-					(alternate "DFSDM1_DATIN5" bidirectional line)
-					(alternate "FMC_D9" bidirectional line)
-					(alternate "FMC_DA9" bidirectional line)
-					(alternate "LTDC_B4" bidirectional line)
-					(alternate "SAI2_SCK_B" bidirectional line)
-					(alternate "SPI4_SCK" bidirectional line)
-					(alternate "TIM1_CH3N" bidirectional line)
+					(alternate "ADC1_EXTI11" bidirectional line)
+					(alternate "ADC2_EXTI11" bidirectional line)
+					(alternate "ADC3_EXTI11" bidirectional line)
+					(alternate "FSMC_D8" bidirectional line)
+					(alternate "FSMC_DA8" bidirectional line)
+					(alternate "TIM1_CH2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -22.86 7.62 0)
+					(at -25.4 10.16 0)
 					(length 5.08)
-					(name "PE13"
+					(name "PE12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1834,19 +1739,14 @@
 							)
 						)
 					)
-					(alternate "COMP2_OUT" bidirectional line)
-					(alternate "DFSDM1_CKIN5" bidirectional line)
-					(alternate "FMC_D10" bidirectional line)
-					(alternate "FMC_DA10" bidirectional line)
-					(alternate "LTDC_DE" bidirectional line)
-					(alternate "SAI2_FS_B" bidirectional line)
-					(alternate "SPI4_MISO" bidirectional line)
-					(alternate "TIM1_CH3" bidirectional line)
+					(alternate "FSMC_D9" bidirectional line)
+					(alternate "FSMC_DA9" bidirectional line)
+					(alternate "TIM1_CH3N" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -22.86 5.08 0)
+					(at -25.4 7.62 0)
 					(length 5.08)
-					(name "PE14"
+					(name "PE13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1860,17 +1760,14 @@
 							)
 						)
 					)
-					(alternate "FMC_D11" bidirectional line)
-					(alternate "FMC_DA11" bidirectional line)
-					(alternate "LTDC_CLK" bidirectional line)
-					(alternate "SAI2_MCLK_B" bidirectional line)
-					(alternate "SPI4_MOSI" bidirectional line)
-					(alternate "TIM1_CH4" bidirectional line)
+					(alternate "FSMC_D10" bidirectional line)
+					(alternate "FSMC_DA10" bidirectional line)
+					(alternate "TIM1_CH3" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -22.86 2.54 0)
+					(at -25.4 5.08 0)
 					(length 5.08)
-					(name "PE15"
+					(name "PE14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1884,18 +1781,36 @@
 							)
 						)
 					)
+					(alternate "FSMC_D11" bidirectional line)
+					(alternate "FSMC_DA11" bidirectional line)
+					(alternate "TIM1_CH4" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 2.54 0)
+					(length 5.08)
+					(name "PE15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(alternate "ADC1_EXTI15" bidirectional line)
 					(alternate "ADC2_EXTI15" bidirectional line)
 					(alternate "ADC3_EXTI15" bidirectional line)
-					(alternate "FMC_D12" bidirectional line)
-					(alternate "FMC_DA12" bidirectional line)
-					(alternate "LTDC_R7" bidirectional line)
+					(alternate "FSMC_D12" bidirectional line)
+					(alternate "FSMC_DA12" bidirectional line)
 					(alternate "TIM1_BKIN" bidirectional line)
-					(alternate "TIM1_BKIN_COMP1" bidirectional line)
-					(alternate "TIM1_BKIN_COMP2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -22.86 -2.54 0)
+					(at -25.4 -2.54 0)
 					(length 5.08)
 					(name "PD0"
 						(effects
@@ -1911,15 +1826,12 @@
 							)
 						)
 					)
-					(alternate "DFSDM1_CKIN6" bidirectional line)
-					(alternate "FDCAN1_RX" bidirectional line)
-					(alternate "FMC_D2" bidirectional line)
-					(alternate "FMC_DA2" bidirectional line)
-					(alternate "SAI3_SCK_A" bidirectional line)
-					(alternate "UART4_RX" bidirectional line)
+					(alternate "CAN1_RX" bidirectional line)
+					(alternate "FSMC_D2" bidirectional line)
+					(alternate "FSMC_DA2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -22.86 -5.08 0)
+					(at -25.4 -5.08 0)
 					(length 5.08)
 					(name "PD1"
 						(effects
@@ -1935,15 +1847,12 @@
 							)
 						)
 					)
-					(alternate "DFSDM1_DATIN6" bidirectional line)
-					(alternate "FDCAN1_TX" bidirectional line)
-					(alternate "FMC_D3" bidirectional line)
-					(alternate "FMC_DA3" bidirectional line)
-					(alternate "SAI3_SD_A" bidirectional line)
-					(alternate "UART4_TX" bidirectional line)
+					(alternate "CAN1_TX" bidirectional line)
+					(alternate "FSMC_D3" bidirectional line)
+					(alternate "FSMC_DA3" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -22.86 -7.62 0)
+					(at -25.4 -7.62 0)
 					(length 5.08)
 					(name "PD2"
 						(effects
@@ -1960,13 +1869,12 @@
 						)
 					)
 					(alternate "DCMI_D11" bidirectional line)
-					(alternate "DEBUG_TRACED2" bidirectional line)
-					(alternate "SDMMC1_CMD" bidirectional line)
+					(alternate "SDIO_CMD" bidirectional line)
 					(alternate "TIM3_ETR" bidirectional line)
 					(alternate "UART5_RX" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -22.86 -10.16 0)
+					(at -25.4 -10.16 0)
 					(length 5.08)
 					(name "PD3"
 						(effects
@@ -1982,17 +1890,11 @@
 							)
 						)
 					)
-					(alternate "DCMI_D5" bidirectional line)
-					(alternate "DFSDM1_CKOUT" bidirectional line)
-					(alternate "FMC_CLK" bidirectional line)
-					(alternate "I2S2_CK" bidirectional line)
-					(alternate "LTDC_G7" bidirectional line)
-					(alternate "SPI2_SCK" bidirectional line)
+					(alternate "FSMC_CLK" bidirectional line)
 					(alternate "USART2_CTS" bidirectional line)
-					(alternate "USART2_NSS" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -22.86 -12.7 0)
+					(at -25.4 -12.7 0)
 					(length 5.08)
 					(name "PD4"
 						(effects
@@ -2008,14 +1910,11 @@
 							)
 						)
 					)
-					(alternate "FMC_NOE" bidirectional line)
-					(alternate "HRTIM_FLT3" bidirectional line)
-					(alternate "SAI3_FS_A" bidirectional line)
-					(alternate "USART2_DE" bidirectional line)
+					(alternate "FSMC_NOE" bidirectional line)
 					(alternate "USART2_RTS" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -22.86 -15.24 0)
+					(at -25.4 -15.24 0)
 					(length 5.08)
 					(name "PD5"
 						(effects
@@ -2031,12 +1930,11 @@
 							)
 						)
 					)
-					(alternate "FMC_NWE" bidirectional line)
-					(alternate "HRTIM_EEV3" bidirectional line)
+					(alternate "FSMC_NWE" bidirectional line)
 					(alternate "USART2_TX" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -22.86 -17.78 0)
+					(at -25.4 -17.78 0)
 					(length 5.08)
 					(name "PD6"
 						(effects
@@ -2052,22 +1950,11 @@
 							)
 						)
 					)
-					(alternate "DCMI_D10" bidirectional line)
-					(alternate "DFSDM1_CKIN4" bidirectional line)
-					(alternate "DFSDM1_DATIN1" bidirectional line)
-					(alternate "FMC_NWAIT" bidirectional line)
-					(alternate "I2S3_SDO" bidirectional line)
-					(alternate "LTDC_B2" bidirectional line)
-					(alternate "SAI1_D1" bidirectional line)
-					(alternate "SAI1_SD_A" bidirectional line)
-					(alternate "SAI4_D1" bidirectional line)
-					(alternate "SAI4_SD_A" bidirectional line)
-					(alternate "SDMMC2_CK" bidirectional line)
-					(alternate "SPI3_MOSI" bidirectional line)
+					(alternate "FSMC_NWAIT" bidirectional line)
 					(alternate "USART2_RX" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -22.86 -20.32 0)
+					(at -25.4 -20.32 0)
 					(length 5.08)
 					(name "PD7"
 						(effects
@@ -2083,17 +1970,12 @@
 							)
 						)
 					)
-					(alternate "DFSDM1_CKIN1" bidirectional line)
-					(alternate "DFSDM1_DATIN4" bidirectional line)
-					(alternate "FMC_NE1" bidirectional line)
-					(alternate "I2S1_SDO" bidirectional line)
-					(alternate "SDMMC2_CMD" bidirectional line)
-					(alternate "SPDIFRX1_IN0" bidirectional line)
-					(alternate "SPI1_MOSI" bidirectional line)
+					(alternate "FSMC_NCE2" bidirectional line)
+					(alternate "FSMC_NE1" bidirectional line)
 					(alternate "USART2_CK" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -22.86 -22.86 0)
+					(at -25.4 -22.86 0)
 					(length 5.08)
 					(name "PD8"
 						(effects
@@ -2109,15 +1991,12 @@
 							)
 						)
 					)
-					(alternate "DFSDM1_CKIN3" bidirectional line)
-					(alternate "FMC_D13" bidirectional line)
-					(alternate "FMC_DA13" bidirectional line)
-					(alternate "SAI3_SCK_B" bidirectional line)
-					(alternate "SPDIFRX1_IN1" bidirectional line)
+					(alternate "FSMC_D13" bidirectional line)
+					(alternate "FSMC_DA13" bidirectional line)
 					(alternate "USART3_TX" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -22.86 -25.4 0)
+					(at -25.4 -25.4 0)
 					(length 5.08)
 					(name "PD9"
 						(effects
@@ -2133,15 +2012,13 @@
 							)
 						)
 					)
-					(alternate "DAC1_EXTI9" bidirectional line)
-					(alternate "DFSDM1_DATIN3" bidirectional line)
-					(alternate "FMC_D14" bidirectional line)
-					(alternate "FMC_DA14" bidirectional line)
-					(alternate "SAI3_SD_B" bidirectional line)
+					(alternate "DAC_EXTI9" bidirectional line)
+					(alternate "FSMC_D14" bidirectional line)
+					(alternate "FSMC_DA14" bidirectional line)
 					(alternate "USART3_RX" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -22.86 -27.94 0)
+					(at -25.4 -27.94 0)
 					(length 5.08)
 					(name "PD10"
 						(effects
@@ -2157,15 +2034,12 @@
 							)
 						)
 					)
-					(alternate "DFSDM1_CKOUT" bidirectional line)
-					(alternate "FMC_D15" bidirectional line)
-					(alternate "FMC_DA15" bidirectional line)
-					(alternate "LTDC_B3" bidirectional line)
-					(alternate "SAI3_FS_B" bidirectional line)
+					(alternate "FSMC_D15" bidirectional line)
+					(alternate "FSMC_DA15" bidirectional line)
 					(alternate "USART3_CK" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -22.86 -30.48 0)
+					(at -25.4 -30.48 0)
 					(length 5.08)
 					(name "PD11"
 						(effects
@@ -2184,17 +2058,12 @@
 					(alternate "ADC1_EXTI11" bidirectional line)
 					(alternate "ADC2_EXTI11" bidirectional line)
 					(alternate "ADC3_EXTI11" bidirectional line)
-					(alternate "FMC_A16" bidirectional line)
-					(alternate "FMC_CLE" bidirectional line)
-					(alternate "I2C4_SMBA" bidirectional line)
-					(alternate "LPTIM2_IN2" bidirectional line)
-					(alternate "QUADSPI_BK1_IO0" bidirectional line)
-					(alternate "SAI2_SD_A" bidirectional line)
+					(alternate "FSMC_A16" bidirectional line)
+					(alternate "FSMC_CLE" bidirectional line)
 					(alternate "USART3_CTS" bidirectional line)
-					(alternate "USART3_NSS" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -22.86 -33.02 0)
+					(at -25.4 -33.02 0)
 					(length 5.08)
 					(name "PD12"
 						(effects
@@ -2210,19 +2079,13 @@
 							)
 						)
 					)
-					(alternate "FMC_A17" bidirectional line)
-					(alternate "FMC_ALE" bidirectional line)
-					(alternate "I2C4_SCL" bidirectional line)
-					(alternate "LPTIM1_IN1" bidirectional line)
-					(alternate "LPTIM2_IN1" bidirectional line)
-					(alternate "QUADSPI_BK1_IO1" bidirectional line)
-					(alternate "SAI2_FS_A" bidirectional line)
+					(alternate "FSMC_A17" bidirectional line)
+					(alternate "FSMC_ALE" bidirectional line)
 					(alternate "TIM4_CH1" bidirectional line)
-					(alternate "USART3_DE" bidirectional line)
 					(alternate "USART3_RTS" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -22.86 -35.56 0)
+					(at -25.4 -35.56 0)
 					(length 5.08)
 					(name "PD13"
 						(effects
@@ -2238,15 +2101,11 @@
 							)
 						)
 					)
-					(alternate "FMC_A18" bidirectional line)
-					(alternate "I2C4_SDA" bidirectional line)
-					(alternate "LPTIM1_OUT" bidirectional line)
-					(alternate "QUADSPI_BK1_IO3" bidirectional line)
-					(alternate "SAI2_SCK_A" bidirectional line)
+					(alternate "FSMC_A18" bidirectional line)
 					(alternate "TIM4_CH2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -22.86 -38.1 0)
+					(at -25.4 -38.1 0)
 					(length 5.08)
 					(name "PD14"
 						(effects
@@ -2262,14 +2121,12 @@
 							)
 						)
 					)
-					(alternate "FMC_D0" bidirectional line)
-					(alternate "FMC_DA0" bidirectional line)
-					(alternate "SAI3_MCLK_B" bidirectional line)
+					(alternate "FSMC_D0" bidirectional line)
+					(alternate "FSMC_DA0" bidirectional line)
 					(alternate "TIM4_CH3" bidirectional line)
-					(alternate "UART8_CTS" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -22.86 -40.64 0)
+					(at -25.4 -40.64 0)
 					(length 5.08)
 					(name "PD15"
 						(effects
@@ -2288,24 +2145,21 @@
 					(alternate "ADC1_EXTI15" bidirectional line)
 					(alternate "ADC2_EXTI15" bidirectional line)
 					(alternate "ADC3_EXTI15" bidirectional line)
-					(alternate "FMC_D1" bidirectional line)
-					(alternate "FMC_DA1" bidirectional line)
-					(alternate "SAI3_MCLK_A" bidirectional line)
+					(alternate "FSMC_D1" bidirectional line)
+					(alternate "FSMC_DA1" bidirectional line)
 					(alternate "TIM4_CH4" bidirectional line)
-					(alternate "UART8_DE" bidirectional line)
-					(alternate "UART8_RTS" bidirectional line)
 				)
 				(pin power_out line
-					(at -22.86 -45.72 0)
+					(at -25.4 -45.72 0)
 					(length 5.08)
-					(name "VCAP"
+					(name "VCAP_1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "48"
+					(number "49"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2314,9 +2168,9 @@
 					)
 				)
 				(pin power_out line
-					(at -22.86 -48.26 0)
+					(at -25.4 -48.26 0)
 					(length 5.08)
-					(name "VCAP"
+					(name "VCAP_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2377,7 +2231,7 @@
 							)
 						)
 					)
-					(number "27"
+					(number "19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2395,7 +2249,7 @@
 							)
 						)
 					)
-					(number "50"
+					(number "28"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2432,26 +2286,7 @@
 							)
 						)
 					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -71.12 90)
-					(length 5.08)
-					(hide yes)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "49"
+					(number "27"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2507,7 +2342,7 @@
 							)
 						)
 					)
-					(number "75"
+					(number "50"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2525,7 +2360,7 @@
 							)
 						)
 					)
-					(number "19"
+					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2543,7 +2378,7 @@
 							)
 						)
 					)
-					(number "100"
+					(number "75"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2554,14 +2389,14 @@
 				(pin power_in line
 					(at 7.62 73.66 270)
 					(length 5.08)
-					(name "VDDA"
+					(name "VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "21"
+					(number "100"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2569,10 +2404,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 22.86 63.5 180)
+				(pin power_in line
+					(at 10.16 73.66 270)
 					(length 5.08)
-					(name "PA0"
+					(name "VDDA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2586,24 +2421,11 @@
 							)
 						)
 					)
-					(alternate "ADC1_INP16" bidirectional line)
-					(alternate "ETH_CRS" bidirectional line)
-					(alternate "PWR_WKUP1" bidirectional line)
-					(alternate "SAI2_SD_B" bidirectional line)
-					(alternate "SDMMC2_CMD" bidirectional line)
-					(alternate "TIM15_BKIN" bidirectional line)
-					(alternate "TIM2_CH1" bidirectional line)
-					(alternate "TIM2_ETR" bidirectional line)
-					(alternate "TIM5_CH1" bidirectional line)
-					(alternate "TIM8_ETR" bidirectional line)
-					(alternate "UART4_TX" bidirectional line)
-					(alternate "USART2_CTS" bidirectional line)
-					(alternate "USART2_NSS" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 60.96 180)
+					(at 25.4 63.5 180)
 					(length 5.08)
-					(name "PA1"
+					(name "PA0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2617,25 +2439,22 @@
 							)
 						)
 					)
-					(alternate "ADC1_INN16" bidirectional line)
-					(alternate "ADC1_INP17" bidirectional line)
-					(alternate "ETH_REF_CLK" bidirectional line)
-					(alternate "ETH_RX_CLK" bidirectional line)
-					(alternate "LPTIM3_OUT" bidirectional line)
-					(alternate "LTDC_R2" bidirectional line)
-					(alternate "QUADSPI_BK1_IO3" bidirectional line)
-					(alternate "SAI2_MCLK_B" bidirectional line)
-					(alternate "TIM15_CH1N" bidirectional line)
-					(alternate "TIM2_CH2" bidirectional line)
-					(alternate "TIM5_CH2" bidirectional line)
-					(alternate "UART4_RX" bidirectional line)
-					(alternate "USART2_DE" bidirectional line)
-					(alternate "USART2_RTS" bidirectional line)
+					(alternate "ADC1_IN0" bidirectional line)
+					(alternate "ADC2_IN0" bidirectional line)
+					(alternate "ADC3_IN0" bidirectional line)
+					(alternate "ETH_CRS" bidirectional line)
+					(alternate "SYS_WKUP" bidirectional line)
+					(alternate "TIM2_CH1" bidirectional line)
+					(alternate "TIM2_ETR" bidirectional line)
+					(alternate "TIM5_CH1" bidirectional line)
+					(alternate "TIM8_ETR" bidirectional line)
+					(alternate "UART4_TX" bidirectional line)
+					(alternate "USART2_CTS" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 58.42 180)
+					(at 25.4 60.96 180)
 					(length 5.08)
-					(name "PA2"
+					(name "PA1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2649,23 +2468,20 @@
 							)
 						)
 					)
-					(alternate "ADC1_INP14" bidirectional line)
-					(alternate "ADC2_INP14" bidirectional line)
-					(alternate "ETH_MDIO" bidirectional line)
-					(alternate "LPTIM4_OUT" bidirectional line)
-					(alternate "LTDC_R1" bidirectional line)
-					(alternate "MDIOS_MDIO" bidirectional line)
-					(alternate "PWR_WKUP2" bidirectional line)
-					(alternate "SAI2_SCK_B" bidirectional line)
-					(alternate "TIM15_CH1" bidirectional line)
-					(alternate "TIM2_CH3" bidirectional line)
-					(alternate "TIM5_CH3" bidirectional line)
-					(alternate "USART2_TX" bidirectional line)
+					(alternate "ADC1_IN1" bidirectional line)
+					(alternate "ADC2_IN1" bidirectional line)
+					(alternate "ADC3_IN1" bidirectional line)
+					(alternate "ETH_REF_CLK" bidirectional line)
+					(alternate "ETH_RX_CLK" bidirectional line)
+					(alternate "TIM2_CH2" bidirectional line)
+					(alternate "TIM5_CH2" bidirectional line)
+					(alternate "UART4_RX" bidirectional line)
+					(alternate "USART2_RTS" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 55.88 180)
+					(at 25.4 58.42 180)
 					(length 5.08)
-					(name "PA3"
+					(name "PA2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2679,53 +2495,46 @@
 							)
 						)
 					)
-					(alternate "ADC1_INP15" bidirectional line)
-					(alternate "ADC2_INP15" bidirectional line)
+					(alternate "ADC1_IN2" bidirectional line)
+					(alternate "ADC2_IN2" bidirectional line)
+					(alternate "ADC3_IN2" bidirectional line)
+					(alternate "ETH_MDIO" bidirectional line)
+					(alternate "TIM2_CH3" bidirectional line)
+					(alternate "TIM5_CH3" bidirectional line)
+					(alternate "TIM9_CH1" bidirectional line)
+					(alternate "USART2_TX" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 25.4 55.88 180)
+					(length 5.08)
+					(name "PA3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_IN3" bidirectional line)
+					(alternate "ADC2_IN3" bidirectional line)
+					(alternate "ADC3_IN3" bidirectional line)
 					(alternate "ETH_COL" bidirectional line)
-					(alternate "LPTIM5_OUT" bidirectional line)
-					(alternate "LTDC_B2" bidirectional line)
-					(alternate "LTDC_B5" bidirectional line)
-					(alternate "TIM15_CH2" bidirectional line)
 					(alternate "TIM2_CH4" bidirectional line)
 					(alternate "TIM5_CH4" bidirectional line)
+					(alternate "TIM9_CH2" bidirectional line)
 					(alternate "USART2_RX" bidirectional line)
 					(alternate "USB_OTG_HS_ULPI_D0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 53.34 180)
+					(at 25.4 53.34 180)
 					(length 5.08)
 					(name "PA4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_INP18" bidirectional line)
-					(alternate "ADC2_INP18" bidirectional line)
-					(alternate "DAC1_OUT1" bidirectional line)
-					(alternate "DCMI_HSYNC" bidirectional line)
-					(alternate "I2S1_WS" bidirectional line)
-					(alternate "I2S3_WS" bidirectional line)
-					(alternate "LTDC_VSYNC" bidirectional line)
-					(alternate "SPI1_NSS" bidirectional line)
-					(alternate "SPI3_NSS" bidirectional line)
-					(alternate "SPI6_NSS" bidirectional line)
-					(alternate "TIM5_ETR" bidirectional line)
-					(alternate "USART2_CK" bidirectional line)
-					(alternate "USB_OTG_HS_SOF" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 22.86 50.8 180)
-					(length 5.08)
-					(name "PA5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2739,25 +2548,20 @@
 							)
 						)
 					)
-					(alternate "ADC1_INN18" bidirectional line)
-					(alternate "ADC1_INP19" bidirectional line)
-					(alternate "ADC2_INN18" bidirectional line)
-					(alternate "ADC2_INP19" bidirectional line)
-					(alternate "DAC1_OUT2" bidirectional line)
-					(alternate "I2S1_CK" bidirectional line)
-					(alternate "LTDC_R4" bidirectional line)
-					(alternate "PWR_NDSTOP2" bidirectional line)
-					(alternate "SPI1_SCK" bidirectional line)
-					(alternate "SPI6_SCK" bidirectional line)
-					(alternate "TIM2_CH1" bidirectional line)
-					(alternate "TIM2_ETR" bidirectional line)
-					(alternate "TIM8_CH1N" bidirectional line)
-					(alternate "USB_OTG_HS_ULPI_CK" bidirectional line)
+					(alternate "ADC1_IN4" bidirectional line)
+					(alternate "ADC2_IN4" bidirectional line)
+					(alternate "DAC_OUT1" bidirectional line)
+					(alternate "DCMI_HSYNC" bidirectional line)
+					(alternate "I2S3_WS" bidirectional line)
+					(alternate "SPI1_NSS" bidirectional line)
+					(alternate "SPI3_NSS" bidirectional line)
+					(alternate "USART2_CK" bidirectional line)
+					(alternate "USB_OTG_HS_SOF" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 48.26 180)
+					(at 25.4 50.8 180)
 					(length 5.08)
-					(name "PA6"
+					(name "PA5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2771,27 +2575,19 @@
 							)
 						)
 					)
-					(alternate "ADC1_INP3" bidirectional line)
-					(alternate "ADC2_INP3" bidirectional line)
-					(alternate "DCMI_PIXCLK" bidirectional line)
-					(alternate "I2S1_SDI" bidirectional line)
-					(alternate "LTDC_G2" bidirectional line)
-					(alternate "MDIOS_MDC" bidirectional line)
-					(alternate "SPI1_MISO" bidirectional line)
-					(alternate "SPI6_MISO" bidirectional line)
-					(alternate "TIM13_CH1" bidirectional line)
-					(alternate "TIM1_BKIN" bidirectional line)
-					(alternate "TIM1_BKIN_COMP1" bidirectional line)
-					(alternate "TIM1_BKIN_COMP2" bidirectional line)
-					(alternate "TIM3_CH1" bidirectional line)
-					(alternate "TIM8_BKIN" bidirectional line)
-					(alternate "TIM8_BKIN_COMP1" bidirectional line)
-					(alternate "TIM8_BKIN_COMP2" bidirectional line)
+					(alternate "ADC1_IN5" bidirectional line)
+					(alternate "ADC2_IN5" bidirectional line)
+					(alternate "DAC_OUT2" bidirectional line)
+					(alternate "SPI1_SCK" bidirectional line)
+					(alternate "TIM2_CH1" bidirectional line)
+					(alternate "TIM2_ETR" bidirectional line)
+					(alternate "TIM8_CH1N" bidirectional line)
+					(alternate "USB_OTG_HS_ULPI_CK" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 45.72 180)
+					(at 25.4 48.26 180)
 					(length 5.08)
-					(name "PA7"
+					(name "PA6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2805,25 +2601,44 @@
 							)
 						)
 					)
-					(alternate "ADC1_INN3" bidirectional line)
-					(alternate "ADC1_INP7" bidirectional line)
-					(alternate "ADC2_INN3" bidirectional line)
-					(alternate "ADC2_INP7" bidirectional line)
+					(alternate "ADC1_IN6" bidirectional line)
+					(alternate "ADC2_IN6" bidirectional line)
+					(alternate "DCMI_PIXCLK" bidirectional line)
+					(alternate "SPI1_MISO" bidirectional line)
+					(alternate "TIM13_CH1" bidirectional line)
+					(alternate "TIM1_BKIN" bidirectional line)
+					(alternate "TIM3_CH1" bidirectional line)
+					(alternate "TIM8_BKIN" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 25.4 45.72 180)
+					(length 5.08)
+					(name "PA7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_IN7" bidirectional line)
+					(alternate "ADC2_IN7" bidirectional line)
 					(alternate "ETH_CRS_DV" bidirectional line)
 					(alternate "ETH_RX_DV" bidirectional line)
-					(alternate "FMC_SDNWE" bidirectional line)
-					(alternate "I2S1_SDO" bidirectional line)
-					(alternate "OPAMP1_VINM" bidirectional line)
-					(alternate "OPAMP1_VINM1" bidirectional line)
 					(alternate "SPI1_MOSI" bidirectional line)
-					(alternate "SPI6_MOSI" bidirectional line)
 					(alternate "TIM14_CH1" bidirectional line)
 					(alternate "TIM1_CH1N" bidirectional line)
 					(alternate "TIM3_CH2" bidirectional line)
 					(alternate "TIM8_CH1N" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 43.18 180)
+					(at 25.4 43.18 180)
 					(length 5.08)
 					(name "PA8"
 						(effects
@@ -2839,21 +2654,14 @@
 							)
 						)
 					)
-					(alternate "HRTIM_CHB2" bidirectional line)
 					(alternate "I2C3_SCL" bidirectional line)
-					(alternate "LTDC_B3" bidirectional line)
-					(alternate "LTDC_R6" bidirectional line)
 					(alternate "RCC_MCO_1" bidirectional line)
 					(alternate "TIM1_CH1" bidirectional line)
-					(alternate "TIM8_BKIN2" bidirectional line)
-					(alternate "TIM8_BKIN2_COMP1" bidirectional line)
-					(alternate "TIM8_BKIN2_COMP2" bidirectional line)
-					(alternate "UART7_RX" bidirectional line)
 					(alternate "USART1_CK" bidirectional line)
 					(alternate "USB_OTG_FS_SOF" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 40.64 180)
+					(at 25.4 40.64 180)
 					(length 5.08)
 					(name "PA9"
 						(effects
@@ -2869,21 +2677,15 @@
 							)
 						)
 					)
-					(alternate "DAC1_EXTI9" bidirectional line)
+					(alternate "DAC_EXTI9" bidirectional line)
 					(alternate "DCMI_D0" bidirectional line)
-					(alternate "ETH_TX_ER" bidirectional line)
-					(alternate "HRTIM_CHC1" bidirectional line)
 					(alternate "I2C3_SMBA" bidirectional line)
-					(alternate "I2S2_CK" bidirectional line)
-					(alternate "LPUART1_TX" bidirectional line)
-					(alternate "LTDC_R5" bidirectional line)
-					(alternate "SPI2_SCK" bidirectional line)
 					(alternate "TIM1_CH2" bidirectional line)
 					(alternate "USART1_TX" bidirectional line)
 					(alternate "USB_OTG_FS_VBUS" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 38.1 180)
+					(at 25.4 38.1 180)
 					(length 5.08)
 					(name "PA10"
 						(effects
@@ -2900,17 +2702,12 @@
 						)
 					)
 					(alternate "DCMI_D1" bidirectional line)
-					(alternate "HRTIM_CHC2" bidirectional line)
-					(alternate "LPUART1_RX" bidirectional line)
-					(alternate "LTDC_B1" bidirectional line)
-					(alternate "LTDC_B4" bidirectional line)
-					(alternate "MDIOS_MDIO" bidirectional line)
 					(alternate "TIM1_CH3" bidirectional line)
 					(alternate "USART1_RX" bidirectional line)
 					(alternate "USB_OTG_FS_ID" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 35.56 180)
+					(at 25.4 35.56 180)
 					(length 5.08)
 					(name "PA11"
 						(effects
@@ -2929,20 +2726,13 @@
 					(alternate "ADC1_EXTI11" bidirectional line)
 					(alternate "ADC2_EXTI11" bidirectional line)
 					(alternate "ADC3_EXTI11" bidirectional line)
-					(alternate "FDCAN1_RX" bidirectional line)
-					(alternate "HRTIM_CHD1" bidirectional line)
-					(alternate "I2S2_WS" bidirectional line)
-					(alternate "LPUART1_CTS" bidirectional line)
-					(alternate "LTDC_R4" bidirectional line)
-					(alternate "SPI2_NSS" bidirectional line)
+					(alternate "CAN1_RX" bidirectional line)
 					(alternate "TIM1_CH4" bidirectional line)
-					(alternate "UART4_RX" bidirectional line)
 					(alternate "USART1_CTS" bidirectional line)
-					(alternate "USART1_NSS" bidirectional line)
 					(alternate "USB_OTG_FS_DM" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 33.02 180)
+					(at 25.4 33.02 180)
 					(length 5.08)
 					(name "PA12"
 						(effects
@@ -2958,22 +2748,13 @@
 							)
 						)
 					)
-					(alternate "FDCAN1_TX" bidirectional line)
-					(alternate "HRTIM_CHD2" bidirectional line)
-					(alternate "I2S2_CK" bidirectional line)
-					(alternate "LPUART1_DE" bidirectional line)
-					(alternate "LPUART1_RTS" bidirectional line)
-					(alternate "LTDC_R5" bidirectional line)
-					(alternate "SAI2_FS_B" bidirectional line)
-					(alternate "SPI2_SCK" bidirectional line)
+					(alternate "CAN1_TX" bidirectional line)
 					(alternate "TIM1_ETR" bidirectional line)
-					(alternate "UART4_TX" bidirectional line)
-					(alternate "USART1_DE" bidirectional line)
 					(alternate "USART1_RTS" bidirectional line)
 					(alternate "USB_OTG_FS_DP" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 30.48 180)
+					(at 25.4 30.48 180)
 					(length 5.08)
 					(name "PA13"
 						(effects
@@ -2989,10 +2770,10 @@
 							)
 						)
 					)
-					(alternate "DEBUG_JTMS-SWDIO" bidirectional line)
+					(alternate "SYS_JTMS-SWDIO" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 27.94 180)
+					(at 25.4 27.94 180)
 					(length 5.08)
 					(name "PA14"
 						(effects
@@ -3008,10 +2789,10 @@
 							)
 						)
 					)
-					(alternate "DEBUG_JTCK-SWCLK" bidirectional line)
+					(alternate "SYS_JTCK-SWCLK" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 25.4 180)
+					(at 25.4 25.4 180)
 					(length 5.08)
 					(name "PA15"
 						(effects
@@ -3030,57 +2811,17 @@
 					(alternate "ADC1_EXTI15" bidirectional line)
 					(alternate "ADC2_EXTI15" bidirectional line)
 					(alternate "ADC3_EXTI15" bidirectional line)
-					(alternate "CEC" bidirectional line)
-					(alternate "DEBUG_JTDI" bidirectional line)
-					(alternate "HRTIM_FLT1" bidirectional line)
-					(alternate "I2S1_WS" bidirectional line)
 					(alternate "I2S3_WS" bidirectional line)
 					(alternate "SPI1_NSS" bidirectional line)
 					(alternate "SPI3_NSS" bidirectional line)
-					(alternate "SPI6_NSS" bidirectional line)
+					(alternate "SYS_JTDI" bidirectional line)
 					(alternate "TIM2_CH1" bidirectional line)
 					(alternate "TIM2_ETR" bidirectional line)
-					(alternate "UART4_DE" bidirectional line)
-					(alternate "UART4_RTS" bidirectional line)
-					(alternate "UART7_TX" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 20.32 180)
+					(at 25.4 20.32 180)
 					(length 5.08)
 					(name "PB0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_INN5" bidirectional line)
-					(alternate "ADC1_INP9" bidirectional line)
-					(alternate "ADC2_INN5" bidirectional line)
-					(alternate "ADC2_INP9" bidirectional line)
-					(alternate "COMP1_INP" bidirectional line)
-					(alternate "DFSDM1_CKOUT" bidirectional line)
-					(alternate "ETH_RXD2" bidirectional line)
-					(alternate "LTDC_G1" bidirectional line)
-					(alternate "LTDC_R3" bidirectional line)
-					(alternate "OPAMP1_VINP" bidirectional line)
-					(alternate "TIM1_CH2N" bidirectional line)
-					(alternate "TIM3_CH3" bidirectional line)
-					(alternate "TIM8_CH2N" bidirectional line)
-					(alternate "UART4_CTS" bidirectional line)
-					(alternate "USB_OTG_HS_ULPI_D1" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 22.86 17.78 180)
-					(length 5.08)
-					(name "PB1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3094,22 +2835,18 @@
 							)
 						)
 					)
-					(alternate "ADC1_INP5" bidirectional line)
-					(alternate "ADC2_INP5" bidirectional line)
-					(alternate "COMP1_INM" bidirectional line)
-					(alternate "DFSDM1_DATIN1" bidirectional line)
-					(alternate "ETH_RXD3" bidirectional line)
-					(alternate "LTDC_G0" bidirectional line)
-					(alternate "LTDC_R6" bidirectional line)
-					(alternate "TIM1_CH3N" bidirectional line)
-					(alternate "TIM3_CH4" bidirectional line)
-					(alternate "TIM8_CH3N" bidirectional line)
-					(alternate "USB_OTG_HS_ULPI_D2" bidirectional line)
+					(alternate "ADC1_IN8" bidirectional line)
+					(alternate "ADC2_IN8" bidirectional line)
+					(alternate "ETH_RXD2" bidirectional line)
+					(alternate "TIM1_CH2N" bidirectional line)
+					(alternate "TIM3_CH3" bidirectional line)
+					(alternate "TIM8_CH2N" bidirectional line)
+					(alternate "USB_OTG_HS_ULPI_D1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 15.24 180)
+					(at 25.4 17.78 180)
 					(length 5.08)
-					(name "PB2"
+					(name "PB1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3123,21 +2860,34 @@
 							)
 						)
 					)
-					(alternate "COMP1_INP" bidirectional line)
-					(alternate "DFSDM1_CKIN1" bidirectional line)
-					(alternate "ETH_TX_ER" bidirectional line)
-					(alternate "I2S3_SDO" bidirectional line)
-					(alternate "QUADSPI_CLK" bidirectional line)
-					(alternate "RTC_OUT_ALARM" bidirectional line)
-					(alternate "RTC_OUT_CALIB" bidirectional line)
-					(alternate "SAI1_D1" bidirectional line)
-					(alternate "SAI1_SD_A" bidirectional line)
-					(alternate "SAI4_D1" bidirectional line)
-					(alternate "SAI4_SD_A" bidirectional line)
-					(alternate "SPI3_MOSI" bidirectional line)
+					(alternate "ADC1_IN9" bidirectional line)
+					(alternate "ADC2_IN9" bidirectional line)
+					(alternate "ETH_RXD3" bidirectional line)
+					(alternate "TIM1_CH3N" bidirectional line)
+					(alternate "TIM3_CH4" bidirectional line)
+					(alternate "TIM8_CH3N" bidirectional line)
+					(alternate "USB_OTG_HS_ULPI_D2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 12.7 180)
+					(at 25.4 15.24 180)
+					(length 5.08)
+					(name "PB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 12.7 180)
 					(length 5.08)
 					(name "PB3"
 						(effects
@@ -3153,20 +2903,14 @@
 							)
 						)
 					)
-					(alternate "CRS_SYNC" bidirectional line)
-					(alternate "DEBUG_JTDO-SWO" bidirectional line)
-					(alternate "HRTIM_FLT4" bidirectional line)
-					(alternate "I2S1_CK" bidirectional line)
 					(alternate "I2S3_CK" bidirectional line)
-					(alternate "SDMMC2_D2" bidirectional line)
 					(alternate "SPI1_SCK" bidirectional line)
 					(alternate "SPI3_SCK" bidirectional line)
-					(alternate "SPI6_SCK" bidirectional line)
+					(alternate "SYS_JTDO-SWO" bidirectional line)
 					(alternate "TIM2_CH2" bidirectional line)
-					(alternate "UART7_RX" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 10.16 180)
+					(at 25.4 10.16 180)
 					(length 5.08)
 					(name "PB4"
 						(effects
@@ -3182,22 +2926,14 @@
 							)
 						)
 					)
-					(alternate "DEBUG_JTRST" bidirectional line)
-					(alternate "HRTIM_EEV6" bidirectional line)
-					(alternate "I2S1_SDI" bidirectional line)
-					(alternate "I2S2_WS" bidirectional line)
-					(alternate "I2S3_SDI" bidirectional line)
-					(alternate "SDMMC2_D3" bidirectional line)
+					(alternate "I2S3_ext_SD" bidirectional line)
 					(alternate "SPI1_MISO" bidirectional line)
-					(alternate "SPI2_NSS" bidirectional line)
 					(alternate "SPI3_MISO" bidirectional line)
-					(alternate "SPI6_MISO" bidirectional line)
-					(alternate "TIM16_BKIN" bidirectional line)
+					(alternate "SYS_JTRST" bidirectional line)
 					(alternate "TIM3_CH1" bidirectional line)
-					(alternate "UART7_TX" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 7.62 180)
+					(at 25.4 7.62 180)
 					(length 5.08)
 					(name "PB5"
 						(effects
@@ -3213,25 +2949,18 @@
 							)
 						)
 					)
+					(alternate "CAN2_RX" bidirectional line)
 					(alternate "DCMI_D10" bidirectional line)
 					(alternate "ETH_PPS_OUT" bidirectional line)
-					(alternate "FDCAN2_RX" bidirectional line)
-					(alternate "FMC_SDCKE1" bidirectional line)
-					(alternate "HRTIM_EEV7" bidirectional line)
 					(alternate "I2C1_SMBA" bidirectional line)
-					(alternate "I2C4_SMBA" bidirectional line)
-					(alternate "I2S1_SDO" bidirectional line)
-					(alternate "I2S3_SDO" bidirectional line)
+					(alternate "I2S3_SD" bidirectional line)
 					(alternate "SPI1_MOSI" bidirectional line)
 					(alternate "SPI3_MOSI" bidirectional line)
-					(alternate "SPI6_MOSI" bidirectional line)
-					(alternate "TIM17_BKIN" bidirectional line)
 					(alternate "TIM3_CH2" bidirectional line)
-					(alternate "UART5_RX" bidirectional line)
 					(alternate "USB_OTG_HS_ULPI_D7" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 5.08 180)
+					(at 25.4 5.08 180)
 					(length 5.08)
 					(name "PB6"
 						(effects
@@ -3247,23 +2976,14 @@
 							)
 						)
 					)
-					(alternate "CEC" bidirectional line)
+					(alternate "CAN2_TX" bidirectional line)
 					(alternate "DCMI_D5" bidirectional line)
-					(alternate "DFSDM1_DATIN5" bidirectional line)
-					(alternate "FDCAN2_TX" bidirectional line)
-					(alternate "FMC_SDNE1" bidirectional line)
-					(alternate "HRTIM_EEV8" bidirectional line)
 					(alternate "I2C1_SCL" bidirectional line)
-					(alternate "I2C4_SCL" bidirectional line)
-					(alternate "LPUART1_TX" bidirectional line)
-					(alternate "QUADSPI_BK1_NCS" bidirectional line)
-					(alternate "TIM16_CH1N" bidirectional line)
 					(alternate "TIM4_CH1" bidirectional line)
-					(alternate "UART5_TX" bidirectional line)
 					(alternate "USART1_TX" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 2.54 180)
+					(at 25.4 2.54 180)
 					(length 5.08)
 					(name "PB7"
 						(effects
@@ -3280,19 +3000,13 @@
 						)
 					)
 					(alternate "DCMI_VSYNC" bidirectional line)
-					(alternate "DFSDM1_CKIN5" bidirectional line)
-					(alternate "FMC_NL" bidirectional line)
-					(alternate "HRTIM_EEV9" bidirectional line)
+					(alternate "FSMC_NL" bidirectional line)
 					(alternate "I2C1_SDA" bidirectional line)
-					(alternate "I2C4_SDA" bidirectional line)
-					(alternate "LPUART1_RX" bidirectional line)
-					(alternate "PWR_PVD_IN" bidirectional line)
-					(alternate "TIM17_CH1N" bidirectional line)
 					(alternate "TIM4_CH2" bidirectional line)
 					(alternate "USART1_RX" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 0 180)
+					(at 25.4 0 180)
 					(length 5.08)
 					(name "PB8"
 						(effects
@@ -3308,22 +3022,16 @@
 							)
 						)
 					)
+					(alternate "CAN1_RX" bidirectional line)
 					(alternate "DCMI_D6" bidirectional line)
-					(alternate "DFSDM1_CKIN7" bidirectional line)
 					(alternate "ETH_TXD3" bidirectional line)
-					(alternate "FDCAN1_RX" bidirectional line)
 					(alternate "I2C1_SCL" bidirectional line)
-					(alternate "I2C4_SCL" bidirectional line)
-					(alternate "LTDC_B6" bidirectional line)
-					(alternate "SDMMC1_CKIN" bidirectional line)
-					(alternate "SDMMC1_D4" bidirectional line)
-					(alternate "SDMMC2_D4" bidirectional line)
-					(alternate "TIM16_CH1" bidirectional line)
+					(alternate "SDIO_D4" bidirectional line)
+					(alternate "TIM10_CH1" bidirectional line)
 					(alternate "TIM4_CH3" bidirectional line)
-					(alternate "UART4_RX" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -2.54 180)
+					(at 25.4 -2.54 180)
 					(length 5.08)
 					(name "PB9"
 						(effects
@@ -3339,57 +3047,20 @@
 							)
 						)
 					)
-					(alternate "DAC1_EXTI9" bidirectional line)
+					(alternate "CAN1_TX" bidirectional line)
+					(alternate "DAC_EXTI9" bidirectional line)
 					(alternate "DCMI_D7" bidirectional line)
-					(alternate "DFSDM1_DATIN7" bidirectional line)
-					(alternate "FDCAN1_TX" bidirectional line)
 					(alternate "I2C1_SDA" bidirectional line)
-					(alternate "I2C4_SDA" bidirectional line)
-					(alternate "I2C4_SMBA" bidirectional line)
 					(alternate "I2S2_WS" bidirectional line)
-					(alternate "LTDC_B7" bidirectional line)
-					(alternate "SDMMC1_CDIR" bidirectional line)
-					(alternate "SDMMC1_D5" bidirectional line)
-					(alternate "SDMMC2_D5" bidirectional line)
+					(alternate "SDIO_D5" bidirectional line)
 					(alternate "SPI2_NSS" bidirectional line)
-					(alternate "TIM17_CH1" bidirectional line)
+					(alternate "TIM11_CH1" bidirectional line)
 					(alternate "TIM4_CH4" bidirectional line)
-					(alternate "UART4_TX" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -5.08 180)
+					(at 25.4 -5.08 180)
 					(length 5.08)
 					(name "PB10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "46"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "DFSDM1_DATIN7" bidirectional line)
-					(alternate "ETH_RX_ER" bidirectional line)
-					(alternate "HRTIM_SCOUT" bidirectional line)
-					(alternate "I2C2_SCL" bidirectional line)
-					(alternate "I2S2_CK" bidirectional line)
-					(alternate "LPTIM2_IN1" bidirectional line)
-					(alternate "LTDC_G4" bidirectional line)
-					(alternate "QUADSPI_BK1_NCS" bidirectional line)
-					(alternate "SPI2_SCK" bidirectional line)
-					(alternate "TIM2_CH3" bidirectional line)
-					(alternate "USART3_TX" bidirectional line)
-					(alternate "USB_OTG_HS_ULPI_D3" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 22.86 -7.62 180)
-					(length 5.08)
-					(name "PB11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3403,21 +3074,42 @@
 							)
 						)
 					)
+					(alternate "ETH_RX_ER" bidirectional line)
+					(alternate "I2C2_SCL" bidirectional line)
+					(alternate "I2S2_CK" bidirectional line)
+					(alternate "SPI2_SCK" bidirectional line)
+					(alternate "TIM2_CH3" bidirectional line)
+					(alternate "USART3_TX" bidirectional line)
+					(alternate "USB_OTG_HS_ULPI_D3" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 25.4 -7.62 180)
+					(length 5.08)
+					(name "PB11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(alternate "ADC1_EXTI11" bidirectional line)
 					(alternate "ADC2_EXTI11" bidirectional line)
 					(alternate "ADC3_EXTI11" bidirectional line)
-					(alternate "DFSDM1_CKIN7" bidirectional line)
 					(alternate "ETH_TX_EN" bidirectional line)
-					(alternate "HRTIM_SCIN" bidirectional line)
 					(alternate "I2C2_SDA" bidirectional line)
-					(alternate "LPTIM2_ETR" bidirectional line)
-					(alternate "LTDC_G5" bidirectional line)
 					(alternate "TIM2_CH4" bidirectional line)
 					(alternate "USART3_RX" bidirectional line)
 					(alternate "USB_OTG_HS_ULPI_D4" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -10.16 180)
+					(at 25.4 -10.16 180)
 					(length 5.08)
 					(name "PB12"
 						(effects
@@ -3433,22 +3125,18 @@
 							)
 						)
 					)
-					(alternate "DFSDM1_DATIN1" bidirectional line)
+					(alternate "CAN2_RX" bidirectional line)
 					(alternate "ETH_TXD0" bidirectional line)
-					(alternate "FDCAN2_RX" bidirectional line)
 					(alternate "I2C2_SMBA" bidirectional line)
 					(alternate "I2S2_WS" bidirectional line)
 					(alternate "SPI2_NSS" bidirectional line)
 					(alternate "TIM1_BKIN" bidirectional line)
-					(alternate "TIM1_BKIN_COMP1" bidirectional line)
-					(alternate "TIM1_BKIN_COMP2" bidirectional line)
-					(alternate "UART5_RX" bidirectional line)
 					(alternate "USART3_CK" bidirectional line)
 					(alternate "USB_OTG_HS_ID" bidirectional line)
 					(alternate "USB_OTG_HS_ULPI_D5" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -12.7 180)
+					(at 25.4 -12.7 180)
 					(length 5.08)
 					(name "PB13"
 						(effects
@@ -3464,21 +3152,17 @@
 							)
 						)
 					)
-					(alternate "DFSDM1_CKIN1" bidirectional line)
+					(alternate "CAN2_TX" bidirectional line)
 					(alternate "ETH_TXD1" bidirectional line)
-					(alternate "FDCAN2_TX" bidirectional line)
 					(alternate "I2S2_CK" bidirectional line)
-					(alternate "LPTIM2_OUT" bidirectional line)
 					(alternate "SPI2_SCK" bidirectional line)
 					(alternate "TIM1_CH1N" bidirectional line)
-					(alternate "UART5_TX" bidirectional line)
 					(alternate "USART3_CTS" bidirectional line)
-					(alternate "USART3_NSS" bidirectional line)
 					(alternate "USB_OTG_HS_ULPI_D6" bidirectional line)
 					(alternate "USB_OTG_HS_VBUS" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -15.24 180)
+					(at 25.4 -15.24 180)
 					(length 5.08)
 					(name "PB14"
 						(effects
@@ -3494,22 +3178,16 @@
 							)
 						)
 					)
-					(alternate "DFSDM1_DATIN2" bidirectional line)
-					(alternate "I2S2_SDI" bidirectional line)
-					(alternate "SDMMC2_D0" bidirectional line)
+					(alternate "I2S2_ext_SD" bidirectional line)
 					(alternate "SPI2_MISO" bidirectional line)
 					(alternate "TIM12_CH1" bidirectional line)
 					(alternate "TIM1_CH2N" bidirectional line)
 					(alternate "TIM8_CH2N" bidirectional line)
-					(alternate "UART4_DE" bidirectional line)
-					(alternate "UART4_RTS" bidirectional line)
-					(alternate "USART1_TX" bidirectional line)
-					(alternate "USART3_DE" bidirectional line)
 					(alternate "USART3_RTS" bidirectional line)
 					(alternate "USB_OTG_HS_DM" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -17.78 180)
+					(at 25.4 -17.78 180)
 					(length 5.08)
 					(name "PB15"
 						(effects
@@ -3528,20 +3206,16 @@
 					(alternate "ADC1_EXTI15" bidirectional line)
 					(alternate "ADC2_EXTI15" bidirectional line)
 					(alternate "ADC3_EXTI15" bidirectional line)
-					(alternate "DFSDM1_CKIN2" bidirectional line)
-					(alternate "I2S2_SDO" bidirectional line)
+					(alternate "I2S2_SD" bidirectional line)
 					(alternate "RTC_REFIN" bidirectional line)
-					(alternate "SDMMC2_D1" bidirectional line)
 					(alternate "SPI2_MOSI" bidirectional line)
 					(alternate "TIM12_CH2" bidirectional line)
 					(alternate "TIM1_CH3N" bidirectional line)
 					(alternate "TIM8_CH3N" bidirectional line)
-					(alternate "UART4_CTS" bidirectional line)
-					(alternate "USART1_RX" bidirectional line)
 					(alternate "USB_OTG_HS_DP" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -22.86 180)
+					(at 25.4 -22.86 180)
 					(length 5.08)
 					(name "PC0"
 						(effects
@@ -3557,18 +3231,13 @@
 							)
 						)
 					)
-					(alternate "ADC1_INP10" bidirectional line)
-					(alternate "ADC2_INP10" bidirectional line)
-					(alternate "ADC3_INP10" bidirectional line)
-					(alternate "DFSDM1_CKIN0" bidirectional line)
-					(alternate "DFSDM1_DATIN4" bidirectional line)
-					(alternate "FMC_SDNWE" bidirectional line)
-					(alternate "LTDC_R5" bidirectional line)
-					(alternate "SAI2_FS_B" bidirectional line)
+					(alternate "ADC1_IN10" bidirectional line)
+					(alternate "ADC2_IN10" bidirectional line)
+					(alternate "ADC3_IN10" bidirectional line)
 					(alternate "USB_OTG_HS_ULPI_STP" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -25.4 180)
+					(at 25.4 -25.4 180)
 					(length 5.08)
 					(name "PC1"
 						(effects
@@ -3584,31 +3253,15 @@
 							)
 						)
 					)
-					(alternate "ADC1_INN10" bidirectional line)
-					(alternate "ADC1_INP11" bidirectional line)
-					(alternate "ADC2_INN10" bidirectional line)
-					(alternate "ADC2_INP11" bidirectional line)
-					(alternate "ADC3_INN10" bidirectional line)
-					(alternate "ADC3_INP11" bidirectional line)
-					(alternate "DEBUG_TRACED0" bidirectional line)
-					(alternate "DFSDM1_CKIN4" bidirectional line)
-					(alternate "DFSDM1_DATIN0" bidirectional line)
+					(alternate "ADC1_IN11" bidirectional line)
+					(alternate "ADC2_IN11" bidirectional line)
+					(alternate "ADC3_IN11" bidirectional line)
 					(alternate "ETH_MDC" bidirectional line)
-					(alternate "I2S2_SDO" bidirectional line)
-					(alternate "MDIOS_MDC" bidirectional line)
-					(alternate "PWR_WKUP6" bidirectional line)
-					(alternate "RTC_TAMP3" bidirectional line)
-					(alternate "SAI1_D1" bidirectional line)
-					(alternate "SAI1_SD_A" bidirectional line)
-					(alternate "SAI4_D1" bidirectional line)
-					(alternate "SAI4_SD_A" bidirectional line)
-					(alternate "SDMMC2_CK" bidirectional line)
-					(alternate "SPI2_MOSI" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -27.94 180)
+					(at 25.4 -27.94 180)
 					(length 5.08)
-					(name "PC2_C"
+					(name "PC2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3622,21 +3275,18 @@
 							)
 						)
 					)
-					(alternate "ADC3_INN1" bidirectional line)
-					(alternate "ADC3_INP0" bidirectional line)
-					(alternate "DFSDM1_CKIN1" bidirectional line)
-					(alternate "DFSDM1_CKOUT" bidirectional line)
+					(alternate "ADC1_IN12" bidirectional line)
+					(alternate "ADC2_IN12" bidirectional line)
+					(alternate "ADC3_IN12" bidirectional line)
 					(alternate "ETH_TXD2" bidirectional line)
-					(alternate "FMC_SDNE0" bidirectional line)
-					(alternate "I2S2_SDI" bidirectional line)
-					(alternate "PWR_CSTOP" bidirectional line)
+					(alternate "I2S2_ext_SD" bidirectional line)
 					(alternate "SPI2_MISO" bidirectional line)
 					(alternate "USB_OTG_HS_ULPI_DIR" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -30.48 180)
+					(at 25.4 -30.48 180)
 					(length 5.08)
-					(name "PC3_C"
+					(name "PC3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3650,46 +3300,18 @@
 							)
 						)
 					)
-					(alternate "ADC3_INP1" bidirectional line)
-					(alternate "DFSDM1_DATIN1" bidirectional line)
+					(alternate "ADC1_IN13" bidirectional line)
+					(alternate "ADC2_IN13" bidirectional line)
+					(alternate "ADC3_IN13" bidirectional line)
 					(alternate "ETH_TX_CLK" bidirectional line)
-					(alternate "FMC_SDCKE0" bidirectional line)
-					(alternate "I2S2_SDO" bidirectional line)
-					(alternate "PWR_CSLEEP" bidirectional line)
+					(alternate "I2S2_SD" bidirectional line)
 					(alternate "SPI2_MOSI" bidirectional line)
 					(alternate "USB_OTG_HS_ULPI_NXT" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -33.02 180)
+					(at 25.4 -33.02 180)
 					(length 5.08)
 					(name "PC4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_INP4" bidirectional line)
-					(alternate "ADC2_INP4" bidirectional line)
-					(alternate "COMP1_INM" bidirectional line)
-					(alternate "DFSDM1_CKIN2" bidirectional line)
-					(alternate "ETH_RXD0" bidirectional line)
-					(alternate "FMC_SDNE0" bidirectional line)
-					(alternate "I2S1_MCK" bidirectional line)
-					(alternate "OPAMP1_VOUT" bidirectional line)
-					(alternate "SPDIFRX1_IN2" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 22.86 -35.56 180)
-					(length 5.08)
-					(name "PC5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3703,22 +3325,33 @@
 							)
 						)
 					)
-					(alternate "ADC1_INN4" bidirectional line)
-					(alternate "ADC1_INP8" bidirectional line)
-					(alternate "ADC2_INN4" bidirectional line)
-					(alternate "ADC2_INP8" bidirectional line)
-					(alternate "COMP1_OUT" bidirectional line)
-					(alternate "DFSDM1_DATIN2" bidirectional line)
-					(alternate "ETH_RXD1" bidirectional line)
-					(alternate "FMC_SDCKE0" bidirectional line)
-					(alternate "OPAMP1_VINM" bidirectional line)
-					(alternate "OPAMP1_VINM0" bidirectional line)
-					(alternate "SAI1_D3" bidirectional line)
-					(alternate "SAI4_D3" bidirectional line)
-					(alternate "SPDIFRX1_IN3" bidirectional line)
+					(alternate "ADC1_IN14" bidirectional line)
+					(alternate "ADC2_IN14" bidirectional line)
+					(alternate "ETH_RXD0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -38.1 180)
+					(at 25.4 -35.56 180)
+					(length 5.08)
+					(name "PC5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_IN15" bidirectional line)
+					(alternate "ADC2_IN15" bidirectional line)
+					(alternate "ETH_RXD1" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 25.4 -38.1 180)
 					(length 5.08)
 					(name "PC6"
 						(effects
@@ -3735,21 +3368,14 @@
 						)
 					)
 					(alternate "DCMI_D0" bidirectional line)
-					(alternate "DFSDM1_CKIN3" bidirectional line)
-					(alternate "FMC_NWAIT" bidirectional line)
-					(alternate "HRTIM_CHA1" bidirectional line)
 					(alternate "I2S2_MCK" bidirectional line)
-					(alternate "LTDC_HSYNC" bidirectional line)
-					(alternate "SDMMC1_D0DIR" bidirectional line)
-					(alternate "SDMMC1_D6" bidirectional line)
-					(alternate "SDMMC2_D6" bidirectional line)
-					(alternate "SWPMI1_IO" bidirectional line)
+					(alternate "SDIO_D6" bidirectional line)
 					(alternate "TIM3_CH1" bidirectional line)
 					(alternate "TIM8_CH1" bidirectional line)
 					(alternate "USART6_TX" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -40.64 180)
+					(at 25.4 -40.64 180)
 					(length 5.08)
 					(name "PC7"
 						(effects
@@ -3766,22 +3392,14 @@
 						)
 					)
 					(alternate "DCMI_D1" bidirectional line)
-					(alternate "DEBUG_TRGIO" bidirectional line)
-					(alternate "DFSDM1_DATIN3" bidirectional line)
-					(alternate "FMC_NE1" bidirectional line)
-					(alternate "HRTIM_CHA2" bidirectional line)
 					(alternate "I2S3_MCK" bidirectional line)
-					(alternate "LTDC_G6" bidirectional line)
-					(alternate "SDMMC1_D123DIR" bidirectional line)
-					(alternate "SDMMC1_D7" bidirectional line)
-					(alternate "SDMMC2_D7" bidirectional line)
-					(alternate "SWPMI1_TX" bidirectional line)
+					(alternate "SDIO_D7" bidirectional line)
 					(alternate "TIM3_CH2" bidirectional line)
 					(alternate "TIM8_CH2" bidirectional line)
 					(alternate "USART6_RX" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -43.18 180)
+					(at 25.4 -43.18 180)
 					(length 5.08)
 					(name "PC8"
 						(effects
@@ -3798,20 +3416,13 @@
 						)
 					)
 					(alternate "DCMI_D2" bidirectional line)
-					(alternate "DEBUG_TRACED1" bidirectional line)
-					(alternate "FMC_NCE" bidirectional line)
-					(alternate "FMC_NE2" bidirectional line)
-					(alternate "HRTIM_CHB1" bidirectional line)
-					(alternate "SDMMC1_D0" bidirectional line)
-					(alternate "SWPMI1_RX" bidirectional line)
+					(alternate "SDIO_D0" bidirectional line)
 					(alternate "TIM3_CH3" bidirectional line)
 					(alternate "TIM8_CH3" bidirectional line)
-					(alternate "UART5_DE" bidirectional line)
-					(alternate "UART5_RTS" bidirectional line)
 					(alternate "USART6_CK" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -45.72 180)
+					(at 25.4 -45.72 180)
 					(length 5.08)
 					(name "PC9"
 						(effects
@@ -3827,22 +3438,17 @@
 							)
 						)
 					)
-					(alternate "DAC1_EXTI9" bidirectional line)
+					(alternate "DAC_EXTI9" bidirectional line)
 					(alternate "DCMI_D3" bidirectional line)
 					(alternate "I2C3_SDA" bidirectional line)
 					(alternate "I2S_CKIN" bidirectional line)
-					(alternate "LTDC_B2" bidirectional line)
-					(alternate "LTDC_G3" bidirectional line)
-					(alternate "QUADSPI_BK1_IO0" bidirectional line)
 					(alternate "RCC_MCO_2" bidirectional line)
-					(alternate "SDMMC1_D1" bidirectional line)
-					(alternate "SWPMI1_SUSPEND" bidirectional line)
+					(alternate "SDIO_D1" bidirectional line)
 					(alternate "TIM3_CH4" bidirectional line)
 					(alternate "TIM8_CH4" bidirectional line)
-					(alternate "UART5_CTS" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -48.26 180)
+					(at 25.4 -48.26 180)
 					(length 5.08)
 					(name "PC10"
 						(effects
@@ -3859,18 +3465,14 @@
 						)
 					)
 					(alternate "DCMI_D8" bidirectional line)
-					(alternate "DFSDM1_CKIN5" bidirectional line)
-					(alternate "HRTIM_EEV1" bidirectional line)
 					(alternate "I2S3_CK" bidirectional line)
-					(alternate "LTDC_R2" bidirectional line)
-					(alternate "QUADSPI_BK1_IO1" bidirectional line)
-					(alternate "SDMMC1_D2" bidirectional line)
+					(alternate "SDIO_D2" bidirectional line)
 					(alternate "SPI3_SCK" bidirectional line)
 					(alternate "UART4_TX" bidirectional line)
 					(alternate "USART3_TX" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -50.8 180)
+					(at 25.4 -50.8 180)
 					(length 5.08)
 					(name "PC11"
 						(effects
@@ -3890,17 +3492,14 @@
 					(alternate "ADC2_EXTI11" bidirectional line)
 					(alternate "ADC3_EXTI11" bidirectional line)
 					(alternate "DCMI_D4" bidirectional line)
-					(alternate "DFSDM1_DATIN5" bidirectional line)
-					(alternate "HRTIM_FLT2" bidirectional line)
-					(alternate "I2S3_SDI" bidirectional line)
-					(alternate "QUADSPI_BK2_NCS" bidirectional line)
-					(alternate "SDMMC1_D3" bidirectional line)
+					(alternate "I2S3_ext_SD" bidirectional line)
+					(alternate "SDIO_D3" bidirectional line)
 					(alternate "SPI3_MISO" bidirectional line)
 					(alternate "UART4_RX" bidirectional line)
 					(alternate "USART3_RX" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -53.34 180)
+					(at 25.4 -53.34 180)
 					(length 5.08)
 					(name "PC12"
 						(effects
@@ -3917,16 +3516,14 @@
 						)
 					)
 					(alternate "DCMI_D9" bidirectional line)
-					(alternate "DEBUG_TRACED3" bidirectional line)
-					(alternate "HRTIM_EEV2" bidirectional line)
-					(alternate "I2S3_SDO" bidirectional line)
-					(alternate "SDMMC1_CK" bidirectional line)
+					(alternate "I2S3_SD" bidirectional line)
+					(alternate "SDIO_CK" bidirectional line)
 					(alternate "SPI3_MOSI" bidirectional line)
 					(alternate "UART5_TX" bidirectional line)
 					(alternate "USART3_CK" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -55.88 180)
+					(at 25.4 -55.88 180)
 					(length 5.08)
 					(name "PC13"
 						(effects
@@ -3942,14 +3539,10 @@
 							)
 						)
 					)
-					(alternate "PWR_WKUP4" bidirectional line)
-					(alternate "RTC_OUT_ALARM" bidirectional line)
-					(alternate "RTC_OUT_CALIB" bidirectional line)
-					(alternate "RTC_TAMP1" bidirectional line)
-					(alternate "RTC_TS" bidirectional line)
+					(alternate "RTC_AF1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -58.42 180)
+					(at 25.4 -58.42 180)
 					(length 5.08)
 					(name "PC14"
 						(effects
@@ -3968,7 +3561,7 @@
 					(alternate "RCC_OSC32_IN" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -60.96 180)
+					(at 25.4 -60.96 180)
 					(length 5.08)
 					(name "PC15"
 						(effects
@@ -4408,7 +4001,7 @@
 	)
 	(text "Don't use it if it is not necessary"
 		(exclude_from_sim no)
-		(at 247.65 176.784 0)
+		(at 252.73 176.784 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4479,18 +4072,6 @@
 		(uuid "2fd2d17c-dd7e-4a6f-9f83-17e527664516")
 	)
 	(junction
-		(at 266.7 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "301fcd1d-8d65-46eb-928d-2fb1cc677268")
-	)
-	(junction
-		(at 208.28 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "31d06d2b-13c1-4856-856d-6ff07e576eaf")
-	)
-	(junction
 		(at 118.11 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4509,12 +4090,6 @@
 		(uuid "3acf55de-1a11-4ff9-9b5d-a143e2fda20f")
 	)
 	(junction
-		(at 213.36 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f126f7b-fd50-4b1e-8f0e-471487a63508")
-	)
-	(junction
 		(at 299.72 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4527,6 +4102,12 @@
 		(uuid "4664c958-aafc-4edb-9921-aff497474004")
 	)
 	(junction
+		(at 213.36 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4894569b-8304-4de3-b624-e3a69c9db9e3")
+	)
+	(junction
 		(at 386.08 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4537,6 +4118,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55507376-59eb-4f6e-9465-1f463a3de112")
+	)
+	(junction
+		(at 266.7 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63362860-2c24-4921-9618-f8677548344d")
 	)
 	(junction
 		(at 148.59 176.53)
@@ -4561,6 +4148,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b8a10aa-50e8-49fd-bfb1-c1faf072733e")
+	)
+	(junction
+		(at 208.28 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e003ed7-5ca3-46b3-a278-1f1844bf4b0f")
 	)
 	(junction
 		(at 231.14 22.86)
@@ -4611,16 +4204,16 @@
 		(uuid "967cc516-eb2a-43e6-8319-3492db23efa6")
 	)
 	(junction
-		(at 200.66 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9fe26f02-9227-43e7-b94f-2deca2fb440c")
-	)
-	(junction
 		(at 281.94 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4d7412e-d25f-4877-8efe-362854257704")
+	)
+	(junction
+		(at 213.36 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8eba688-bab7-40f1-afbe-24ae172820bc")
 	)
 	(junction
 		(at 350.52 22.86)
@@ -4677,7 +4270,7 @@
 		(uuid "edf7d6ad-61fd-4911-a059-325ed5f22719")
 	)
 	(no_connect
-		(at 228.6 62.23)
+		(at 233.68 62.23)
 		(uuid "0093b7f8-91e5-4bad-a8f3-540d90cdab7e")
 	)
 	(no_connect
@@ -4693,15 +4286,15 @@
 		(uuid "2f37cd2a-4fe2-457b-bb7d-177c555ada55")
 	)
 	(no_connect
-		(at 228.6 146.05)
+		(at 233.68 146.05)
 		(uuid "31048910-72f7-4467-ba99-bf1a2d653c69")
 	)
 	(no_connect
-		(at 228.6 179.07)
+		(at 233.68 179.07)
 		(uuid "3aa026ba-5941-4bfc-930c-62293c649d10")
 	)
 	(no_connect
-		(at 228.6 69.85)
+		(at 233.68 69.85)
 		(uuid "432f5dfa-4b44-4bed-bb44-123cf512a995")
 	)
 	(no_connect
@@ -4717,11 +4310,11 @@
 		(uuid "4ab73bb1-f2cc-47aa-8711-e8e0a21bd3cd")
 	)
 	(no_connect
-		(at 228.6 166.37)
+		(at 233.68 166.37)
 		(uuid "51fbb970-3476-4d8c-8db5-ab36dcb9159d")
 	)
 	(no_connect
-		(at 228.6 140.97)
+		(at 233.68 140.97)
 		(uuid "587ad61b-a742-4fc1-8ab3-5d2735134677")
 	)
 	(no_connect
@@ -4729,15 +4322,15 @@
 		(uuid "64c0906b-6d21-40cc-8f77-7a37eb623a20")
 	)
 	(no_connect
-		(at 228.6 102.87)
+		(at 233.68 102.87)
 		(uuid "6c8f66a6-9348-46a4-a642-3f19143b63b5")
 	)
 	(no_connect
-		(at 228.6 92.71)
+		(at 233.68 92.71)
 		(uuid "6fca18cf-15ba-43f0-b476-eedf5ae0b678")
 	)
 	(no_connect
-		(at 228.6 168.91)
+		(at 233.68 168.91)
 		(uuid "7f6778e4-0198-45e9-a341-2a3e8352cdf5")
 	)
 	(no_connect
@@ -4757,7 +4350,7 @@
 		(uuid "8a9082ff-0f87-48c9-9401-82f5e7317bcd")
 	)
 	(no_connect
-		(at 228.6 173.99)
+		(at 233.68 173.99)
 		(uuid "8efe961e-3020-4f85-9c80-712ca53fbb9a")
 	)
 	(no_connect
@@ -4773,27 +4366,27 @@
 		(uuid "9a34e9f4-9681-442e-9ec3-5000955fa178")
 	)
 	(no_connect
-		(at 228.6 67.31)
+		(at 233.68 67.31)
 		(uuid "9c166c17-8af3-446e-9d7e-3db604958316")
 	)
 	(no_connect
-		(at 228.6 118.11)
+		(at 233.68 118.11)
 		(uuid "a39c77ff-e6e7-4246-8891-77c3975c5dfd")
 	)
 	(no_connect
-		(at 228.6 54.61)
+		(at 233.68 54.61)
 		(uuid "a46ec651-e81d-4a9b-9532-8fe4f89dc068")
 	)
 	(no_connect
-		(at 228.6 97.79)
+		(at 233.68 97.79)
 		(uuid "a5b6cf95-a0d9-48d6-a122-5aec93b18157")
 	)
 	(no_connect
-		(at 228.6 171.45)
+		(at 233.68 171.45)
 		(uuid "a9f43847-e4cb-40d7-8071-800257e4f86d")
 	)
 	(no_connect
-		(at 228.6 64.77)
+		(at 233.68 64.77)
 		(uuid "b2c28e21-6ee2-4961-818e-3a064c76c5b9")
 	)
 	(no_connect
@@ -4805,7 +4398,7 @@
 		(uuid "b6d86266-d24d-4a4e-9015-0f40013ee8a3")
 	)
 	(no_connect
-		(at 228.6 115.57)
+		(at 233.68 115.57)
 		(uuid "b716b078-ad5a-48b4-ba48-b0ccc7363c8c")
 	)
 	(no_connect
@@ -4817,7 +4410,7 @@
 		(uuid "c4019636-d44e-4902-942a-1b08c9bb2537")
 	)
 	(no_connect
-		(at 228.6 176.53)
+		(at 233.68 176.53)
 		(uuid "cbbcdfcd-fd9b-4cdf-99d6-7a6055dcf749")
 	)
 	(no_connect
@@ -4829,11 +4422,11 @@
 		(uuid "d703437e-3219-4113-80ad-94ebfafb5ac7")
 	)
 	(no_connect
-		(at 228.6 100.33)
+		(at 233.68 100.33)
 		(uuid "eeaab57a-32ce-4107-b161-54d76a95ad34")
 	)
 	(no_connect
-		(at 228.6 148.59)
+		(at 233.68 148.59)
 		(uuid "eff3cb33-d8f8-4de3-8287-584f480fbd36")
 	)
 	(bus_entry
@@ -5142,6 +4735,26 @@
 		)
 		(uuid "fcaa43c4-aa67-4bc8-be03-7ef1a2abb02b")
 	)
+	(wire
+		(pts
+			(xy 233.68 110.49) (xy 243.84 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0073c59b-87fd-49d8-acf7-507f5319f0c1")
+	)
+	(wire
+		(pts
+			(xy 233.68 90.17) (xy 247.65 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01e8e45f-d594-4fa4-85eb-71cd02c662d3")
+	)
 	(bus
 		(pts
 			(xy 34.29 59.69) (xy 33.02 60.96)
@@ -5204,13 +4817,23 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 190.5) (xy 205.74 189.23)
+			(xy 233.68 107.95) (xy 243.84 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "08ba62da-3e09-41d0-86df-4d56222831d4")
+		(uuid "0752edb1-e97b-44b1-87c1-c50cc887248d")
+	)
+	(wire
+		(pts
+			(xy 233.68 120.65) (xy 243.84 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "084387df-938e-432d-bf60-845612fd1ff7")
 	)
 	(wire
 		(pts
@@ -5234,16 +4857,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 123.19) (xy 252.73 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a7f2c46-b79f-4564-80c7-9ecbe3c97d51")
-	)
-	(wire
-		(pts
 			(xy 213.36 22.86) (xy 231.14 22.86)
 		)
 		(stroke
@@ -5261,6 +4874,16 @@
 			(type default)
 		)
 		(uuid "0c3495d7-5af2-4f6e-ac5f-263744f87d86")
+	)
+	(wire
+		(pts
+			(xy 266.7 53.34) (xy 266.7 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cdc0087-c2ee-41de-856d-e8bafe2c3524")
 	)
 	(wire
 		(pts
@@ -5304,7 +4927,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 22.86) (xy 210.82 41.91)
+			(xy 208.28 22.86) (xy 208.28 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5351,16 +4974,6 @@
 			(type default)
 		)
 		(uuid "15200a73-a1c8-4c40-a231-bc363fd68f40")
-	)
-	(wire
-		(pts
-			(xy 228.6 74.93) (xy 252.73 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16db2eb6-3911-4e16-8f59-1c5cc95ca474")
 	)
 	(wire
 		(pts
@@ -5414,26 +5027,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 110.49) (xy 228.6 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a981522-b94b-4994-a1b5-de4042d770eb")
-	)
-	(wire
-		(pts
-			(xy 198.12 44.45) (xy 198.12 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b18bf8d-4ae6-43fd-9b56-310f5649c7f6")
-	)
-	(wire
-		(pts
 			(xy 172.72 123.19) (xy 182.88 123.19)
 		)
 		(stroke
@@ -5454,13 +5047,13 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 190.5) (xy 205.74 190.5)
+			(xy 233.68 74.93) (xy 257.81 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1fcca65c-9af9-45c1-9cfb-4428018dce2c")
+		(uuid "2023dbed-5931-4e7d-8348-d7c1c914f216")
 	)
 	(wire
 		(pts
@@ -5484,17 +5077,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 156.21) (xy 252.73 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2299ef13-ed4e-4b2f-ad01-61bc3ba1f151")
-	)
-	(wire
-		(pts
-			(xy 210.82 22.86) (xy 213.36 22.86)
+			(xy 208.28 22.86) (xy 213.36 22.86)
 		)
 		(stroke
 			(width 0)
@@ -5624,6 +5207,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 123.19) (xy 257.81 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f1e9ac8-9319-496a-a826-38c8594075f6")
+	)
+	(wire
+		(pts
 			(xy 121.92 91.44) (xy 125.73 91.44)
 		)
 		(stroke
@@ -5634,13 +5227,23 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 90.17) (xy 242.57 90.17)
+			(xy 266.7 53.34) (xy 283.21 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "31425510-af12-4bf7-9778-1f8dfaf4d44f")
+		(uuid "30773519-50aa-47e2-b08e-b7acb3ea59bb")
+	)
+	(wire
+		(pts
+			(xy 208.28 190.5) (xy 210.82 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30e6f554-d52b-473a-853d-24d092624a56")
 	)
 	(wire
 		(pts
@@ -5651,6 +5254,16 @@
 			(type default)
 		)
 		(uuid "315ab151-0241-4fd6-84c1-e7d026ceb50c")
+	)
+	(wire
+		(pts
+			(xy 233.68 59.69) (xy 247.65 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31664a4f-e663-4c3c-8a71-11e90810d58c")
 	)
 	(wire
 		(pts
@@ -5671,6 +5284,26 @@
 			(type default)
 		)
 		(uuid "3209b2ba-2519-41c6-ac80-609f3d35d248")
+	)
+	(wire
+		(pts
+			(xy 213.36 22.86) (xy 213.36 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "381c992a-096c-4036-b92a-babedb2ec5d6")
+	)
+	(wire
+		(pts
+			(xy 233.68 133.35) (xy 257.81 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38a16e3d-1b88-4b74-b98d-f9c3a3c1bf75")
 	)
 	(wire
 		(pts
@@ -5704,16 +5337,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 107.95) (xy 228.6 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a9721bb-afa1-46ee-82de-a2d512e10665")
-	)
-	(wire
-		(pts
 			(xy 172.72 128.27) (xy 182.88 128.27)
 		)
 		(stroke
@@ -5731,6 +5354,16 @@
 			(type default)
 		)
 		(uuid "3bf22a0c-3ab8-4211-9c20-a88ffba3bd5b")
+	)
+	(wire
+		(pts
+			(xy 233.68 130.81) (xy 247.65 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bf382e7-1902-4a1a-978a-ec00ccee9059")
 	)
 	(bus
 		(pts
@@ -5782,6 +5415,16 @@
 		)
 		(uuid "403f9262-4597-4a17-88a9-4c35485b4b18")
 	)
+	(wire
+		(pts
+			(xy 233.68 158.75) (xy 257.81 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40daf938-da21-4362-a574-9eb4c8b85318")
+	)
 	(bus
 		(pts
 			(xy 34.29 55.88) (xy 34.29 59.69)
@@ -5814,13 +5457,13 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 135.89) (xy 252.73 135.89)
+			(xy 233.68 57.15) (xy 247.65 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "42a84356-b264-46e5-a9d3-512b1a09bec1")
+		(uuid "427236b1-9e3c-4c0b-94f9-4312dcfcd90b")
 	)
 	(wire
 		(pts
@@ -5844,13 +5487,13 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 130.81) (xy 242.57 130.81)
+			(xy 208.28 41.91) (xy 208.28 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "483bd929-e8db-4a55-ae86-bdb83d4ee2e4")
+		(uuid "472bdfa8-2b0d-4c2d-9dae-16508e10dee8")
 	)
 	(wire
 		(pts
@@ -5861,6 +5504,16 @@
 			(type default)
 		)
 		(uuid "48f00460-8784-4cba-80eb-582f60af6799")
+	)
+	(wire
+		(pts
+			(xy 233.68 151.13) (xy 247.65 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b906d4-f105-425f-8a35-bb839ed5c6df")
 	)
 	(wire
 		(pts
@@ -5894,16 +5547,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 59.69) (xy 242.57 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e2b0f18-fcbe-4291-95d4-d6218277ab01")
-	)
-	(wire
-		(pts
 			(xy 266.7 41.91) (xy 283.21 41.91)
 		)
 		(stroke
@@ -5934,16 +5577,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 77.47) (xy 252.73 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5294968e-c11a-4f53-ada9-67027b4e3fd6")
-	)
-	(wire
-		(pts
 			(xy 162.56 166.37) (xy 175.26 166.37)
 		)
 		(stroke
@@ -5964,13 +5597,23 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 120.65) (xy 238.76 120.65)
+			(xy 233.68 128.27) (xy 247.65 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "54c82ba1-90a0-4c68-a53c-ceb42521a228")
+		(uuid "55483750-5b58-423d-a897-11632061d8de")
+	)
+	(wire
+		(pts
+			(xy 218.44 44.45) (xy 218.44 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58aca1f5-223f-4fdf-addc-a5052ce33c7a")
 	)
 	(wire
 		(pts
@@ -5981,16 +5624,6 @@
 			(type default)
 		)
 		(uuid "591a345e-ab25-45b4-920a-324a03dcb0ef")
-	)
-	(wire
-		(pts
-			(xy 228.6 85.09) (xy 252.73 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a15ac91-a0d6-49bf-b6b6-d9b8d9335fea")
 	)
 	(bus
 		(pts
@@ -6014,6 +5647,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 161.29) (xy 257.81 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b569558-d9cd-4453-adfe-b0e6bca75899")
+	)
+	(wire
+		(pts
 			(xy 182.88 153.67) (xy 168.91 153.67)
 		)
 		(stroke
@@ -6031,16 +5674,6 @@
 			(type default)
 		)
 		(uuid "5c1e1584-075f-4369-b554-36909c4ad1e4")
-	)
-	(wire
-		(pts
-			(xy 228.6 163.83) (xy 252.73 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ca8f929-1b4b-45b6-93bd-28d6bdc23387")
 	)
 	(wire
 		(pts
@@ -6122,16 +5755,6 @@
 		)
 		(uuid "6239873b-6d5b-43f1-bbae-5fcc1fd36e83")
 	)
-	(wire
-		(pts
-			(xy 228.6 161.29) (xy 252.73 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62e36d62-975e-4c3e-8402-f29a28c7030c")
-	)
 	(bus
 		(pts
 			(xy 35.56 148.59) (xy 35.56 153.67)
@@ -6202,16 +5825,6 @@
 		)
 		(uuid "6696b288-767d-4201-901c-eb037848674e")
 	)
-	(wire
-		(pts
-			(xy 228.6 133.35) (xy 252.73 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "681d45ef-f0df-4cd3-a185-e0f3198e35df")
-	)
 	(bus
 		(pts
 			(xy 34.29 118.11) (xy 34.29 120.65)
@@ -6241,16 +5854,6 @@
 			(type default)
 		)
 		(uuid "69edde3d-1eda-4ada-bd3c-f367406d5d5a")
-	)
-	(wire
-		(pts
-			(xy 238.76 113.03) (xy 228.6 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6abbd85c-6aaa-45a4-829b-491a6a5713e5")
 	)
 	(wire
 		(pts
@@ -6352,6 +5955,16 @@
 		)
 		(uuid "719e4622-fa3b-4593-a4e3-ddebe9fefa42")
 	)
+	(wire
+		(pts
+			(xy 208.28 189.23) (xy 208.28 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "728add1b-603f-4a95-9b35-35c80f791876")
+	)
 	(bus
 		(pts
 			(xy 36.83 24.13) (xy 34.29 26.67)
@@ -6361,16 +5974,6 @@
 			(type default)
 		)
 		(uuid "72e6e123-c710-4225-8886-baf811c3ebc9")
-	)
-	(wire
-		(pts
-			(xy 228.6 57.15) (xy 242.57 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74aaadc4-5460-40d6-8f8e-e1702eff2e2e")
 	)
 	(bus
 		(pts
@@ -6384,6 +5987,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 41.91) (xy 266.7 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76a9ca7b-195d-4687-81cf-5d7db829479c")
+	)
+	(wire
+		(pts
 			(xy 203.2 44.45) (xy 203.2 41.91)
 		)
 		(stroke
@@ -6391,6 +6004,16 @@
 			(type default)
 		)
 		(uuid "773e01ce-7ec1-4895-87a0-b2a534b1946e")
+	)
+	(wire
+		(pts
+			(xy 213.36 41.91) (xy 210.82 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7812ae33-d608-495d-bbff-78faa12b5b8b")
 	)
 	(wire
 		(pts
@@ -6424,16 +6047,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 189.23) (xy 208.28 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ed6cf25-4ed1-4767-a580-10f4fcbf48b0")
-	)
-	(wire
-		(pts
 			(xy 19.05 120.65) (xy 31.75 120.65)
 		)
 		(stroke
@@ -6441,16 +6054,6 @@
 			(type default)
 		)
 		(uuid "7f1bee59-b713-4e19-aaff-b15b2f4a7e23")
-	)
-	(wire
-		(pts
-			(xy 228.6 158.75) (xy 252.73 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f3da207-0004-446c-b0ab-3b82760f3565")
 	)
 	(wire
 		(pts
@@ -6484,6 +6087,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 163.83) (xy 257.81 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8395fb81-04bd-46b3-98e4-af1213b61947")
+	)
+	(wire
+		(pts
 			(xy 299.72 33.02) (xy 316.23 33.02)
 		)
 		(stroke
@@ -6514,13 +6127,13 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 125.73) (xy 242.57 125.73)
+			(xy 233.68 72.39) (xy 247.65 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "88046186-d9b5-4e87-a743-817485dcc848")
+		(uuid "873df627-981f-4cc2-8f59-d6a0debf279e")
 	)
 	(bus
 		(pts
@@ -6594,16 +6207,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 105.41) (xy 242.57 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ddb06f6-ce0f-4c2c-97f4-df23775084b8")
-	)
-	(wire
-		(pts
 			(xy 392.43 22.86) (xy 386.08 22.86)
 		)
 		(stroke
@@ -6611,6 +6214,16 @@
 			(type default)
 		)
 		(uuid "8ed5bd5e-14ec-4247-b6be-8f0dc87e6487")
+	)
+	(wire
+		(pts
+			(xy 210.82 189.23) (xy 210.82 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f2523f9-62eb-48f7-8620-9c71ae07bca4")
 	)
 	(wire
 		(pts
@@ -6641,16 +6254,6 @@
 			(type default)
 		)
 		(uuid "94062410-b330-4fcf-9d45-d55aabd60180")
-	)
-	(wire
-		(pts
-			(xy 266.7 53.34) (xy 283.21 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "940a78f0-9f38-417c-9195-c3ffbebaa432")
 	)
 	(bus
 		(pts
@@ -6794,6 +6397,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 77.47) (xy 257.81 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fc1194c-e07b-4b62-8df6-2b984a73a0d3")
+	)
+	(wire
+		(pts
 			(xy 175.26 176.53) (xy 175.26 177.8)
 		)
 		(stroke
@@ -6804,6 +6417,26 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 135.89) (xy 257.81 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1f7870b-c7a2-4a4e-a729-0015b29d4d00")
+	)
+	(wire
+		(pts
+			(xy 213.36 41.91) (xy 213.36 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2f648f3-268d-47ad-a37a-da9584a5c873")
+	)
+	(wire
+		(pts
 			(xy 182.88 163.83) (xy 148.59 163.83)
 		)
 		(stroke
@@ -6811,16 +6444,6 @@
 			(type default)
 		)
 		(uuid "a552688d-29cb-49a2-b8ab-4c5ae46252ca")
-	)
-	(wire
-		(pts
-			(xy 228.6 72.39) (xy 242.57 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a568abc2-cf24-4a05-825e-a0f26e97fc1b")
 	)
 	(bus
 		(pts
@@ -6882,6 +6505,16 @@
 		)
 		(uuid "aa839f25-510d-4707-addf-049f6daa1478")
 	)
+	(wire
+		(pts
+			(xy 233.68 113.03) (xy 243.84 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab0ee2c2-da01-4684-8cfa-91c92e85520e")
+	)
 	(bus
 		(pts
 			(xy 35.56 162.56) (xy 33.02 165.1)
@@ -6891,26 +6524,6 @@
 			(type default)
 		)
 		(uuid "ab298d79-5c3b-4e10-b906-6f2ae7ea8833")
-	)
-	(wire
-		(pts
-			(xy 210.82 41.91) (xy 208.28 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abe305da-013d-4bc9-a9ad-1719e8884fbd")
-	)
-	(wire
-		(pts
-			(xy 228.6 128.27) (xy 242.57 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abef3180-936f-40af-90be-4b2b832b1c74")
 	)
 	(wire
 		(pts
@@ -7044,16 +6657,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 41.91) (xy 213.36 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b91fd1af-4dcf-4d87-ad92-6873ef9d43d3")
-	)
-	(wire
-		(pts
 			(xy 311.15 77.47) (xy 311.15 80.01)
 		)
 		(stroke
@@ -7104,16 +6707,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 151.13) (xy 242.57 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcd3f8d2-9e31-40fe-a2f4-e29c59512ade")
-	)
-	(wire
-		(pts
 			(xy 95.25 81.28) (xy 111.76 81.28)
 		)
 		(stroke
@@ -7121,16 +6714,6 @@
 			(type default)
 		)
 		(uuid "c052edcc-094d-40a8-a2f9-e04fa6705b9e")
-	)
-	(wire
-		(pts
-			(xy 213.36 22.86) (xy 213.36 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c099dd29-7982-48ae-9d35-8970619ae3ef")
 	)
 	(wire
 		(pts
@@ -7142,6 +6725,16 @@
 		)
 		(uuid "c0acec7b-7b69-4e89-b32f-b12758192975")
 	)
+	(wire
+		(pts
+			(xy 233.68 80.01) (xy 257.81 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1ca30b2-48aa-433f-be82-058017629b9f")
+	)
 	(bus
 		(pts
 			(xy 34.29 88.9) (xy 34.29 91.44)
@@ -7151,6 +6744,16 @@
 			(type default)
 		)
 		(uuid "c3136a14-97b2-420d-bba6-6fe0627576a8")
+	)
+	(wire
+		(pts
+			(xy 215.9 41.91) (xy 213.36 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c31528e3-20f7-4490-94b3-ad8f8c9e78d0")
 	)
 	(wire
 		(pts
@@ -7181,6 +6784,26 @@
 			(type default)
 		)
 		(uuid "c8cf614b-b32c-48bd-97a7-46f6cd720e4f")
+	)
+	(wire
+		(pts
+			(xy 233.68 153.67) (xy 247.65 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9188973-4667-4b07-86f4-e4cc96f9f3a6")
+	)
+	(wire
+		(pts
+			(xy 233.68 143.51) (xy 247.65 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb3c270a-3f0a-40fd-bacb-aec2f4b017dd")
 	)
 	(wire
 		(pts
@@ -7222,6 +6845,16 @@
 		)
 		(uuid "d0d316b3-9dce-4b53-8dcb-ee79ee943660")
 	)
+	(wire
+		(pts
+			(xy 233.68 87.63) (xy 247.65 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d152999c-78ba-46c8-a253-744d2027a76b")
+	)
 	(bus
 		(pts
 			(xy 34.29 115.57) (xy 34.29 118.11)
@@ -7251,6 +6884,16 @@
 			(type default)
 		)
 		(uuid "d496007c-4ea4-4a82-b8ed-46b975680cfb")
+	)
+	(wire
+		(pts
+			(xy 215.9 41.91) (xy 215.9 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d50a1018-4839-43b3-a823-265aee72f739")
 	)
 	(wire
 		(pts
@@ -7342,26 +6985,6 @@
 		)
 		(uuid "db9e2c44-0d1b-4e21-a501-cc370d62a698")
 	)
-	(wire
-		(pts
-			(xy 228.6 143.51) (xy 242.57 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd2a192d-86dd-459a-b819-99ed98b03b47")
-	)
-	(wire
-		(pts
-			(xy 228.6 153.67) (xy 242.57 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de18bb46-d35c-4cda-9248-b4b7af40dad4")
-	)
 	(bus
 		(pts
 			(xy 34.29 133.35) (xy 34.29 135.89)
@@ -7371,6 +6994,26 @@
 			(type default)
 		)
 		(uuid "dfd22395-a1d0-45ba-8b59-ff4d33ff3957")
+	)
+	(wire
+		(pts
+			(xy 233.68 85.09) (xy 257.81 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1b0bbfb-1f57-499c-93f6-78bf9f037f8a")
+	)
+	(wire
+		(pts
+			(xy 233.68 82.55) (xy 257.81 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e316dd08-8e72-4bde-8f2b-205cf4f0a04d")
 	)
 	(wire
 		(pts
@@ -7414,13 +7057,13 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 87.63) (xy 242.57 87.63)
+			(xy 233.68 156.21) (xy 257.81 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e8fe5957-f2af-4888-b157-c10e0608cf4c")
+		(uuid "e8e06cbe-7ab8-4fc3-ac0a-9c55969201f1")
 	)
 	(wire
 		(pts
@@ -7494,16 +7137,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 52.07) (xy 266.7 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0af9e87-8256-4581-8fb4-5665f1015a89")
-	)
-	(wire
-		(pts
 			(xy 33.02 161.29) (xy 21.59 161.29)
 		)
 		(stroke
@@ -7514,16 +7147,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 41.91) (xy 200.66 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f40ffd5c-9649-4a93-b9ba-b12c0fff5dd1")
-	)
-	(wire
-		(pts
 			(xy 33.02 156.21) (xy 21.59 156.21)
 		)
 		(stroke
@@ -7531,16 +7154,6 @@
 			(type default)
 		)
 		(uuid "f4635408-7105-4b34-8fb2-d8910762a23e")
-	)
-	(wire
-		(pts
-			(xy 228.6 82.55) (xy 252.73 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f485f4fa-e763-4a87-b4d3-5dde6853e65d")
 	)
 	(wire
 		(pts
@@ -7571,26 +7184,6 @@
 			(type default)
 		)
 		(uuid "f7244521-0e70-4503-b2e1-84df873b60fa")
-	)
-	(wire
-		(pts
-			(xy 213.36 41.91) (xy 266.7 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f982b118-0921-48b4-aeeb-ed23d893b1d5")
-	)
-	(wire
-		(pts
-			(xy 208.28 44.45) (xy 208.28 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9f1f5a8-ce53-44c8-98c1-2dfc61722b75")
 	)
 	(bus
 		(pts
@@ -7632,6 +7225,16 @@
 		)
 		(uuid "fbc7d07e-e84f-4313-bd64-a563379da8ce")
 	)
+	(wire
+		(pts
+			(xy 233.68 125.73) (xy 247.65 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbd488d2-c085-4cd1-88ef-a7c3ac7fc5d8")
+	)
 	(bus
 		(pts
 			(xy 36.83 68.58) (xy 46.99 68.58)
@@ -7641,6 +7244,16 @@
 			(type default)
 		)
 		(uuid "fcb30f2d-15d2-410f-8e24-89cd23ac20f7")
+	)
+	(wire
+		(pts
+			(xy 233.68 105.41) (xy 247.65 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd173f12-e68c-4d45-9183-c161f0d10dc9")
 	)
 	(bus
 		(pts
@@ -7662,16 +7275,6 @@
 		)
 		(uuid "fd8acd49-a819-4c18-9216-13fb142d7c39")
 	)
-	(wire
-		(pts
-			(xy 228.6 80.01) (xy 252.73 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fda2ed54-76bc-47ca-b61b-693026e59aee")
-	)
 	(bus
 		(pts
 			(xy 34.29 53.34) (xy 34.29 55.88)
@@ -7681,6 +7284,16 @@
 			(type default)
 		)
 		(uuid "fe5b7b3f-2058-4afc-8d23-400f5b42a359")
+	)
+	(wire
+		(pts
+			(xy 208.28 41.91) (xy 210.82 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc9bb06-cadb-4909-af27-62acc33e1d21")
 	)
 	(label "ETH_TXD1"
 		(at 19.05 125.73 0)
@@ -7801,7 +7414,7 @@
 		(uuid "2b1f082c-8dec-4bdf-96df-bf607a1692cf")
 	)
 	(label "ETH_TXD1"
-		(at 242.57 130.81 180)
+		(at 247.65 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7812,7 +7425,7 @@
 		(uuid "2b48dcef-6bde-4345-92ac-c373e929604a")
 	)
 	(label "DIG_3"
-		(at 238.76 113.03 180)
+		(at 243.84 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7844,7 +7457,7 @@
 		(uuid "2f9ea72e-42bd-4ec1-88ab-0e97486a871b")
 	)
 	(label "Relay_2"
-		(at 252.73 82.55 180)
+		(at 257.81 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7855,7 +7468,7 @@
 		(uuid "3947056f-eb16-48b8-806c-a2193a6cce75")
 	)
 	(label "ETH_RXD0"
-		(at 242.57 151.13 180)
+		(at 247.65 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7866,7 +7479,7 @@
 		(uuid "3d7a67a0-57c2-47a8-be25-2ce57e049260")
 	)
 	(label "Relay_1"
-		(at 252.73 85.09 180)
+		(at 257.81 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7888,7 +7501,7 @@
 		(uuid "49c433c8-9b23-4af2-855d-552f76187eb2")
 	)
 	(label "DIG_5"
-		(at 238.76 107.95 180)
+		(at 243.84 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7964,7 +7577,7 @@
 		(uuid "5a77029e-5dd5-41b5-8c9d-c0ec40b886b0")
 	)
 	(label "ETH_CRS_DV"
-		(at 242.57 72.39 180)
+		(at 247.65 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8051,7 +7664,7 @@
 		(uuid "6c34fd79-2397-46b4-9e5a-a741877b2bf3")
 	)
 	(label "Relay_6"
-		(at 252.73 163.83 180)
+		(at 257.81 163.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8062,7 +7675,7 @@
 		(uuid "70c6ecb5-16d7-4002-a39e-bb000c65fa1c")
 	)
 	(label "ADS_MISO"
-		(at 252.73 133.35 180)
+		(at 257.81 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8083,7 +7696,7 @@
 		(uuid "78aa8602-ed1b-4281-874e-4698d3fff44b")
 	)
 	(label "ETH_MDIO"
-		(at 242.57 59.69 180)
+		(at 247.65 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8094,7 +7707,7 @@
 		(uuid "7d601af6-8cc9-402f-bfbe-9bdeaa190e98")
 	)
 	(label "ADS_MOSI"
-		(at 252.73 135.89 180)
+		(at 257.81 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8105,7 +7718,7 @@
 		(uuid "7dbaf343-b23d-4305-9214-a26b6eb3a1b1")
 	)
 	(label "ETH_TX_EN"
-		(at 242.57 125.73 180)
+		(at 247.65 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8116,7 +7729,7 @@
 		(uuid "7e0b86dd-1b80-4157-a3b4-fc3acbf721cc")
 	)
 	(label "Relay_9"
-		(at 252.73 156.21 180)
+		(at 257.81 156.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8138,7 +7751,7 @@
 		(uuid "875e51e5-eb94-4630-8b8b-951666a7da5f")
 	)
 	(label "Relay_4"
-		(at 252.73 77.47 180)
+		(at 257.81 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8193,7 +7806,7 @@
 		(uuid "8b925bf8-bc91-45cd-b1b7-4ed905e42954")
 	)
 	(label "ETH_MDC"
-		(at 242.57 143.51 180)
+		(at 247.65 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8215,7 +7828,7 @@
 		(uuid "92b7735f-c318-48e1-af78-f601751d9795")
 	)
 	(label "Relay_3"
-		(at 252.73 80.01 180)
+		(at 257.81 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8291,7 +7904,7 @@
 		(uuid "aedf2a39-70fc-4a0d-b91e-f95779061008")
 	)
 	(label "ETH_REF_CLK"
-		(at 242.57 57.15 180)
+		(at 247.65 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8302,7 +7915,7 @@
 		(uuid "b252931b-f282-4a38-9d57-0553dc07604c")
 	)
 	(label "Relay_7"
-		(at 252.73 161.29 180)
+		(at 257.81 161.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8313,7 +7926,7 @@
 		(uuid "ba6657fe-b22d-426a-9f6e-4125af36d6fc")
 	)
 	(label "ETH_TXD0"
-		(at 242.57 128.27 180)
+		(at 247.65 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8324,7 +7937,7 @@
 		(uuid "c2c47a72-e9c5-47e5-bbab-4b4f6f6d4eb6")
 	)
 	(label "SWCLK"
-		(at 242.57 90.17 180)
+		(at 247.65 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8367,7 +7980,7 @@
 		(uuid "cf7c3347-b7af-4839-87be-1f29d77e7a9c")
 	)
 	(label "DIG_4"
-		(at 238.76 110.49 180)
+		(at 243.84 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8376,6 +7989,16 @@
 			(justify right bottom)
 		)
 		(uuid "d677e259-41e7-4a4e-921c-62eb1e82648c")
+	)
+	(label "3V"
+		(at 125.73 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da867356-053b-48b5-9471-1940c2faad09")
 	)
 	(label "Relay_8"
 		(at 22.86 48.26 0)
@@ -8389,7 +8012,7 @@
 		(uuid "db0eb04f-0fa4-4d5d-941e-2a8ed5d51f4f")
 	)
 	(label "Relay_8"
-		(at 252.73 158.75 180)
+		(at 257.81 158.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8443,7 +8066,7 @@
 		(uuid "e5e9139d-7767-4fa4-8777-1962005128ef")
 	)
 	(label "DIG_2"
-		(at 238.76 120.65 180)
+		(at 243.84 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8454,7 +8077,7 @@
 		(uuid "e8605e44-64d3-4cc3-98c9-a1c23a70b3bf")
 	)
 	(label "Relay_5"
-		(at 252.73 74.93 180)
+		(at 257.81 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8476,7 +8099,7 @@
 		(uuid "ec135443-53e4-4260-80d5-099df7e8c9c4")
 	)
 	(label "SWDIO"
-		(at 242.57 87.63 180)
+		(at 247.65 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8507,7 +8130,7 @@
 		(uuid "f7fe97b7-c70b-4050-9b2e-21514eef3021")
 	)
 	(label "ADS_SCLK"
-		(at 252.73 123.19 180)
+		(at 257.81 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8518,7 +8141,7 @@
 		(uuid "f96e98bc-1756-4245-b7c5-951a45a6c68a")
 	)
 	(label "ETH_RXD1"
-		(at 242.57 153.67 180)
+		(at 247.65 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8551,7 +8174,7 @@
 		(uuid "fdd5576e-37eb-4248-aa73-f1d737188a4b")
 	)
 	(label "SWO"
-		(at 242.57 105.41 180)
+		(at 247.65 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8823,6 +8446,371 @@
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/b97e77ec-a392-4c66-a421-3998be06fbc5"
 					(reference "C91")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MCU_ST_STM32F4:STM32F407VGTx")
+		(at 208.28 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fc8e528-6ba3-4a78-a0be-c563d2ec4a77")
+		(property "Reference" "U24"
+			(at 212.9633 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "STM32F407VGTx"
+			(at 212.9633 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_QFP:LQFP-100_14x14mm_P0.5mm"
+			(at 187.96 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f407vg.pdf"
+			(at 208.28 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 1024KB flash, 192KB RAM, 168 MHz, 1.8-3.6V, 82 GPIO, LQFP100"
+			(at 208.28 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "34"
+			(uuid "d2ac5db7-0513-4436-b173-2e1b0e552f0d")
+		)
+		(pin "79"
+			(uuid "b093177f-c75a-4205-b88c-1fe3a729348b")
+		)
+		(pin "64"
+			(uuid "482ced82-c8ce-4312-ae19-c0b179846c1f")
+		)
+		(pin "65"
+			(uuid "b9fdb847-2f6b-4527-ad25-b3fd1f56be4b")
+		)
+		(pin "63"
+			(uuid "db319e32-e9c5-4e92-ac2e-dcd0dfa36f5f")
+		)
+		(pin "7"
+			(uuid "98ea6824-8270-4696-a88c-5f216874b98e")
+		)
+		(pin "8"
+			(uuid "960ab6f3-29d8-4969-ab53-872a942689c7")
+		)
+		(pin "66"
+			(uuid "7d7ad8fa-ca23-487d-8904-26326476d0ed")
+		)
+		(pin "9"
+			(uuid "baea1751-5a62-4262-928c-39f06d2c2562")
+		)
+		(pin "80"
+			(uuid "af77dd08-a760-457e-b7f8-5805dc933b6c")
+		)
+		(pin "33"
+			(uuid "b88864ab-d752-4246-8fd0-b417cabd7323")
+		)
+		(pin "78"
+			(uuid "aa9dd3f1-16da-4722-897f-f9a1ebc69561")
+		)
+		(pin "56"
+			(uuid "8f43d687-d45f-41a0-9653-08ac6e9dfb37")
+		)
+		(pin "61"
+			(uuid "d5b5f7d4-f3ee-4746-a33a-25b2518c5d28")
+		)
+		(pin "6"
+			(uuid "fb2b1d23-6c43-4c8e-bac9-7caf80965ffd")
+		)
+		(pin "11"
+			(uuid "3ae434f1-f66e-469d-b343-78e6f97cb6ba")
+		)
+		(pin "59"
+			(uuid "c642aa51-0a57-4486-a3f8-240f901c3fec")
+		)
+		(pin "60"
+			(uuid "6c50f9db-5750-4f3f-9f76-828d7187a532")
+		)
+		(pin "73"
+			(uuid "8e080ae2-10f5-4308-aea8-213b7dc883e0")
+		)
+		(pin "49"
+			(uuid "c64e4aaf-8e86-446b-a49c-da1be60404f7")
+		)
+		(pin "19"
+			(uuid "d7e5f136-3aef-404b-a92d-deb196f60659")
+		)
+		(pin "28"
+			(uuid "e7f3a42a-a303-45e7-baa4-e07c5d148b63")
+		)
+		(pin "27"
+			(uuid "dde9c4e4-a96d-4e92-a77d-7d2f4f00e375")
+		)
+		(pin "74"
+			(uuid "c37155bc-3441-43f7-88f8-3d7f014484dd")
+		)
+		(pin "57"
+			(uuid "63a25c1b-0d1c-405a-bc75-9f76ae9bac37")
+		)
+		(pin "10"
+			(uuid "e8e07b9f-473c-4e80-89fd-696bc29f51c6")
+		)
+		(pin "99"
+			(uuid "1ae6f134-c82d-465f-bb86-b4a5d14a7c45")
+		)
+		(pin "50"
+			(uuid "1f2c67f0-49bf-4301-bfd4-605be2951a0f")
+		)
+		(pin "20"
+			(uuid "8c7bd8b1-9238-4c58-bc0a-9ac56e93f21c")
+		)
+		(pin "62"
+			(uuid "3bfe8b65-b8a3-4bf4-af4d-4a7464ef30af")
+		)
+		(pin "75"
+			(uuid "4d42274e-b39f-4c35-a5e6-3b40a85e7461")
+		)
+		(pin "58"
+			(uuid "48dd90ff-35a4-479e-a05e-7f52e779518f")
+		)
+		(pin "24"
+			(uuid "15850595-319d-4c8d-815a-c6d7ef01544d")
+		)
+		(pin "36"
+			(uuid "dca3680d-58ea-4b75-b634-cec6e7da3078")
+		)
+		(pin "89"
+			(uuid "965326b1-43e5-4e6d-ae3a-c7519052bc47")
+		)
+		(pin "92"
+			(uuid "e4aff826-cd60-43c7-98f2-5a4c8fe591b7")
+		)
+		(pin "76"
+			(uuid "8541b7c2-b097-4237-b9ac-8972152d466e")
+		)
+		(pin "96"
+			(uuid "a5c969d3-c5bd-4187-9f4b-45e35a44e59f")
+		)
+		(pin "48"
+			(uuid "79b93f7a-06dc-41cc-b2d1-6da135717749")
+		)
+		(pin "29"
+			(uuid "7890a654-7351-4868-8a58-8d256a56eef2")
+		)
+		(pin "90"
+			(uuid "ffce2b89-55d5-4d4f-ac20-5fe9282b3c9f")
+		)
+		(pin "53"
+			(uuid "f000b213-2aa4-47ee-9be5-f7b5cd7cb3a0")
+		)
+		(pin "25"
+			(uuid "74288ec7-29af-48e8-95d4-2042ad8fc706")
+		)
+		(pin "32"
+			(uuid "f22fa5eb-83f4-42fa-9c71-4cff9698d343")
+		)
+		(pin "71"
+			(uuid "3f34d125-8a26-420a-b222-501ecfb3fac9")
+		)
+		(pin "22"
+			(uuid "4b6f355f-e944-4999-9511-fb378e212593")
+		)
+		(pin "30"
+			(uuid "9333d22a-dc7b-4f6c-a31d-ce52d9ebdc52")
+		)
+		(pin "31"
+			(uuid "e9429b7f-4f5e-4a23-9741-bb9e5c5467eb")
+		)
+		(pin "100"
+			(uuid "8a182132-99c4-4087-ad13-3f29a52127ea")
+		)
+		(pin "67"
+			(uuid "1588894d-2eac-4178-9500-6a5261e000d0")
+		)
+		(pin "68"
+			(uuid "6f223f7f-d8c8-402f-b8a5-3bc4d286e1e4")
+		)
+		(pin "69"
+			(uuid "deb445ca-9f07-436a-a133-f10303d46805")
+		)
+		(pin "70"
+			(uuid "73f275bc-1935-41c1-b6ab-4b916d5ede3c")
+		)
+		(pin "26"
+			(uuid "5a911c22-7c1e-4851-a958-ddd0eed46226")
+		)
+		(pin "23"
+			(uuid "b6f69852-3fc6-4bbb-ac01-5d36de096975")
+		)
+		(pin "72"
+			(uuid "03829dc4-20a1-4820-936a-153c4c732357")
+		)
+		(pin "77"
+			(uuid "527fffd6-7420-45a9-ade1-204a58ca650a")
+		)
+		(pin "35"
+			(uuid "77f97f03-abb9-4c5a-9e7f-902a1084d8e4")
+		)
+		(pin "37"
+			(uuid "161febb4-9d2a-43c5-be2f-49eb5b62d25f")
+		)
+		(pin "91"
+			(uuid "bea7e34a-caa7-453b-949d-34afd12e2b8c")
+		)
+		(pin "93"
+			(uuid "bb2425cd-007e-41d2-ae4f-a4a764af0b2b")
+		)
+		(pin "95"
+			(uuid "2044e215-370e-47e7-b134-94584ab9018a")
+		)
+		(pin "47"
+			(uuid "0c86fa02-e0ae-4112-b0ed-11f59450e78b")
+		)
+		(pin "51"
+			(uuid "88f290a7-5f44-4c88-8b46-8cd599b8a2b2")
+		)
+		(pin "52"
+			(uuid "8226c24e-067e-423c-8de8-e2d30504883e")
+		)
+		(pin "15"
+			(uuid "41b31f84-c78a-4320-96b5-acf8abfd4542")
+		)
+		(pin "16"
+			(uuid "03f17873-6b83-4a51-a048-737a9a433b12")
+		)
+		(pin "54"
+			(uuid "0f17b372-639c-4bdc-92a0-1c9893f0b96e")
+		)
+		(pin "17"
+			(uuid "e4c416f2-8de7-4419-90d4-262fb6f9dd8d")
+		)
+		(pin "18"
+			(uuid "b0a03c3b-6828-41ec-9bd2-74ea721a7e92")
+		)
+		(pin "45"
+			(uuid "fcfebe9b-c4f4-4b52-9f61-5a854a25bb79")
+		)
+		(pin "81"
+			(uuid "e58ed0a0-c468-4237-80c8-3bb9b894149a")
+		)
+		(pin "83"
+			(uuid "e9a378aa-7ff5-4eec-898b-f06c6fa45aea")
+		)
+		(pin "85"
+			(uuid "f62428e1-2d7b-4c6f-8cae-384bd5a434c2")
+		)
+		(pin "21"
+			(uuid "8da7a640-59c7-4066-8449-297e7cc9d1a0")
+		)
+		(pin "98"
+			(uuid "5d900e5c-01be-4684-b897-8f50965cf50e")
+		)
+		(pin "5"
+			(uuid "6b942e36-5a3b-4841-aefc-4758a7ab8187")
+		)
+		(pin "1"
+			(uuid "fdb49c2e-dc2e-4513-9f31-5a67742e7c41")
+		)
+		(pin "38"
+			(uuid "0bf184f6-e34b-42e9-b458-19c70cdc2971")
+		)
+		(pin "14"
+			(uuid "611ecd37-efb3-48fc-bebf-8149457f07d4")
+		)
+		(pin "13"
+			(uuid "3bf01734-b863-4fb5-8b88-a910029fe67c")
+		)
+		(pin "41"
+			(uuid "5384e6d4-0de2-4738-8fef-f60dfd531b1f")
+		)
+		(pin "42"
+			(uuid "123aee07-39cb-41b0-af34-ef7cd1d29a0c")
+		)
+		(pin "12"
+			(uuid "d1773cdc-f5d1-481f-8a96-57d5e5b2c173")
+		)
+		(pin "2"
+			(uuid "4d8ec0f9-5d88-429d-a41e-49af70e34d9b")
+		)
+		(pin "39"
+			(uuid "55c2056e-e201-44aa-9d86-e79aa814cce8")
+		)
+		(pin "44"
+			(uuid "9507875f-1e04-4ce0-881c-bddec46849a0")
+		)
+		(pin "97"
+			(uuid "f457f0cb-bf0a-4c0f-b6ad-ce30a290dfea")
+		)
+		(pin "4"
+			(uuid "27daa930-b075-46fa-88ba-d55da8413c03")
+		)
+		(pin "40"
+			(uuid "95f77d62-0f1e-4eaa-ad6b-22533a4737a6")
+		)
+		(pin "94"
+			(uuid "f93c0def-6d87-49a4-b06f-0461316fa839")
+		)
+		(pin "3"
+			(uuid "1df8d2fa-87d9-4c36-92bf-7a4ea519b186")
+		)
+		(pin "43"
+			(uuid "5faf23a1-f521-45fa-9614-7f0dd4f7492a")
+		)
+		(pin "46"
+			(uuid "21f56284-ff39-4777-abc0-3b49df8baa48")
+		)
+		(pin "82"
+			(uuid "49783491-823c-4a76-ab39-443f3ab1c428")
+		)
+		(pin "84"
+			(uuid "af5f4582-fa19-418f-a260-64eb619f34da")
+		)
+		(pin "87"
+			(uuid "998fab43-8af8-40c9-a0b0-b0bc3e481ecc")
+		)
+		(pin "88"
+			(uuid "d5fbab37-3c0d-44a2-a72f-75e8260d2940")
+		)
+		(pin "55"
+			(uuid "3c480f42-a2f1-4d40-bade-b24554780d1b")
+		)
+		(pin "86"
+			(uuid "ff84e423-522b-4d6f-91ed-a6cbe64ccde4")
+		)
+		(instances
+			(project ""
+				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/b97e77ec-a392-4c66-a421-3998be06fbc5"
+					(reference "U24")
 					(unit 1)
 				)
 			)
@@ -11059,377 +11047,6 @@
 			(project "Onyx_Client"
 				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/b97e77ec-a392-4c66-a421-3998be06fbc5"
 					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MCU_ST_STM32H7:STM32H743VITx")
-		(at 205.74 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ad66c294-5d24-4230-ac35-c74f4b0ace3c")
-		(property "Reference" "U23"
-			(at 210.4741 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "STM32H743VITx"
-			(at 210.4741 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_QFP:LQFP-100_14x14mm_P0.5mm"
-			(at 187.96 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32h743vi.pdf"
-			(at 205.74 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "STMicroelectronics Arm Cortex-M7 MCU, 2048KB flash, 1024KB RAM, 480 MHz, 1.71-3.6V, 82 GPIO, LQFP100"
-			(at 205.74 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8694f17a-a1a4-496a-a4a7-62568cec3d02")
-		)
-		(pin "13"
-			(uuid "1933229b-f4ec-40d6-8951-e873a1e88044")
-		)
-		(pin "42"
-			(uuid "d724c2d9-fd3a-41db-8927-68938b1dd9d9")
-		)
-		(pin "50"
-			(uuid "50e1091c-3aac-413f-86d8-9114a5e0a089")
-		)
-		(pin "53"
-			(uuid "36e0fbc4-5ecf-4d08-b214-a44fec2f2ce0")
-		)
-		(pin "55"
-			(uuid "7bf50da9-9a69-4c2c-af90-c3449e46c0ae")
-		)
-		(pin "38"
-			(uuid "76aa17ac-5ce1-4fe3-af1a-f513e8be0166")
-		)
-		(pin "4"
-			(uuid "e096dd24-fd6d-4770-8d0a-48b3ee3781b0")
-		)
-		(pin "3"
-			(uuid "13246321-9038-435a-9a8e-5d58edd06054")
-		)
-		(pin "43"
-			(uuid "d5b5f9b2-d8a6-4662-83a3-7b74147fe317")
-		)
-		(pin "45"
-			(uuid "a3708e57-dd9d-4c14-a540-f988812bb97a")
-		)
-		(pin "35"
-			(uuid "dc8ffacb-516c-432b-a64d-772f4b15f325")
-		)
-		(pin "2"
-			(uuid "ebcb2328-2ee6-4039-861e-beed24b6de31")
-		)
-		(pin "17"
-			(uuid "73321bc2-11e0-4d18-a1d7-70f1efa43e3d")
-		)
-		(pin "22"
-			(uuid "c66b238f-6464-467d-80ff-a667d71ecea2")
-		)
-		(pin "12"
-			(uuid "2e7fe8af-26c3-46d7-b4ef-59be889779c1")
-		)
-		(pin "23"
-			(uuid "c8c8ddd8-768d-433e-a1fa-8d87c993b3ac")
-		)
-		(pin "26"
-			(uuid "269bfaf9-7771-4c6a-919c-edc74706ac67")
-		)
-		(pin "28"
-			(uuid "b0eb91ab-99f7-405b-bca0-5bafda22775c")
-		)
-		(pin "15"
-			(uuid "338a76db-4a66-4121-b461-5e620b685461")
-		)
-		(pin "29"
-			(uuid "40101555-2612-4028-9cc3-977da0c0cc8c")
-		)
-		(pin "32"
-			(uuid "43495a6a-5e7c-49e6-aa63-200bfd09be52")
-		)
-		(pin "31"
-			(uuid "2f827759-1238-4a0b-95a7-d9c67e199e09")
-		)
-		(pin "19"
-			(uuid "13b0bed2-bc82-4310-988e-cae495eb30a7")
-		)
-		(pin "21"
-			(uuid "bf5a57a4-bdc8-426d-8ad4-73628f959ae7")
-		)
-		(pin "49"
-			(uuid "39b9d3fb-ce00-4b88-a52b-34cb49328a41")
-		)
-		(pin "46"
-			(uuid "0c3f3712-9386-47cd-a6b0-3444782a3e74")
-		)
-		(pin "47"
-			(uuid "2885fad0-f24e-4894-99cb-6cfe8202a1a4")
-		)
-		(pin "20"
-			(uuid "4c5919b3-fe5e-465d-9729-ee3b467f26f4")
-		)
-		(pin "48"
-			(uuid "fa6378d5-e2a8-4d1c-9ff3-579cc503e339")
-		)
-		(pin "5"
-			(uuid "f748a91f-cbbb-43a3-822a-5a75861021ea")
-		)
-		(pin "27"
-			(uuid "c42f65d9-f9a3-4406-b952-fd0560178833")
-		)
-		(pin "24"
-			(uuid "79a74b08-4937-4f6c-8460-825d434ff775")
-		)
-		(pin "52"
-			(uuid "01adb220-adb9-4b53-8031-64825aad1759")
-		)
-		(pin "10"
-			(uuid "74fa93de-9e71-4b89-954c-f9fa0a8c1582")
-		)
-		(pin "11"
-			(uuid "c17d5c82-2193-4630-8cf7-b2e85bbbe3aa")
-		)
-		(pin "14"
-			(uuid "50c2f239-6b93-4a4d-974e-d4f8fa83039c")
-		)
-		(pin "18"
-			(uuid "1f6a36d8-212c-4913-8457-20ac9e70d035")
-		)
-		(pin "16"
-			(uuid "8bdc7a38-db6f-4f51-b0d1-5a994b51c4a6")
-		)
-		(pin "25"
-			(uuid "85b10d79-6955-4356-bb75-da0ff0edeba6")
-		)
-		(pin "34"
-			(uuid "befd3e90-5bb4-4a55-a3c5-c05955d6f545")
-		)
-		(pin "100"
-			(uuid "3a7d859f-ce5f-4f23-8059-0186456a9039")
-		)
-		(pin "30"
-			(uuid "263786aa-1e38-4d08-9496-a30cd84dc284")
-		)
-		(pin "36"
-			(uuid "f6db4e12-65d9-41c4-8046-24abff1ea763")
-		)
-		(pin "37"
-			(uuid "fb0fbfae-052f-456a-83ca-1dd6032c2272")
-		)
-		(pin "39"
-			(uuid "30543d90-079a-4e74-81aa-10da15966355")
-		)
-		(pin "40"
-			(uuid "210c0b82-e0de-4d54-b416-fd1bd81aa029")
-		)
-		(pin "33"
-			(uuid "1ee53dfd-532d-4019-b3e5-a7d8b71ed1d8")
-		)
-		(pin "41"
-			(uuid "28f32994-bcca-43c2-9703-9a30521518ad")
-		)
-		(pin "44"
-			(uuid "841f9ff9-1f43-4e36-8fd0-a9465483638d")
-		)
-		(pin "51"
-			(uuid "02ccbd4d-bedd-4272-b4ca-9ee02655f0f1")
-		)
-		(pin "54"
-			(uuid "2abb9c93-73c0-4fe8-9842-b331b04cadc2")
-		)
-		(pin "57"
-			(uuid "fcbdcbb0-fcb2-4ce7-ab4a-eddfbf3019c6")
-		)
-		(pin "58"
-			(uuid "978285be-8ce2-493d-a9f4-05952d057f07")
-		)
-		(pin "56"
-			(uuid "b0ecb873-5894-4320-ac0f-13f852dcd8b3")
-		)
-		(pin "59"
-			(uuid "64da60c2-17a1-4693-a67a-10386bbcab1d")
-		)
-		(pin "6"
-			(uuid "d45d7ff4-7949-4a52-99f5-f448d6f5810d")
-		)
-		(pin "60"
-			(uuid "1a4f4a36-72bd-47b9-85fe-4fd009a90aa7")
-		)
-		(pin "61"
-			(uuid "614c54e4-733c-4af8-9fbf-b5faada52295")
-		)
-		(pin "62"
-			(uuid "dea06690-8717-4345-b9bc-1668006c3167")
-		)
-		(pin "63"
-			(uuid "bd15e811-e5ce-4b88-b41f-c771330dff63")
-		)
-		(pin "64"
-			(uuid "1480c812-0073-4a7f-8b16-319082303f52")
-		)
-		(pin "65"
-			(uuid "b49dc703-e591-4097-9f57-c205eb56a3ca")
-		)
-		(pin "84"
-			(uuid "b2d9ba36-dec7-4872-a87d-04149c6bfe2f")
-		)
-		(pin "73"
-			(uuid "fe3ae0b5-4845-45e4-89ba-c1a8983daa27")
-		)
-		(pin "87"
-			(uuid "9c356e0a-d236-441d-b534-9140c3a6f259")
-		)
-		(pin "75"
-			(uuid "e98c06b8-ed26-4489-951a-94857ad064ee")
-		)
-		(pin "71"
-			(uuid "8672ef73-74c7-4ae0-ac78-128ed67ee7f7")
-		)
-		(pin "74"
-			(uuid "04918e38-2212-4275-baef-bada5b053025")
-		)
-		(pin "85"
-			(uuid "ecb6826a-5c78-4a43-8894-7a532a451b7d")
-		)
-		(pin "66"
-			(uuid "3b0f738d-9692-4a85-833d-610a45f545f8")
-		)
-		(pin "89"
-			(uuid "4a4d2cb8-d99f-49f9-a034-6389d439458f")
-		)
-		(pin "9"
-			(uuid "c91cb07c-f8d5-4a82-8f6c-b0a154f7e5ba")
-		)
-		(pin "92"
-			(uuid "04b3c03e-9f77-4bed-92c0-60b5b4c760c0")
-		)
-		(pin "94"
-			(uuid "efb42084-4b84-4890-8bfb-c6a14a0454f2")
-		)
-		(pin "8"
-			(uuid "3b0caeee-9731-4a7f-9161-09208c555588")
-		)
-		(pin "68"
-			(uuid "74068e03-4a7b-4c86-ae76-9ea1b4c5103b")
-		)
-		(pin "70"
-			(uuid "8e82cb34-d8b5-4e4b-91ae-e46335fe3a3e")
-		)
-		(pin "90"
-			(uuid "0df7602a-8f54-4f7b-a7a7-988b4d3501bd")
-		)
-		(pin "86"
-			(uuid "8e4b8583-ddc2-416d-bf39-0cc8687739ba")
-		)
-		(pin "91"
-			(uuid "cc170879-f090-4293-9a90-b34a3b84175f")
-		)
-		(pin "67"
-			(uuid "0de21593-2701-4fb3-9bf3-3b52639265ca")
-		)
-		(pin "80"
-			(uuid "2da9a256-6685-4541-bce1-1ad2adf44926")
-		)
-		(pin "81"
-			(uuid "4033fe00-97ac-4dcd-9f27-6969b58b8092")
-		)
-		(pin "88"
-			(uuid "7960f08e-e6f9-4d61-b505-4fef20dde2e6")
-		)
-		(pin "93"
-			(uuid "0c472275-5dae-42b4-aba7-3ad5e8b62cbc")
-		)
-		(pin "76"
-			(uuid "8b7fbefa-3203-4d31-84f9-6a4147c804b0")
-		)
-		(pin "96"
-			(uuid "c815a0f3-46f4-4937-886f-f70e71aadc59")
-		)
-		(pin "97"
-			(uuid "854d9833-5675-4c7d-b89e-01e1454f708c")
-		)
-		(pin "7"
-			(uuid "03236d71-3f36-4ae5-aad1-2e4e8ffe02ba")
-		)
-		(pin "78"
-			(uuid "b9d2f843-bc15-4e11-82cc-3462a6c11765")
-		)
-		(pin "77"
-			(uuid "9a43b9fb-b132-4fb8-8f5d-5e41b622868f")
-		)
-		(pin "83"
-			(uuid "edeaca00-e90a-40c9-9094-0a45c9030fda")
-		)
-		(pin "99"
-			(uuid "18b385b0-abc0-4605-8f12-df23b93e5277")
-		)
-		(pin "95"
-			(uuid "9259a260-6426-4e1a-8097-207b055e2ee4")
-		)
-		(pin "69"
-			(uuid "7147eff3-21a4-48cd-9a8c-d9d94e838c8d")
-		)
-		(pin "82"
-			(uuid "f70d96f2-5ef0-4352-a892-0e87f9d8a01b")
-		)
-		(pin "72"
-			(uuid "2bcbff2a-bcd4-4cfd-9b11-40ca4953697e")
-		)
-		(pin "79"
-			(uuid "f3cf81ff-b9b5-4bc4-893d-42d5dd3065f4")
-		)
-		(pin "98"
-			(uuid "86f436c2-0bc2-4835-9a12-3fe03f748c1d")
-		)
-		(instances
-			(project "Onyx_Client"
-				(path "/7cf65f8a-f9e1-4c97-ae3b-2bf5316c4d48/56ec819c-a022-4eb3-a146-26f15fa22554"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-			(project "Onyx_Client"
-				(path "/af529cf8-e3d6-4568-89be-bc7010f8b835/b97e77ec-a392-4c66-a421-3998be06fbc5"
-					(reference "U23")
 					(unit 1)
 				)
 			)
