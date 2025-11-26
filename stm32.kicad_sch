@@ -4416,6 +4416,26 @@
 		)
 		(uuid "d96d9d91-ccf8-47d4-9fab-1b106b26d9a6")
 	)
+	(text_box "Notes:\n\nINPUT DIGITAL PINS TO CAPTURE RPM:\n\n- DIG_2\n- DIG_3\n- DIG_4\n- DIG_5"
+		(exclude_from_sim no)
+		(at 20.32 186.69 0)
+		(size 41.91 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "dacbb249-5513-4a6c-824f-5581a91d4984")
+	)
 	(junction
 		(at 283.21 53.34)
 		(diameter 0)
@@ -11942,7 +11962,7 @@
 			)
 		)
 		(property "Value" "30pF/50V"
-			(at 107.696 132.588 0)
+			(at 98.044 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
