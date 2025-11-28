@@ -7170,7 +7170,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k5"
+		(property "Value" "1k"
 			(at 95.758 87.376 0)
 			(effects
 				(font
@@ -7318,7 +7318,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "510R"
+		(property "Value" "10k"
 			(at 257.048 144.526 0)
 			(effects
 				(font
@@ -7550,7 +7550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 185.7248 43.18 0)
 			(effects
 				(font
@@ -9289,14 +9289,14 @@
 		(dnp no)
 		(uuid "b201aa37-67f9-4a37-b92f-60f0693f0e52")
 		(property "Reference" "FB1"
-			(at 214.122 28.956 90)
+			(at 213.868 26.924 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "600R"
+		(property "Value" "450mR/200mA"
 			(at 219.202 28.956 90)
 			(effects
 				(font
@@ -9304,7 +9304,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 215.9 33.528 90)
 			(effects
 				(font
@@ -10031,7 +10031,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "510R"
+		(property "Value" "10k"
 			(at 278.892 144.526 0)
 			(effects
 				(font

@@ -9890,22 +9890,22 @@
 		(dnp no)
 		(uuid "665752d0-e6ae-4cfc-8ba6-8a572ab56aa7")
 		(property "Reference" "FB2"
-			(at 294.132 39.116 90)
+			(at 294.894 36.322 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "600R"
-			(at 299.212 39.116 90)
+		(property "Value" "450mR/200mA"
+			(at 296.164 38.862 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 295.91 43.688 90)
 			(effects
 				(font

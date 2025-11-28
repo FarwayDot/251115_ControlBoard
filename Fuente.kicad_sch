@@ -4877,7 +4877,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF 50V"
+		(property "Value" "1uF/50V"
 			(at 188.468 128.27 0)
 			(effects
 				(font
@@ -5080,7 +5080,7 @@
 		(dnp no)
 		(uuid "d67afa53-b041-4b30-88a3-af3f465b7b7f")
 		(property "Reference" "C21"
-			(at 99.568 58.42 0)
+			(at 101.092 58.674 0)
 			(effects
 				(font
 					(size 1.27 1.27)
