@@ -1051,6 +1051,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TLV9101IDCKR"
+		(exclude_from_sim no)
+		(at 145.034 90.424 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5e2ce4ce-5100-44cd-a455-c721ef64ada3")
+	)
 	(text_box "I = 2.5mA   ->   VH = 1.27V\nI = 1.16mA  ->   VL = 0.6V \n\nCheck simulation"
 		(exclude_from_sim no)
 		(at 52.07 66.04 0)
